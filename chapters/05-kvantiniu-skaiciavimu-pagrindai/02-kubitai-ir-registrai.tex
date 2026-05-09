@@ -1,0 +1,24 @@
+\subsection{Kubitai ir kvantinis registras}
+\label{sec:kubitai-ir-kvantinis-registras}
+
+Klasikinis bitas gali turėti vieną iš dviejų reikšmių: 0 arba 1. Kubitas taip pat turi dvi bazines būsenas, žymimas $\lvert 0 \rangle$ ir $\lvert 1 \rangle$, tačiau bendra kubito būsena aprašoma šių bazinių būsenų tiesine kombinacija:
+
+\begin{equation}
+    \lvert \psi \rangle = \alpha \lvert 0 \rangle + \beta \lvert 1 \rangle.
+\end{equation}
+
+Čia $\alpha$ ir $\beta$ yra kompleksiniai skaičiai, vadinami amplitudėmis. Tikimybės gaunamos iš amplitudžių modulių kvadratų, todėl galioja normalizacijos sąlyga:
+
+\begin{equation}
+    \lvert \alpha \rvert^2 + \lvert \beta \rvert^2 = 1.
+\end{equation}
+
+Kelių kubitų registras aprašomas visų bazinių būsenų amplitudėmis. Jeigu registre yra $n$ kubitų, galimų bazinių būsenų skaičius yra $2^n$, todėl bendra būsena gali būti užrašoma taip:
+
+\begin{equation}
+    \lvert \psi \rangle = \sum_{x=0}^{2^n-1} \alpha_x \lvert x \rangle.
+\end{equation}
+
+Ši eksponentinė būsenų erdvė yra viena iš priežasčių, kodėl kvantinių algoritmų simuliavimas klasikinėje mašinoje greitai brangsta. Emuliatoriuje QPU nėra fizinis kvantinis įrenginys; jis naudoja \texttt{libquantum} bibliotekos \texttt{quantum\_reg} struktūras. Todėl QPU operacijos šiame darbe reiškia ne realaus kvantinio procesoriaus valdymą, o kvantinio registro būsenos simuliavimą host sistemoje.
+
+Groverio algoritme registras naudojamas paieškos erdvei aprašyti. Jeigu ieškoma reikšmė telpa į $n$ bitų, paieškos erdvės dydis yra $N = 2^n$. Algoritmo tikslas -- padidinti ieškomos reikšmės amplitudę taip, kad matavimo metu ji būtų gauta su didele tikimybe \cite{grover_1996}.

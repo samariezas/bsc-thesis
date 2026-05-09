@@ -1,2 +1,4 @@
+aux/
 out/
 *.pdf
+includeonly.tex

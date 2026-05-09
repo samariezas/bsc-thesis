@@ -1,0 +1,19 @@
+\subsection{Linux branduolio pataisa QPU palaikymui}
+\label{sec:linux-qpu-pataisa}
+
+Kad QPU instrukcijos veiktų Linux vartotojo erdvėje, neužtenka jas įgyvendinti emuliatoriuje. QPU turi procesui priklausančią būseną: jeigu du procesai naudotų tą patį aktyvų QPU kontekstą, vieno proceso operacijos galėtų pakeisti kito proceso kvantinius registrus. Todėl Linux branduolio pataisa įtraukia QPU būsenos valdymą į RISC-V užduoties būseną ir konteksto perjungimo kelią.
+
+Pataisoje pridėtas eksperimentinis \texttt{CSR\_QPU\_CTX = 0x9da}. Užduoties būsenoje saugomas QPU konteksto identifikatorius, galimas būsenos buferis, jo dydis ir keli pagalbiniai požymiai. Ši informacija leidžia branduoliui atskirti, kuriam procesui priklauso aktyvus QPU kontekstas, ir nuspręsti, kada jį reikia įjungti, išjungti arba išlaisvinti.
+
+QPU būsenos valdymas susideda iš kelių dalių:
+
+\begin{itemize}
+    \item \textbf{architektūrinės operacijos} -- konteksto sukūrimas, išlaisvinimas, įjungimas, išjungimas, klonavimas, išsaugojimas ir atkūrimas;
+    \item \textbf{užduoties gyvavimo ciklas} -- QPU būsena išlaisvinama procesui baigiantis arba keičiant vykdymo vaizdą, o \texttt{fork} metu numatomas naujos užduoties QPU būsenos paruošimas;
+    \item \textbf{konteksto perjungimas} -- ankstesnės užduoties QPU kontekstas išjungiamas, o kitos užduoties būsena atkuriama tingiai, tik jai vėl prireikus QPU;
+    \item \textbf{pirmo panaudojimo aptarnavimas} -- illegal instruction trap'e patikrinama, ar instrukcija yra QPU instrukcija, ir prireikus sukuriamas bei įjungiamas proceso QPU kontekstas.
+\end{itemize}
+
+Pirmo panaudojimo kelias veikia taip: vartotojo programa įvykdo QPU instrukciją, kai \texttt{CSR\_QPU\_CTX} dar lygus nuliui. Emuliatorius tokiu atveju negali įvykdyti QPU operacijos ir sukelia neleistinos instrukcijos išimtį. Linux trap handler'is nusiskaito fault'inančią instrukciją, patikrina, ar ji priklauso QPU plėtiniui, sukuria arba atstato proceso QPU kontekstą, įrašo jo ID į \texttt{CSR\_QPU\_CTX} ir palieka \texttt{epc} nepakeistą. Grįžus iš išimties ta pati QPU instrukcija vykdoma iš naujo, bet jau su aktyviu kontekstu.
+
+Šiame darbe QPU branduolio pataisa taip pat turi sąmoningų supaprastinimų. QPU būsena nėra serializuojama į branduolio buferį: faktinė būsena saugoma emuliatoriaus pusėje ir pasiekiama per konteksto ID. Išsaugojimo, atkūrimo ir klonavimo keliai palikti kaip struktūriniai stub'ai, nes darbo eksperimentams pakanka naujo konteksto sukūrimo, jo įjungimo ir išlaisvinimo. Tai reiškia, kad pataisa parodo reikalingą OS integracijos struktūrą, bet nėra pilnas gamybinis QPU būsenos serializavimo sprendimas.

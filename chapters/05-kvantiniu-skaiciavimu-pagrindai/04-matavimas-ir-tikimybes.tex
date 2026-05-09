@@ -1,0 +1,18 @@
+\subsection{Matavimas ir tikimybės}
+\label{sec:matavimas-ir-tikimybes}
+
+Kvantinio registro būsena nėra tiesiogiai perskaitoma kaip klasikinis atminties masyvas. Matavimas grąžina vieną iš bazinių būsenų, o konkretaus rezultato tikimybė priklauso nuo tos būsenos amplitudės. Jeigu bazinės būsenos $\lvert x \rangle$ amplitudė yra $\alpha_x$, tikimybė gauti $x$ matavimo metu yra:
+
+\begin{equation}
+    P(x) = \lvert \alpha_x \rvert^2.
+\end{equation}
+
+Kadangi amplitudės yra kompleksiniai skaičiai, praktinėje realizacijoje jos dažnai saugomos kaip realioji ir menamoji dalys. Jeigu $\alpha_x = a + bi$, tikimybė apskaičiuojama taip:
+
+\begin{equation}
+    P(x) = a^2 + b^2.
+\end{equation}
+
+Darbe realizuotame QPU plėtinyje šis ryšys matomas per kelias instrukcijas. \texttt{Q.GETREGNODE} leidžia nuskaityti \texttt{libquantum} registro mazgą: bazinę būseną, realią amplitudės dalį ir menamą amplitudės dalį. \texttt{Q.PROB} iš realiosios ir menamosios dalių apskaičiuoja tikimybę. \texttt{Q.BMEASURE} atlieka vieno kubito matavimą ir pakeičia registro būseną pagal matavimo rezultatą.
+
+Groverio algoritmo pavyzdyje po iteracijų nuskaitomi registro mazgai ir ieškoma tokios būsenos, kuri sutampa su ieškoma reikšme. Kai tokia būsena randama, jos amplitudė paverčiama tikimybe ir išvedama vartotojui. Todėl eksperimento rezultatas nėra vien programos baigtis; svarbu ir tai, kokia tikimybė priskiriama ieškomai reikšmei.

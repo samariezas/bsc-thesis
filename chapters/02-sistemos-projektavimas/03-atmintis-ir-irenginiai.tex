@@ -1,0 +1,117 @@
+\subsection{Atminties ir įrenginių modelis}
+\label{sec:atmintis-ir-irenginiai}
+
+Emuliatoriaus magistralė projektuota kaip adresų intervalų sąrašas. Kiekvienas įrenginys turi pradžios adresą, ilgį ir tipą. Prieigos prie atminties vykdomos ieškant pirmo įrenginio, kurio intervalui priklauso adresas. Jeigu toks įrenginys nerandamas, grąžinama prieigos klaida, kuri procesoriaus lygyje vėliau paverčiama atitinkama RISC-V išimtimi.
+
+Emuliavimui buvo pasirinkti penki įrenginiai: RAM, UART, CLINT, PLIC ir išjungimo valdiklis. Toks įrenginių rinkinys parinktas dėl praktinės priežasties: Linux branduoliui reikalinga konsolė, laikmačio pertrauktys, išorinių pertraukimų kelias ir tvarkingas išjungimas. Kitos įrenginių klasės, pavyzdžiui, blokiniai diskai, tinklo plokštės ar grafiniai įrenginiai, šiame darbe nebūtų naudojamos, todėl nebuvo modeliuojamos. Projektuojant įrenginius buvo siekiama pakankamo funkcionalumo, o ne pilno aparatinės įrangos tikslumo.
+
+\subsubsection{RAM sritys}
+
+RAM sritys šiame modelyje traktuojamos kaip paprasti baitų masyvai, susieti su konkrečiais fizinių adresų intervalais. Į jas paleidimo metu įkeliami OpenSBI, Linux branduolio, initramfs ir DTB vaizdai. Šis modelis sąmoningai nemodeliuoja cache koherentiškumo, DMA, atminties valdiklių vėlinimų ar kelių magistralės masterių, nes šie aspektai nėra būtini vieno harto Linux paleidimui ir QPU instrukcijų eksperimentams.
+
+\subsubsection{UART įrenginys}
+
+UART įrenginys imituoja tik Linux konsolės darbui reikalingus \texttt{ns16550} registrus: duomenų registrą, pertraukimų įjungimą, pertraukimų identifikavimą, linijos būseną, \texttt{DLAB} bitą ir scratch registrą. FIFO valdymo registras priimamas, bet realiai ignoruojamas; modemų signalai, klaidų būsenos ir tiksli baud rate semantika nemodeliuojami.
+
+Siekiant išvengti perteklinių I/O operacijų, emuliuojamas UART įrenginys turi 4096 baitų buferius tiek įvesčiai, tiek išvesčiai. Toks buferizavimas neturi tikslaus aparatinio atitikmens, bet praktiniam Linux konsolės darbui yra pakankamas.
+
+\textbf{TODO: papildyti registrais}
+
+\subsubsection{CLINT}
+
+CLINT (angl. \textit{Core Local Interrupt Controller}) -- mechanizmas, kuriuo emuliatorius sulaukia periodinių laikmačio pertraukčių. Svarbiausi yra du registrai: \texttt{mtime} ir \texttt{mtimecmp}. \texttt{mtime} skaičiuojamas iš šeimininko sistemos laikmačio, naudojant DTB nurodytą 10 MHz dažnį, tuo tarpu \texttt{mtimecmp} nustatomas svečio sistemos. Kai \texttt{mtime} $>$ \texttt{mtimecmp}, procesoriui pranešama apie laikmačio pertrauktį. Šie registrai pasiekiami naudojantis MMIO.
+
+CLINT specifikacija apibrėžia dar vieną registrą -- \texttt{msip}, į kurį rašant įvykdoma programinė pertrauktis. Šiame modelyje šis registras neįgyvendintas, kadangi jis daugiausia naudojamas pertraukimams tarp hartų, o emuliatorius turi tik vieną hartą.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Adresas} & \textbf{Ilgis (baitais)} & \textbf{Registro pavadinimas} \\
+        \hline
+        \texttt{0x0000} & \texttt{0x4} & \texttt{msip} \\
+        \hline
+        \texttt{0x4000} & \texttt{0x8} & \texttt{mtimecmp} \\
+        \hline
+        \texttt{0xBFF8} & \texttt{0x8} & \texttt{mtime} \\
+        \hline
+    \end{tabular}
+    \caption{CLINT registrų adresai.}
+    \label{table:clint_registers}
+\end{table}
+
+\subsubsection{PLIC}
+
+PLIC (angl. \textit{Platform-Level Interrupt Controller}) -- RISC-V platformose naudojamas išorinių pertraukčių valdiklis. CLINT modelis yra atsakingas už lokalias procesoriaus pertrauktis, tokias kaip laikmačio pertrauktis, o PLIC naudojamas įrenginių pertrauktims apdoroti. Šiame emuliatoriuje PLIC pirmiausia reikalingas tam, kad UART įrenginys galėtų pranešti operacinei sistemai apie išorinę pertrauktį.
+
+PLIC veikia kaip MMIO įrenginys. Įrenginiai, kuriantys pertrauktis, nustato \textit{pending} bitus, tuomet PLIC tikrina, kurios pertrauktys yra įjungtos, kokį prioritetą jos turi ir ar jų prioritetas viršija nustatytą \textit{threshold} reikšmę. Jei pertrauktis gali būti aptarnaujama, PLIC tai praneša procesoriui. Procesorius praneša apie apdorojimą nuskaitant iš \texttt{claim} registro. Baigus pertraukties aptarnavimą, ta pati reikšmė įrašoma į \texttt{complete} registrą.
+
+Šiame darbe realizuotas supaprastintas PLIC modelis, palaikantis 32 pertraukčių numerius (nuo 0 iki 31). Pertrauktis 0 pagal PLIC modelį laikoma rezervuota ir nenaudojama, todėl realūs įrenginių pertraukčių šaltiniai prasideda nuo 1. Emuliatoriuje naudojamas vienas realus pertraukimo šaltinis -- UART -- ir du kontekstai, atitinkantys M režimo ir S režimo išorines pertrauktis. Įgyvendinti prioritetai, \textit{pending} bitai, \textit{enable} bitai, \textit{threshold} registrai bei \texttt{claim}/\texttt{complete} kelias. Vis dėlto neįgyvendinta pilna daugiašaltinė ir daugiakontekstė PLIC konfigūracija, nes Linux paleidimui šiame emuliatoriaus modelyje pakanka vieno išorinio įrenginio pertraukčių šaltinio.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Adresas} & \textbf{Ilgis (baitais)} & \textbf{Registro paskirtis} \\
+        \hline
+        \texttt{0x000000} & \texttt{0x80} & Prioritetų registrai pertrauktims \texttt{0-31} \\
+        \hline
+        \texttt{0x001000} & \texttt{0x04} & \textit{Pending} bitai pertrauktims \texttt{0-31} \\
+        \hline
+        \texttt{0x002000} & \texttt{0x04} & M režimo konteksto \textit{enable} bitai pertrauktims \texttt{0-31} \\
+        \hline
+        \texttt{0x002080} & \texttt{0x04} & S režimo konteksto \textit{enable} bitai pertrauktims \texttt{0-31} \\
+        \hline
+        \texttt{0x200000} & \texttt{0x04} & M režimo konteksto \textit{threshold} registras \\
+        \hline
+        \texttt{0x200004} & \texttt{0x04} & M režimo konteksto \texttt{claim}/\texttt{complete} registras \\
+        \hline
+        \texttt{0x201000} & \texttt{0x04} & S režimo konteksto \textit{threshold} registras \\
+        \hline
+        \texttt{0x201004} & \texttt{0x04} & S režimo konteksto \texttt{claim}/\texttt{complete} registras \\
+        \hline
+    \end{tabular}
+    \caption{PLIC registrų adresai emuliatoriaus MMIO regione.}
+    \label{table:plic_registers}
+\end{table}
+
+Prioritetų registrų sritis yra \texttt{0x80} baitų ilgio, nes kiekvienai iš 32 pertraukčių skiriamas vienas 32 bitų registras. \textit{Pending} ir \textit{enable} sritys šiame modelyje yra po vieną 32 bitų registrą, kadangi palaikomas tik pertraukčių intervalas \texttt{0-31}. Kiekvienas šių registrų bitas atitinka to paties numerio pertrauktį.
+
+Reali PLIC specifikacija leidžia turėti daug pertraukčių šaltinių ir daug skirtingų kontekstų. Kiekvienam šaltiniui gali būti priskirtas atskiras prioritetas, o kiekvienas kontekstas gali turėti atskirą įjungtų pertraukčių rinkinį ir prioritetų slenkstį. Emuliatoriuje šis modelis sumažintas iki minimalaus rinkinio, būtino Linux vykdymui: 32 galimi pertraukčių numeriai, vienas UART pertraukimo šaltinis, du privilegijų režimus atitinkantys kontekstai ir pagrindinė \texttt{claim}/\texttt{complete} semantika. Toks supaprastinimas leidžia išlaikyti teisingą operacinės sistemos elgseną, bet išvengti perteklinės logikos, kuri šiame darbe nebūtų naudojama.
+
+\subsubsection{Išjungimo įrenginys}
+
+Išjungimo įrenginys praneša emuliatoriui apie darbo baigimo užklausą. Linux \texttt{syscon-poweroff} tvarkyklė paprasčiausiai įrašo DTB nurodytą 32 bitų reikšmę į išjungimo įrenginio adresą. Šiame darbe nemodeliuojama platesnė \texttt{syscon} registrų semantika: pakanka vieno rašymo, kuris sustabdo emuliatoriaus vykdymo ciklą.
+
+\subsection{Adresų žemėlapis}
+
+% TODO: ar tikrai reik sitos sekcijos
+
+Linux paleidimo konfigūracijoje naudojamas adresų žemėlapis, matomas \ref{tab:emuliatoriaus-adresu-zemelapis} lentelėje.
+
+\begin{table}[h]
+    \centering
+    \label{tab:emuliatoriaus-adresu-zemelapis}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Pradžios adresas} & \textbf{Dydis} & \textbf{Paskirtis} \\
+        \hline
+        \texttt{0x0010\_0000} & \texttt{0x1000} & sistemos išjungimo įrenginys \\
+        \hline
+        \texttt{0x0200\_0000} & \texttt{0x1\_0000} & CLINT laikmačio modelis \\
+        \hline
+        \texttt{0x0c00\_0000} & \texttt{0x100\_0000} & PLIC išorinių pertraukimų valdiklis \\
+        \hline
+        \texttt{0x1000\_0000} & \texttt{0x1000} & UART įrenginys, suderinamas su \texttt{ns16550} \\
+        \hline
+        \texttt{0x8000\_0000} & 64 MiB & OpenSBI vaizdas \\
+        \hline
+        \texttt{0x9000\_0000} & 512 MiB & Linux branduolio vaizdas ir pagrindinė RAM sritis \\
+        \hline
+        \texttt{0xa000\_0000} & 64 MiB & initramfs archyvas \\
+        \hline
+        \texttt{0xb000\_0000} & 8 MiB & DTB ir OpenSBI \texttt{fw\_dynamic} informacija \\
+        \hline
+    \end{tabular}
+    \caption{Emuliatoriaus atminties ir įrenginių žemėlapis}
+\end{table}

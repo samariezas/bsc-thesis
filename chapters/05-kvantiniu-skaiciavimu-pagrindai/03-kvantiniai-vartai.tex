@@ -1,0 +1,19 @@
+\subsection{Kvantiniai vartai}
+\label{sec:kvantiniai-vartai}
+
+Kvantiniai algoritmai sudaromi iš vartų, kurie keičia kvantinio registro amplitudes. Teoriškai kvantiniai vartai aprašomi unitariomis matricomis, tačiau šiame darbe svarbiausia jų programinė semantika: kiekvienas vartas yra operacija, kurią galima pritaikyti vienam ar keliems kubitams.
+
+Groverio algoritmo realizacijoje naudojami šie vartai:
+
+\begin{itemize}
+    \item \textbf{Pauli-X vartai} -- veikia kaip kvantinis NOT: $\lvert 0 \rangle$ pakeičia į $\lvert 1 \rangle$, o $\lvert 1 \rangle$ pakeičia į $\lvert 0 \rangle$. Programoje jie naudojami pažymėtos būsenos paruošimui oracle dalyje.
+    \item \textbf{Hadamard vartai} -- sukuria superpoziciją. Pritaikius šį vartą $\lvert 0 \rangle$ būsenai, gaunama vienoda $\lvert 0 \rangle$ ir $\lvert 1 \rangle$ amplitudžių kombinacija:
+    \begin{equation}
+        H\lvert 0 \rangle = \frac{\lvert 0 \rangle + \lvert 1 \rangle}{\sqrt{2}}.
+    \end{equation}
+    Pritaikius Hadamard vartus visiems paieškos registro kubitams, gaunama vienoda visų $2^n$ būsenų superpozicija.
+    \item \textbf{CNOT vartai} -- dviejų kubitų vartai, kuriuose vienas kubitas yra kontrolinis, o kitas -- taikinys. Taikinys apverčiamas tik tada, kai kontrolinis kubitas yra būsenoje $1$.
+    \item \textbf{Toffoli vartai} -- trijų kubitų vartai, dar vadinami kontroliuojamu kontroliuojamu NOT. Taikinys apverčiamas tik tada, kai abu kontroliniai kubitai yra $1$. Šis vartas naudojamas kelių sąlygų oracle ir difuzijos operatoriaus konstrukcijai.
+\end{itemize}
+
+Emuliatoriaus QPU plėtinys šiuos vartus pateikia kaip atskiras RISC-V specializuotas instrukcijas: \texttt{Q.SIGMAX}, \texttt{Q.HADAMARD}, \texttt{Q.CNOT} ir \texttt{Q.TOFFOLI}. Taip vartai tampa procesoriaus instrukcijų rinkinio dalimi, o vartotojo programa juos gali iškviesti per inline assembly.

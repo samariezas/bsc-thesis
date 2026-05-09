@@ -1,0 +1,19 @@
+\subsection{Procesoriaus modelis}
+\label{sec:procesoriaus-modelis}
+
+Procesoriaus modelis projektuotas taip, kad tą patį vykdymo branduolį būtų galima naudoti kelioms RISC-V konfigūracijoms. Kompiliavimo metu parenkamas žodžio dydis ir įjungiami reikalingi ISA plėtiniai: bazinis RV32 arba RV64 instrukcijų rinkinys, privilegijuotas vykdymas, M ir A plėtiniai bei eksperimentinis QPU plėtinys. Linux paleidimo eksperimentuose naudojama RV64 konfigūracija su sveikųjų skaičių daugybos, atominių operacijų, privilegijuotos architektūros ir QPU palaikymu.
+
+Projektuojant procesoriaus būseną buvo išskirtos kelios grupės:
+
+\begin{itemize}
+    \item \textbf{registrai} -- 32 bendrosios paskirties registrai (nuo \texttt{x0} iki \texttt{x31}) ir programos skaitiklis \texttt{pc}. Registras \texttt{x0} visada išlaikomas lygus nuliui;
+    \item \textbf{privilegijuota būsena} -- dabartinis privilegijų režimas, \texttt{mstatus}/\texttt{sstatus} laukų atvaizdai, \texttt{mepc}, \texttt{sepc}, \texttt{mcause}, \texttt{scause}, \texttt{mtval}, \texttt{stval}, delegavimo ir pertraukimų registrai;
+    \item \textbf{virtualios atminties būsena} -- \texttt{satp} išskaidomas į \texttt{mode}, \texttt{asid} ir \texttt{ppn}; šiame darbe realiai naudojamas tik išjungto adresų vertimo režimas ir Sv39 režimas, nes jų pakanka Linux paleidimui;
+    \item \textbf{atominės operacijos} -- LR/SC rezervacija saugoma kaip adresas ir baitų ilgis; ji nėra daugiaprocesorinis koherentiškumo modelis, nes emuliatorius turi tik vieną hartą;
+    \item \textbf{QPU būsena} -- procesoriuje saugomas aktyvus QPU konteksto identifikatorius, o kvantinių registrų būsena laikoma atskiroje QPU posistemėje.
+\end{itemize}
+
+% TODO: aprašyti opcode, funct3, funct7
+Instrukcijų dekodavimas projektuotas lentelės principu. Kiekviena palaikoma instrukcija identifikuojama pagal \texttt{opcode} ir papildomus laukus, tokius kaip \texttt{funct3}, \texttt{funct7}, \texttt{funct6} arba \texttt{funct5}. Toks aprašas leidžia standartines RISC-V instrukcijas ir eksperimentines QPU instrukcijas laikyti viename dekodavimo mechanizme, o paties QPU plėtinio įjungimą traktuoti kaip konfigūracinį sprendimą.
+
+Kadangi tikslas yra Linux vykdymas, procesoriaus modelis apima ne tik vartotojo režimo aritmetiką ir šuolius, bet ir \texttt{ECALL}, \texttt{EBREAK}, CSR instrukcijas, \texttt{MRET}, \texttt{SRET}, \texttt{SFENCE.VMA}, \texttt{FENCE.I}, pertraukimų delegavimą ir išimčių nukreipimą į M arba S režimą. Šios dalys tiesiogiai atitinka RISC-V privilegijuotos architektūros poreikius \cite{riscv_privileged_isa}.

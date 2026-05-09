@@ -1,0 +1,22 @@
+\subsection{Instrukcijų vykdymo ciklas}
+\label{sec:instrukciju-vykdymas}
+
+Procesoriaus realizacijoje vienas emuliatoriaus žingsnis atitinka vienos RISC-V instrukcijos įvykdymą arba vieno laukiančio pertraukimo aptarnavimą. Kadangi palaikomų instrukcijų rinkinys parenkamas kompiliavimo metu, vykdymo cikle nėra atskiro dinaminio plėtinių tikrinimo kiekvienai instrukcijai: dekodavimo lentelė sudaroma pagal pasirinktą RV64, privilegijuotos architektūros, M, A ir QPU plėtinių konfigūraciją.
+
+Vieno žingsnio seka yra tokia:
+
+\begin{enumerate}
+    \item atnaujinama įvesties/išvesties būsena, įskaitant laikmačio ir terminalo įvykius;
+    \item pagal CLINT ir PLIC būseną nustatomi laukiančių pertraukimų bitai;
+    \item pagal privilegijų režimą, \texttt{mstatus}, \texttt{mie}, \texttt{mip} ir delegavimo registrus parenkama aukščiausio prioriteto pertrauktis;
+    \item jei pertrauktis gali būti aptarnauta, valdymas nukreipiamas į M arba S režimo trap handler'į;
+    \item jei pertraukties nėra, iš atminties nuskaitoma 32 bitų instrukcija;
+    \item instrukcija išskaidoma pagal \texttt{opcode}, \texttt{funct3} ir kitus laukus;
+    \item surastas instrukcijos vykdymo kelias atlieka operaciją, o programos skaitiklis padidinamas keturiais baitais, jei instrukcija pati nepakeitė \texttt{pc}.
+\end{enumerate}
+
+Realizacijoje palaikomos RV64 bazinės instrukcijos, RV64 specifinės \texttt{W} operacijos, M plėtinio daugyba ir dalyba, A plėtinio atominės operacijos, privilegijuotos instrukcijos ir QPU instrukcijos. FPU ir suspaustų instrukcijų plėtinys neįgyvendinti, todėl emuliatorius nėra \texttt{rv64gc} aparatinės įrangos modelis, nors programinės įrangos grandinėje gali būti naudojamos platesnės ISA eilutės dėl Linux įrankių suderinamumo.
+
+Instrukcijų dekodavimui pagreitinti naudojama vidinė instrukcijų talpykla. Ji saugo jau dekoduotą instrukcijos vykdymo kelią ir pradinę instrukcijos reikšmę. Talpyklos raktas sudarytas iš programos skaitiklio ir privilegijų režimo, o įrašai invaliduojami po veiksmų, galinčių pakeisti instrukcijų matomumą arba adresų vertimą: \texttt{FENCE.I}, \texttt{SFENCE.VMA} ir \texttt{satp} rašymo. Tai nėra mikroarchitektūrinė cache simuliacija: ji nemodeliuoja realių cache linijų, koherentiškumo ar vėlinimų. Jos paskirtis yra sumažinti pasikartojančio dekodavimo kainą emuliatoriaus viduje.
+
+Klaidos vykdymo metu perduodamos bendru išimčių keliu. Kiekviena klaida turi RISC-V priežasties kodą ir, kai reikia, papildomą reikšmę, įrašomą į \texttt{mtval} arba \texttt{stval}. Ta pati schema naudojama instrukcijos dekodavimo klaidoms, atminties prieigoms, adresų vertimui ir QPU operacijoms.

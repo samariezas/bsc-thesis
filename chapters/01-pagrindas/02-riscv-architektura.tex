@@ -1,0 +1,30 @@
+\subsection{RISC-V architektūra}
+
+RISC-V yra atvira instrukcijų rinkinio architektūra, kurios specifikacijos ir plėtiniai yra viešai prieinami \cite{riscv_ratified_specs}. Nors RISC-V palaiko tiek 32 bitų, tiek 64 bitų adresų erdvę, darbui buvo pasirinkta RV64 kryptis, kadangi Linux 32 bitų architektūros palaikymas yra žymiai prastesnis. RISC-V architektūra yra skaidoma į dvi pagrindines dalis: neprivilegijuotą (\textit{unprivileged}) ir privilegijuotą (\textit{privileged}) architektūrą. Neprivilegijuotoji dalis apibrėžia bazines instrukcijas, registrus ir vartotojo režimo programų vykdymą, tuo tarpu privilegijuotoji architektūra aprašo išimčių, pertraukčių, virtualios atminties bei skirtingų privilegijų režimų veikimą \cite{riscv_privileged_spec}.
+
+RISC-V architektūra yra modulinė: privalomas bazinis instrukcijų rinkinys gali būti papildomas standartiniais ir nestandartiniais plėtiniais, todėl eksperimentinė instrukcijų grupė gali būti įterpta kaip atskiras plėtinys, o ne kaip visos architektūros perrašymas. Darbe tikslinga pirmiausia validuoti standartines instrukcijas, o tik tada vertinti nestandartinio plėtinio funkcionalumą.
+
+Instrukcijų rinkinio architektūra apibrėžia matomą procesoriaus elgesį, tačiau neapibrėžia visų operacinės sistemos vykdymui reikalingų platformos savybių. Pavyzdžiui, Linux sistemai reikalingi laikmačiai, pertraukčių valdikliai, puslapiavimo mechanizmas, įrenginių aprašymas ir programinės aparatinės įrangos (angl. firmware) sąsaja. Dėl to emuliatoriaus projektavimas turi remtis ne tik neprivilegijuota ISA specifikacija, bet ir privilegijuotos architektūros, ABI, SBI bei Linux paleidimo reikalavimais.
+
+\subsubsection{Neprivilegijuota architektūra}
+
+% https://docs.riscv.org/reference/isa/_attachments/riscv-unprivileged.pdf, page 17
+Bazinė RV64I architektūra apibrėžia \cite{riscv_unprivileged_isa}:
+\begin{itemize}
+\item 32 bendros paskirties registrus ir programos skaitiklį;
+\item sveikųjų skaičių aritmetines ir logines instrukcijas;
+\item sveikųjų skaičių užkrovimo ir išsaugojimo instrukcijas;
+\item valdymo perdavimo instrukcijas;
+\item atminties modelį.
+\end{itemize}
+
+RISC-V atmintis modeliuojama kaip MMIO (memory-mapped input/output). Tai reiškia, kad kiekviena adresų erdvė gali atitikti arba pagrindinę atmintį, arba įrenginį. Skaitymai ir rašymai į adresą, atitinkantį įrenginį, gali turėti pašalinių efektų: pavyzdžiui, išsiunčiamas simbolis UART sąsaja. Tuo tarpu veiksmai su pagrindine atmintimi pašalinių efektų nesukelia.
+
+Linux paleidimui be bazinės RV64I architektūros reikalingas atominių operacijų (\texttt{A}) plėtinys, daugybos ir dalybos (\texttt{M}) plėtinys, CSR valdymo (\texttt{Zicsr}) plėtinys ir instrukcijų sinchronizacijos (\texttt{Zifencei}) plėtinys.
+
+\subsubsection{Priveligijuota architektūra}
+Vartotojo programos paprastai vykdomos žemiausiame privilegijų lygyje, o operacinė sistema turi valdyti virtualiąją atmintį, įrenginius, pertrauktis ir procesų perjungimą. RISC-V privilegijuotos architektūros specifikacija aprašo valdymo ir būsenos registrus (CSR), privilegijų lygius, išimtis, pertrauktis ir virtualiosios atminties mechanizmus \cite{riscv_privileged_isa}. Šie mechanizmai yra būtini, kai emuliatorius turi vykdyti ne tik atskirą ELF programą, bet ir visą Linux sistemą.
+
+Svarbiausias praktinis skirtumas tarp paprasto ISA emuliatoriaus ir Linux paleidžiančio emuliatoriaus yra išimčių (angl. trap) ir privilegijų modelis. Instrukcija gali baigtis ne tik sėkmingu registro pakeitimu, bet ir išimtimi: neleistina instrukcija, neteisingai sulygiuota atminties prieiga, puslapiavimo klaida, sisteminis iškvietimas. Emuliatorius tokiu atveju turi atnaujinti atitinkamus CSR registrus, pakeisti privilegijų lygį ir perduoti valdymą operacinės sistemos išimties apdorojimo kodui. Jeigu ši logika netiksli, Linux gali sustoti dar ankstyvoje įkrovos fazėje, nors paprasti vartotojo režimo testai būtų sėkmingi.
+
+Virtualiosios atminties palaikymas taip pat keičia emuliatoriaus architektūrą. Fizinės atminties adresas nebėra tiesiogiai gaunamas iš instrukcijos operando ir atitinkamo registro: jis turi būti išverstas pagal aktyvų puslapių lentelių režimą ir privilegijų lygį. Dėl to magistralės ir atminties moduliai turi atskirti virtualų adresą, fizinį adresą ir MMIO įrenginių sritis.

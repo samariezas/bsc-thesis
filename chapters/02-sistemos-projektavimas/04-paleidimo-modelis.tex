@@ -1,0 +1,31 @@
+\subsection{Linux paleidimo modelis}
+\label{sec:linux-paleidimo-modelis}
+
+Sistemos paleidimo modelis paremtas OpenSBI \texttt{fw\_dynamic} keliu. Emuliatorius pradeda vykdymą adresu \texttt{0x8000\_0000}, kuriame įkeliamas \texttt{fw\_dynamic.bin}. OpenSBI veikia M režime, paruošia SBI sąsają ir perduoda valdymą Linux branduoliui S režime. Šis sluoksnis reikalingas todėl, kad Linux branduolys RISC-V platformoje nesitiki tiesiogiai valdyti visų M režimo resursų, o naudoja SBI mechanizmą platforminėms operacijoms \cite{riscv_sbi_spec}.
+
+Į emuliatorių paleidimo metu įkeliami keturi pagrindiniai failai:
+
+\begin{itemize}
+    \item \textbf{OpenSBI} -- įkeliamas adresu \texttt{0x8000\_0000} ir yra pirmasis vykdomas kodas;
+    \item \textbf{Linux branduolys} -- įkeliamas adresu \texttt{0x9000\_0000}; šis adresas įrašomas į OpenSBI dinaminės informacijos struktūros \texttt{next\_addr} lauką;
+    \item \textbf{DTB} -- įkeliamas adresu \texttt{0xb000\_0000} ir perduodamas OpenSBI per registrą \texttt{a1};
+    \item \textbf{initramfs} -- įkeliamas adresu \texttt{0xa000\_0000}; jo pradžia ir pabaiga įrašomos į DTB \texttt{chosen} mazgą.
+\end{itemize}
+
+Po DTB vaizdo emuliatorius papildomai įrašo \texttt{FwDynamicInfo} struktūrą. Joje nurodoma OpenSBI magija \texttt{0x4942534f}, versija, Linux branduolio pradžios adresas, kito vykdymo režimas ir paleidžiamo harto numeris. Emuliatorius į \texttt{a1} registrą įrašo DTB pradžios adresą, o į \texttt{a2} -- \texttt{FwDynamicInfo} adresą. Tokia schema atitinka \texttt{fw\_dynamic} naudojimo modelį: OpenSBI pats nėra susietas su konkrečiu branduolio adresu, o paleidimo metu gauna informaciją apie kitą etapą.
+
+Šiame modelyje sąmoningai nenaudojamas disko vaizdas. Visos vartotojo erdvės programos įtraukiamos į initramfs, todėl nereikia emuliuoti blokinio įrenginio, failų sistemos tvarkyklės už fizinio disko ribų ar I/O eilės. Toks sprendimas sumažina emuliatoriaus įrenginių apimtį, bet vis tiek leidžia paleisti realų Linux branduolį ir vartotojo erdvės ELF programas.
+
+\subsection{Linux vartotojo erdvė}
+\label{sec:linux-userspace}
+
+Linux pradinė vartotojo erdvė pateikiama kaip \texttt{initramfs}
+Linux pusėje pradinė vartotojo erdvė pateikiama kaip \texttt{initramfs}. Ji suformuojama iš kelių mažų komponentų:
+
+\begin{itemize}
+\item \textbf{musl} -- standartinės C bibliotekos implementacija;
+\item \textbf{BusyBox} -- standartinių UNIX programų rinkinys (pvz. \texttt{ls}, \texttt{sh}, \texttt{tar} ir pan.);
+\item \textbf{Lua} -- bendrosios paskirties programavimo kalba;
+\item \textbf{/init} -- scenarijus, prijungiantis virtualias failų sistemas (\texttt{/proc}, \texttt{/dev} ir \texttt{/dev} ir paleidžiantis komandinę eilutę \texttt{sh} UART įrenginyje.
+\end{itemize}
+

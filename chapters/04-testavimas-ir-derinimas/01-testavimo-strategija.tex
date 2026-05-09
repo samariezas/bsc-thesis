@@ -1,0 +1,18 @@
+\subsection{Testavimo strategija}
+\label{sec:testavimo-strategija}
+
+Ankstesniuose skyriuose aprašyta sistema turi kelis skirtingus teisingumo lygius: atskirų Zig funkcijų teisingumą, RISC-V instrukcijų vykdymo teisingumą, privilegijuoto režimo ir išimčių veikimą, MMIO įrenginių sąveiką ir galiausiai visos Linux įkrovos grandinės veikimą. Dėl šios priežasties vieno tipo testų šiam darbui nepakanka. Emuliatorius testuotas keliais lygiais: vienetiniais Zig testais, RISC-V testų infrastruktūra, savarankiškai parašytais ELF testais, Linux paleidimo bandymais ir interaktyviu derinimu per GDB.
+
+Testavimo tikslas nebuvo įrodyti pilną RISC-V suderinamumą. Darbo apimtis sąmoningai ribota RV64IMA, privilegijuoto vykdymo, Sv39 adresų vertimo, minimalių įrenginių ir QPU plėtinio dalimis. Todėl testai pirmiausia buvo skirti patikrinti tas sistemos dalis, kurios būtinos Linux paleidimui ir vartotojo erdvės programų vykdymui.
+
+Naudota testavimo strategija gali būti suskirstyta į šiuos etapus:
+
+\begin{itemize}
+    \item \textbf{vienetiniai testai} -- tikrinamos mažos, izoliuotos funkcijos;
+    \item \textbf{etaloninis palyginimas su Spike} -- RISC-V testų rezultatai lyginami su oficialiu RISC-V ISA simuliatoriumi Spike \cite{riscv_isa_sim};
+    \item \textbf{savarankiški ELF testai} -- tikrinamos privilegijų režimų, išimčių, delegavimo, blogų atminties prieigų ir UART išvesties situacijos, kurių nepatogu patikrinti vien paprastais vienetiniais testais;
+    \item \textbf{Linux paleidimo validavimas} -- tikrinama, ar OpenSBI perduoda valdymą Linux branduoliui, ar branduolys gauna teisingą DTB informaciją, ar veikia initramfs ir vartotojo erdvės programa;
+    \item \textbf{interaktyvus derinimas} -- naudojamas GDB serveris, UART išvestis ir papildomos monitor komandos puslapių lentelių bei adresų vertimo problemoms tirti.
+\end{itemize}
+
+Tokia struktūra leidžia klaidas lokalizuoti laipsniškai. Jeigu neveikia Linux paleidimas, pirmiausia galima atskirti, ar klaida yra instrukcijų dekodavime, privilegijuotame vykdyme, adresų vertime, pertraukčių modelyje ar įkrovos vaizdų suderinime.

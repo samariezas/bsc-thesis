@@ -1,0 +1,28 @@
+\subsection{Groverio algoritmo idėja}
+\label{sec:groverio-algoritmo-ideja}
+
+Groverio algoritmas sprendžia nestruktūrizuotos paieškos problemą: duotoje $N$ elementų erdvėje reikia rasti pažymėtą elementą. Klasikinėje paieškoje blogiausiu atveju reikia patikrinti $O(N)$ elementų, o Groverio algoritmas pažymėtą elementą randa naudojant apie $O(\sqrt{N})$ oracle užklausų \cite{grover_1996,nielsen_chuang_2010}.
+
+Algoritmas prasideda nuo vienodos superpozicijos paruošimo. Jeigu paieškos registre yra $n$ kubitų, po Hadamard vartų visoms paieškos kubitų pozicijoms gaunama būsena:
+
+\begin{equation}
+    \frac{1}{\sqrt{N}} \sum_{x=0}^{N-1} \lvert x \rangle,
+    \quad N = 2^n.
+\end{equation}
+
+Tada kartojami du pagrindiniai veiksmai:
+
+\begin{itemize}
+    \item \textbf{oracle} -- operacija, kuri pažymi ieškomą būseną. Dažnai tai aprašoma kaip pažymėtos būsenos fazės pakeitimas, t. y. ieškomos būsenos amplitudė dauginama iš $-1$;
+    \item \textbf{difuzijos operatorius} -- operacija, vadinama amplitudžių inversija apie vidurkį. Ji padidina pažymėtos būsenos amplitudę ir sumažina kitų būsenų amplitudes.
+\end{itemize}
+
+Vienas oracle ir difuzijos operatoriaus pritaikymas sudaro vieną Groverio iteraciją. Kai pažymėtas vienas elementas, apytikslis iteracijų skaičius yra:
+
+\begin{equation}
+    k \approx \frac{\pi}{4}\sqrt{N}.
+\end{equation}
+
+Ši formulė matoma ir darbo programoje \texttt{grover.c}: iteracijų skaičius apskaičiuojamas kaip \texttt{pi/4*sqrt(1 << qpu\_getregwidth(reg))}. Kadangi rezultatas priskiriamas sveikajam skaičiui, gaunama apytikslė, žemyn suapvalinta iteracijų reikšmė.
+
+Po iteracijų registras matuojamas arba analizuojamos jo amplitudės. Idealiu atveju pažymėtos būsenos tikimybė tampa didelė, todėl matavimas dažniausiai grąžina ieškomą elementą. Ši savybė daro Groverio algoritmą tinkamą šiam darbui: jis pakankamai mažas, kad būtų realizuojamas kaip vartotojo erdvės programa, bet kartu naudoja kelis svarbius kvantinius veiksmus -- superpoziciją, oracle, daugkartinę iteraciją ir tikimybių analizę.

@@ -1,0 +1,16 @@
+\subsection{Projektavimo apimtis ir tikslai}
+\label{sec:projektavimo-apimtis}
+
+Projektavimo tikslas buvo įgyvendinti tik tuos architektūros ir platformos elementus, kurie būtini darbo eksperimentams. Dėl šios priežasties emuliatorius nėra pilnas RISC-V suderinamumo modelis: jis nepalaiko kelių procesorių, pilnos įrenginių įvairovės, FPU, suspaustų instrukcijų plėtinio ar tikslaus visų mikroarchitektūrinių efektų. Vietoj to pasirinkta praktinė kryptis: pakankamai tiksliai emuliuoti RV64IMA, privilegijuotą vykdymą, Sv39 virtualią atmintį ir nedidelį įrenginių rinkinį, kad būtų galima paleisti realią programinės įrangos grandinę.
+
+Darbe naudota konfigūracija atitinka šiuos pagrindinius projektavimo sprendimus:
+
+\begin{itemize}
+    \item \textbf{vienas aparatinis srautas} -- sistemoje emuliuojamas vienas hartas, todėl atsisakyta kelių procesorių sinchronizacijos ir sudėtingesnio pertraukimų paskirstymo;
+    \item \textbf{RV64 kryptis} -- emuliatoriaus pagrindinė konfigūracija yra 64 bitų, nes Linux paleidimo ir vartotojo erdvės eksperimentai šiame darbe vykdomi RV64 aplinkoje;
+    \item \textbf{minimalus Linux įrenginių rinkinys} -- emuliuojami tik tie įrenginiai, kurių reikia konsolės įvesčiai/išvesčiai, laikmačiui, išoriniams pertraukimams ir sistemos išjungimui;
+    \item \textbf{eksperimentinis QPU plėtinys} -- specializuotos instrukcijos įtraukiamos į tą patį instrukcijų dekodavimo kelią kaip ir standartinės RISC-V instrukcijos, tačiau jų semantika deleguojama atskiram QPU būsenos valdymo komponentui;
+    \item \textbf{atkuriama surinkimo aplinka} -- OpenSBI, Linux branduolys, DTB ir initramfs kuriami deklaratyviai, nes visi šie komponentai turi būti suderinti tarpusavyje.
+\end{itemize}
+
+Toks apimties ribojimas leidžia darbą sutelkti į emuliatoriaus, operacinės sistemos paleidimo ir instrukcijų plėtinio sąveiką. Tai taip pat aiškiai atskiria šiame darbe nagrinėjamą sistemos lygmens prototipą nuo pilno aparatinės įrangos modelio.

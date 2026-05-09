@@ -1,0 +1,47 @@
+\subsection{QPU posistemės realizacija emuliatoriuje}
+\label{sec:qpu-realizacija}
+
+QPU posistemė įgyvendina projektavimo dalyje aprašytą konteksto ir kvantinių registrų modelį. Konteksto rankenos vartotojo programoms ir procesoriui pateikiamos kaip vienetu pradedami sveikieji skaičiai: reikšmė 0 laikoma negaliojančia ir kartu reiškia išjungtą QPU būseną. Dėl to \texttt{CSR\_QPU\_CTX = 0} gali būti naudojamas kaip aiški būsena, rodanti, kad einamajai užduočiai QPU kontekstas dar nepriskirtas.
+
+Kiekvienas QPU kontekstas saugo kvantinių registrų sąrašą. Registrų būsena realizuojama naudojant \texttt{libquantum} biblioteką: naujas registras sukuriamas per bibliotekos registro sukūrimo operaciją, vartai deleguojami atitinkamoms bibliotekos funkcijoms, o kontekstą išlaisvinant sunaikinami visi jam priklausantys registrai. RISC-V QPU instrukcijų vykdymo kelias tik išskaito operandus iš bendrųjų registrų, patikrina aktyvų kontekstą ir perduoda operaciją QPU posistemei.
+
+QPU instrukcijų semantika susieta su šiomis operacijomis:
+
+\begin{table}[h]
+    \centering
+    \caption{QPU instrukcijų realizacijos ryšys su kvantinės simuliacijos operacijomis}
+    \label{tab:qpu-realizacijos-rysys}
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Instrukcija} & \textbf{Realizuojama operacija} \\
+        \hline
+        \texttt{Q.NEWCTX} & naujo QPU konteksto sukūrimas \\
+        \hline
+        \texttt{Q.FREECTX} & QPU konteksto išlaisvinimas \\
+        \hline
+        \texttt{Q.NEWREG} & naujo \texttt{libquantum} registro sukūrimas \\
+        \hline
+        \texttt{Q.CNOT} & \texttt{CNOT} vartų taikymas \\
+        \hline
+        \texttt{Q.TOFFOLI} & \texttt{Toffoli} vartų taikymas \\
+        \hline
+        \texttt{Q.SIGMAX}, \texttt{Q.SIGMAY}, \texttt{Q.SIGMAZ} & Pauli vartų taikymas \\
+        \hline
+        \texttt{Q.HADAMARD} & Hadamard vartų taikymas \\
+        \hline
+        \texttt{Q.BMEASURE} & vieno kubito matavimas \\
+        \hline
+        \texttt{Q.GETWIDTH} & kvantinio registro pločio nuskaitymas \\
+        \hline
+        \texttt{Q.PROB} & amplitudės tikimybės apskaičiavimas \\
+        \hline
+        \texttt{Q.GETREGNODE} & registro būsenos ir amplitudės nuskaitymas pagal indeksą \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Kai kurioms operacijoms reikalingas tarpinis C sluoksnis. Pavyzdžiui, tikimybės skaičiavimui patogiau perduoti realią ir menamą amplitudės dalį kaip paprastas slankiojo kablelio reikšmes, o registro mazgo nuskaitymui reikia ištraukti būseną ir amplitudės dalis iš bibliotekos vidinių duomenų. Taip išvengiama tiesioginio darbo su C kompleksiniais tipais iš Zig pusės.
+
+QPU instrukcijų operandų išdėstymas iš esmės atitinka R tipo instrukcijų laukus, tačiau kai kurioms operacijoms prireikė papildomų konvencijų. Pavyzdžiui, \texttt{Q.TOFFOLI} turi tris kubitų argumentus ir registro rankeną, todėl antras kontrolinis kubitas perduodamas per sutartą papildomą bendrosios paskirties registrą. \texttt{Q.GETREGNODE} taip pat naudoja papildomus įvesties registrus, o rezultatą grąžina per kelis išvesties registrus. Vartotojo programoje šios instrukcijos įterpiamos per assemblerio \texttt{.insn r} sintaksę.
+
+Klaidos QPU posistemėje paprastai paverčiamos \texttt{IllegalInstruction} išimtimi. Taip daroma, jeigu aktyvus kontekstas neegzistuoja, registro rankena neteisinga arba konkreti operacija neįgyvendinta. \texttt{Q.NEWCTX} ir \texttt{Q.FREECTX} papildomai reikalauja bent Supervisor privilegijų, nes šios operacijos skirtos branduolio konteksto valdymui. Vartotojo programos paprastai vykdo ne konteksto kūrimą, o jau įjungtame kontekste esančias registro ir vartų operacijas.

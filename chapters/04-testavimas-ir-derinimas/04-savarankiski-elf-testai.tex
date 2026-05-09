@@ -1,0 +1,18 @@
+\subsection{Savarankiškai sukurti ELF testai}
+\label{sec:savarankiski-elf-testai}
+
+Be oficialių RISC-V testų, projekte yra savarankiškai sukurti ELF testai. Jie skirti tikrinti privilegijuoto vykdymo dalis, kurios tiesiogiai reikalingos Linux paleidimui: \texttt{mtvec}/\texttt{stvec} vektorius, \texttt{mret}/\texttt{sret} instrukcijas, \texttt{mstatus}/\texttt{sstatus} laukus, išimčių delegavimą, \texttt{ecall}, neleistinas instrukcijas ir blogas atminties prieigas. Testas surenkamas kaip savarankiškas \texttt{rv64g} ELF failas.
+
+Testai apima šiuos atvejus:
+
+\begin{itemize}
+    \item \textbf{neleistiną instrukciją} -- vykdoma \texttt{.word 0xffffffff} instrukcija, kuri turi sukelti illegal instruction išimtį;
+    \item \textbf{sisteminius kvietimus} -- \texttt{ecall} tikrinamas M, S ir U režimuose;
+    \item \textbf{privilegijų keitimą} -- \texttt{mret} naudojamas perėjimui iš M režimo į S arba U režimą, o \texttt{sret} -- perėjimui iš S režimo į U režimą;
+    \item \textbf{išimčių delegavimą} -- \texttt{medeleg} registre įjungiama dalies išimčių delegacija S režimui;
+    \item \textbf{blogas atminties prieigas} -- atliekamas skaitymas ir rašymas į neteisingą adresą, kad būtų patikrinta magistralės klaidų ir RISC-V išimčių sąsaja.
+\end{itemize}
+
+Testo sėkmė ir nesėkmė perduodama per \texttt{tohost} mechanizmą, apibrėžtą oficialiuose RISC-V testuose. Papildomai testai rašo diagnostinę informaciją į UART adresą \texttt{0x10000000}, todėl galima matyti, kuriame žingsnyje įvyko klaida ir kokios CSR reikšmės buvo tuo metu.
+
+Šie savarankiški testai buvo naudingi todėl, kad jie tikrina ne vien instrukcijų rezultatą, bet ir visą trap kelią: privilegijos režimo pakeitimą, \texttt{mcause}/\texttt{scause} nustatymą, \texttt{mepc}/\texttt{sepc} grįžimo adresus ir trap handlerio pakartotinį įėjimą į C testų ciklą. Būtent šios dalys yra kritinės prieš pereinant prie Linux paleidimo.

@@ -1,32 +1,52 @@
+AUX_DIR:=./aux
 NAME:=bakalaurinis
 TEX_NAME:=$(NAME).tex
 PDF_NAME:=$(NAME).pdf
-LATEXMK_BASE_FLAGS:=-lualatex -file-line-error -Werror -emulate-aux-dir -aux-directory=out
+LATEXMK_BASE_FLAGS:=-lualatex -file-line-error -interaction=nonstopmode -emulate-aux-dir -aux-directory=$(AUX_DIR) -halt-on-error
 
 .PHONY: pdf
-pdf:
-	latexmk $(LATEXMK_BASE_FLAGS) -halt-on-error $(TEX_NAME)
-	open $(PDF_NAME) || setsid xdg-open $(PDF_NAME)
+pdf: reset-part dirs
+	latexmk $(LATEXMK_BASE_FLAGS) $(TEX_NAME)
+
+.PHONY: strict
+strict: reset-part dirs
+	latexmk $(LATEXMK_BASE_FLAGS) -Werror $(TEX_NAME)
 
 .PHONY: watch
-watch: pdf
-	latexmk $(LATEXMK_BASE_FLAGS) -interaction=nonstopmode -pvc -view=none $(TEX_NAME) 
+watch: reset-part dirs
+	latexmk $(LATEXMK_BASE_FLAGS) -pvc -view=none $(TEX_NAME)
 
-.PHONY: ubuntu
-ubuntu:
-	@echo "Diegiamas LaTeX (LuaTeX, XeTeX ir kt.)"
-	sudo apt-get install texlive-full
+includeonly.tex:
+	@[ "${PART}" ] || ( echo ">> PART is not set"; exit 1 )
+	@printf '\\begin{document}\n\\include{%s}\n\\end{document}\n' "$(PART)" > includeonly.tex
+	@echo "Watching only: $(PART)"
 
-.PHONY: wordcount
-wordcount:
-	texcount -total -utf8 $(TEX_NAME)
+.PHONY:
+reset-part:
+	@rm -f includeonly.tex
 
-.PHONY: check
-check:
-	chktex $(TEX_NAME)
+.PHONY: part
+part: includeonly.tex dirs
+	latexmk $(LATEXMK_BASE_FLAGS) $(TEX_NAME)
+
+.PHONY: watch-part
+watch-part: includeonly.tex dirs
+	latexmk $(LATEXMK_BASE_FLAGS) -pvc -view=none $(TEX_NAME)
+
+.PHONY: dirs
+dirs:
+	find chapters -type d -exec mkdir -p out/{} \;
+	find chapters -type d -exec mkdir -p aux/{} \;
+
+# .PHONY: wordcount
+# wordcount:
+# 	texcount -total -utf8 $(TEX_NAME)
+#
+# .PHONY: check
+# check:
+# 	chktex $(TEX_NAME)
 
 .PHONY: clean
 clean:
 	rm -rf out/
-	rm -f $(wildcard *.out *.run.xml *.log *.blg *.bbl *.aux \
-	*.toc *.bcf *.synctex.gz *.fdb_latexmk *.fls *.xdv *.nav *.snm)
+	rm -f ${PDF_NAME}

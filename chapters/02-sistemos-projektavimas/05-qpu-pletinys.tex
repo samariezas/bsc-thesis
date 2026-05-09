@@ -1,0 +1,35 @@
+\subsection{Eksperimentinio QPU plėtinio projektavimas}
+\label{sec:qpu-pletinio-projektavimas}
+
+QPU plėtinys projektuotas kaip eksperimentinis RISC-V specializuotų instrukcijų rinkinys. Visos QPU instrukcijos naudoja \texttt{custom-1} tipo opkodą \texttt{0b0101011}, \texttt{funct3 = 1}, o konkreti operacija atskiriama pagal \texttt{funct7}. Toks pasirinkimas leidžia QPU instrukcijas dekoduoti tuo pačiu keliu kaip standartines RISC-V instrukcijas, nepakeičiant bendros instrukcijų vykdymo architektūros.
+
+Plėtinio būsena padalinta į dvi dalis. Procesoriuje laikomas tik aktyvaus QPU konteksto identifikatorius, pasiekiamas per \texttt{CSR\_QPU\_CTX} adresu \texttt{0x9da}. Visa reali QPU būsena laikoma atskiroje emuliatoriaus QPU posistemėje: joje kiekvienas kontekstas turi savo kvantinius registrus, o patys registrai susiejami su naudojamos kvantinės simuliacijos bibliotekos duomenų struktūromis.
+
+Svarbiausios projektuotos QPU instrukcijų grupės yra šios:
+
+\begin{table}[h]
+    \centering
+    \caption{QPU instrukcijų grupės}
+    \label{tab:qpu-instrukciju-grupes}
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Instrukcijos} & \textbf{Paskirtis} \\
+        \hline
+        \texttt{Q.NEWCTX}, \texttt{Q.FREECTX}, \texttt{Q.CLONECTX} & QPU konteksto valdymas \\
+        \hline
+        \texttt{Q.NEWREG} & naujo kvantinio registro sukūrimas aktyviame kontekste \\
+        \hline
+        \texttt{Q.CNOT}, \texttt{Q.TOFFOLI} & kelių kubitų vartų operacijos \\
+        \hline
+        \texttt{Q.SIGMAX}, \texttt{Q.SIGMAY}, \texttt{Q.SIGMAZ}, \texttt{Q.HADAMARD} & vieno kubito vartai \\
+        \hline
+        \texttt{Q.BMEASURE} & vieno bito matavimas \\
+        \hline
+        \texttt{Q.GETWIDTH}, \texttt{Q.PROB} & pagalbiniai skaičiavimai \\
+        \hline
+        \texttt{Q.GREGWIDTH}, \texttt{Q.SREGWIDTH}, \texttt{Q.GETREGNODE}, \texttt{Q.GETREGSIZE} & kvantinio registro metaduomenų ir amplitudžių nuskaitymas \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Konteksto valdymas atskirtas nuo kvantinio registro operacijų dėl operacinės sistemos poreikių. Vartotojo programa neturi tiesiogiai kurti globalios QPU būsenos, priklausančios visai sistemai. Vietoj to Linux branduolys gali sukurti kontekstą konkrečiai užduočiai, įrašyti jo identifikatorių į \texttt{CSR\_QPU\_CTX} ir leisti vartotojo programai vykdyti QPU instrukcijas tame kontekste. Šis principas panašus į FPU arba vektorinių registrų būsenos valdymą, kur aparatinė būsena turi būti susieta su vykdomu procesu.

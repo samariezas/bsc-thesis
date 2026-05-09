@@ -1,0 +1,20 @@
+\subsection{Virtualios atminties realizacija}
+\label{sec:adresu-vertimas}
+
+Emuliatorius palaiko Sv39 adresų vertimą, kuris yra standartinis 64 bitų RISC-V Linux pasirinkimas daugeliui paprastų sistemų \cite{riscv_privileged_isa}. Rašant į \texttt{satp} registrą išskiriami \texttt{mode}, \texttt{asid} ir šakninės puslapių lentelės \texttt{ppn}. \texttt{mode = 0} išjungia adresų vertimą, o \texttt{mode = 8} įjungia Sv39.
+
+Adreso vertimas vykdomas tik tada, kai adresų vertimas įjungtas ir dabartinis privilegijų režimas nėra Machine. Machine režimo prieigos paliekamos fizinės, todėl OpenSBI ir ankstyvas paleidimo kodas gali veikti tiesiogiai. Vertimo kelias gauna virtualų adresą, prieigos tipą ir prieigos kontekstą: dabartinį privilegijų režimą bei \texttt{SUM} ir \texttt{MXR} bitus.
+
+Realizuotas puslapių lentelių perėjimas apima šiuos žingsnius:
+
+\begin{enumerate}
+    \item patikrinama, ar Sv39 virtualus adresas yra kanoninis;
+    \item nuo \texttt{satp.ppn} pradedama trijų lygių puslapių lentelių paieška;
+    \item kiekviename lygyje nuskaitomas 64 bitų PTE;
+    \item atmetami negaliojantys PTE, rezervuotus bitus turintys PTE ir neteisingos \texttt{R/W} kombinacijos;
+    \item aptikus leaf PTE, patikrinamos \texttt{R}, \texttt{W}, \texttt{X}, \texttt{U}, \texttt{SUM} ir \texttt{MXR} teisės;
+    \item jeigu reikia, nustatomi \texttt{A} ir \texttt{D} bitai;
+    \item suformuojamas fizinis adresas, įskaitant superpuslapių atvejį.
+\end{enumerate}
+
+Vertimo klaidos paverčiamos procesoriaus išimtimis. Pavyzdžiui, neteisingos teisės arba negaliojantis PTE tampa \texttt{LoadPageFault}, \texttt{StorePageFault} arba \texttt{InstructionPageFault}, priklausomai nuo prieigos tipo. Jeigu nepavyksta nuskaityti puslapių lentelės įrašo dėl magistralės klaidos, grąžinama prieigos klaida. Tokia skirtis svarbi Linux, nes branduolys skirtingai reaguoja į \texttt{PageFault} ir \texttt{AccessFault} atvejus.

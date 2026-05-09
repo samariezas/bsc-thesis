@@ -1,0 +1,24 @@
+\subsection{Emuliuotų įrenginių realizacija}
+\label{sec:irenginiu-realizacija}
+
+Įrenginių architektūrinis modelis ir adresų žemėlapis aprašyti \ref{sec:atmintis-ir-irenginiai} poskyryje, todėl šiame poskyryje pateikiami tik realizacijai svarbūs veikimo aspektai. Visi įrenginiai prijungti prie tos pačios fizinių adresų magistralės: kiekviena atminties prieiga pagal adresą nukreipiama į RAM sritį, UART, CLINT, PLIC arba išjungimo įrenginį.
+
+\subsubsection{RAM sritys}
+
+RAM įrenginys realizuotas kaip baitų masyvas šeimininko sistemos atmintyje. Įkeliant OpenSBI, Linux, DTB ir initramfs, failų turinys įrašomas tiesiai į atitinkamas RAM sritis. Pradinė RAM reikšmė užpildoma \texttt{0xa1}, kad klaidingos neinicijuotos atminties prieigos būtų lengviau pastebimos derinimo metu. Šis modelis neturi cache koherentiškumo, DMA ar kelių magistralės masterių.
+
+\subsubsection{Nuoseklusis prievadas}
+
+UART įvestis ir išvestis sujungta su šeimininko sistemos terminalu. Įvestis periodiškai surenkama į buferį, o svečio sistemos išvestis išrašoma į standartinę išvestį. UART modelis nustato \texttt{LSR\_DR}, kai yra gautų baitų, ir \texttt{LSR\_THRE}/\texttt{LSR\_TEMT}, kai išvesties buferis gali priimti arba jau išsiuntė duomenis.
+
+Pertrauktis iš UART perduodama per PLIC. Praktikoje tai leidžia Linux naudoti įprastą konsolės tvarkyklę, nors emuliuojama tik ta \texttt{ns16550} elgsena, kurios reikia tekstinei konsolei.
+
+\subsubsection{PLIC ir CLINT sąveika su procesoriumi}
+
+PLIC ir CLINT įrenginiai patys nevykdo svečio kodo, bet jų būsena kiekvieno procesoriaus žingsnio pradžioje paverčiama CSR pertraukimų bitais. CLINT generuoja laikmačio pertraukimo būseną pagal \texttt{mtime} ir \texttt{mtimecmp}. PLIC tikrina UART šaltinį, jo prioritetą, \textit{enable} bitus ir konteksto \textit{threshold} reikšmę. Jei sąlygos tenkinamos, procesoriui pateikiama išorinė pertrauktis M arba S režimui.
+
+Šis modelis nėra cikliškai tikslus. Laikmatis skaičiuojamas pagal šeimininko sistemos laiką, o terminalo įvykiai tikrinami periodiškai, ne po kiekvienos emuliuojamos instrukcijos. Toks sprendimas sumažina sisteminių kvietimų kiekį ir yra pakankamas Linux konsolės bei laikmačio darbui, tačiau nėra skirtas tiksliai aparatinės įrangos laiko analizei.
+
+\subsubsection{Sistemos išjungimas}
+
+Išjungimo įrenginys realizuotas kaip vieno rašymo signalas. Kai Linux \texttt{syscon-poweroff} tvarkyklė įrašo DTB nurodytą reikšmę į išjungimo įrenginio adresą, emuliatorius pažymi, kad vykdymas turi būti sustabdytas. Platesnė \texttt{syscon} registrų semantika nemodeliuojama, nes šiame darbe reikalingas tik tvarkingas emuliacijos pabaigos kelias.

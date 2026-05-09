@@ -1,0 +1,12 @@
+\subsection{Surinkimo ir paleidimo aplinka}
+\label{sec:surinkimo-aplinka}
+
+Visai programinės įrangos grandinei naudojama Nix flake aplinka. Joje aprašoma šeimininko sistema, RISC-V kryžminė \texttt{riscv64-unknown-linux-musl} aplinka, emuliatoriaus kūrimo priklausomybės, OpenSBI, Linux, initramfs ir testų paketai. Tai leidžia vienoje vietoje aprašyti komponentus, kurie kitu atveju būtų surenkami skirtingais įrankiais ir skirtingomis versijomis. Nix aplinka taip pat užfiksuoja priklausomybių versijas lock faile, todėl surinkimas tampa labiau atkuriamas \cite{nix_dev}.
+
+Emuliatorius surenkamas naudojant Zig build sistemą. Surinkimo metu sugeneruojamas Zig sluoksnis C antraštėms, reikalingoms ELF apdorojimui ir kvantinės simuliacijos bibliotekai. Galutinis emuliatoriaus vykdomasis failas susiejamas su ELF biblioteka, \texttt{libquantum}, tarpiniu kvantinės bibliotekos sluoksniu, matematine biblioteka ir C biblioteka. Toks sprendimas leidžia didžiąją emuliatoriaus dalį rašyti Zig kalba, bet kartu naudoti egzistuojančias C bibliotekas.
+
+OpenSBI surenkamas generinei RISC-V platformai, naudojant \texttt{rv64ima\_zicsr\_zifencei} ISA eilutę. Iš rezultato naudojamas \texttt{fw\_dynamic.bin}, kuris paleidimo metu gauna Linux branduolio adresą ir DTB per emuliatoriaus paruoštą dinaminės informacijos struktūrą.
+
+Linux branduolys surenkamas su minimalia konfigūracija ir darbo QPU pataisa. Surinkimo metu naudojama RISC-V architektūra ir \texttt{riscv64-unknown-linux-musl} kryžminė įrankių grandinė. Į rezultatą įtraukiamas paleidžiamas branduolio vaizdas ir simboliais papildytas failas, kurį galima naudoti derinimui.
+
+DTB failas nėra laikomas statiniu artefaktu. Prieš paleidimą jis sugeneruojamas pagal faktinį initramfs failo dydį, kad \texttt{linux,initrd-end} reikšmė atitiktų naują archyvą. Šis sprendimas svarbus, nes Linux branduolys initramfs ribas gauna per DTB \texttt{chosen} mazgą.
