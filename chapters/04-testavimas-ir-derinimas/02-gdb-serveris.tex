@@ -1,5 +1,5 @@
-\subsection{GDB serveris ir įvesties/išvesties ciklas}
-\label{sec:gdb-ir-ivestis-isvestis}
+\subsection{GDB serveris}
+\label{sec:gdb-serveris}
 
 GDB serveris veikia per UNIX \texttt{SOCK\_STREAM} lizdą. Paleidimo metu, jeigu vartotojas pateikia lizdo kelią, emuliatorius laukia GDB kliento prisijungimo, o procesoriaus vykdymas pradedamas sustabdytoje būsenoje. Tai leidžia prisijungti prie emuliatoriaus prieš pradedant vykdyti OpenSBI instrukcijas.
 
@@ -9,4 +9,3 @@ Registrų perdavimas vykdomas per \texttt{g} komandą: iš procesoriaus paimami 
 
 Papildomos monitor komandos realizuotos per \texttt{qRcmd}. \texttt{mempages} komanda skaito aktyvią puslapių lentelę arba nurodytą PPN, o \texttt{translate} leidžia patikrinti vieno virtualaus adreso vertimą. Šios komandos buvo ypač naudingos derinant Linux \texttt{satp} įjungimą, vartotojo erdvės puslapių lenteles ir page fault priežastis.
 
-Įvesties/išvesties ciklas turi du skirtingus dažnius: pigesnis kelias periodiškai atnaujina \texttt{mtime}, o brangesnis kelias tikrina terminalo ir GDB deskriptorius. Toks sprendimas sumažina sisteminių kvietimų kiekį, nes šeimininko sistemos I/O nėra tikrinamas kiekvieną emuliuojamą instrukciją. Supaprastinimas yra tas, kad I/O laikas nėra cikliškai tikslus: jis pakankamas Linux konsolės ir laikmačio darbui, bet nėra skirtas tiksliam aparatinės įrangos laiko modeliavimui.

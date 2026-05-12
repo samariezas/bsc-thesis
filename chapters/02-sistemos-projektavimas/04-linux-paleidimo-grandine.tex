@@ -4,7 +4,7 @@
 Linux paleidimas RISC-V platformoje priklauso ne tik nuo procesoriaus instrukcijų, bet ir nuo programinės įrangos sluoksnių, kurie paruošia sistemą branduoliui. Šiame darbe naudojama grandinė gali būti apibendrinta taip:
 
 \begin{itemize}
-    \item \textbf{OpenSBI} -- žemo lygio programinė įranga, vykdoma \textit{Machine} privilegijų režime. Ji inicializuoja procesoriaus būseną, pateikia \textit{Supervisor Binary Interface} (SBI) sąsają operacinei sistemai ir perduoda valdymą Linux branduoliui. OpenSBI veikia kaip tarpinis sluoksnis tarp aparatinės įrangos ir Linux branduolio.
+    \item \textbf{OpenSBI} -- žemo lygio programinė įranga, vykdoma \textit{Machine} privilegijų režime. Ji inicializuoja procesoriaus būseną, pateikia SBI (angl. \textit{Supervisor Binary Interface}) sąsają operacinei sistemai ir perduoda valdymą Linux branduoliui. OpenSBI veikia kaip tarpinis sluoksnis tarp aparatinės įrangos ir Linux branduolio.
 
     \item \textbf{Linux branduolys} -- pagrindinis operacinės sistemos komponentas, vykdomas \textit{Supervisor} režime. Branduolys atsakingas už procesų valdymą, virtualią atmintį, sisteminius kvietimus, įrenginių tvarkykles ir vartotojo erdvės programų vykdymą.
 
@@ -15,5 +15,3 @@ Linux paleidimas RISC-V platformoje priklauso ne tik nuo procesoriaus instrukcij
     \item \textbf{Initramfs} -- vartotojo erdvės failų sistemos archyvas.
 
 \end{itemize}
-
-Net minimaliai sistemai reikalingas ne tik CPU modelis, bet ir UART, laikmatis, pertraukčių valdiklis bei atminties sritys firmware ir branduoliui. Ši priklausomybių grandinė paaiškina, kodėl darbe reikalinga atkuriama surinkimo aplinka: pasikeitus vienam sluoksniui, dažnai tenka perrinkti arba suderinti ir kitus sluoksnius.

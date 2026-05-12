@@ -1,10 +1,10 @@
 \subsection{RISC-V architektūra}
 
-RISC-V yra atvira instrukcijų rinkinio architektūra, kurios specifikacijos ir plėtiniai yra viešai prieinami \cite{riscv_ratified_specs}. Nors RISC-V palaiko tiek 32 bitų, tiek 64 bitų adresų erdvę, darbui buvo pasirinkta RV64 kryptis, kadangi Linux 32 bitų architektūros palaikymas yra žymiai prastesnis. RISC-V architektūra yra skaidoma į dvi pagrindines dalis: neprivilegijuotą (\textit{unprivileged}) ir privilegijuotą (\textit{privileged}) architektūrą. Neprivilegijuotoji dalis apibrėžia bazines instrukcijas, registrus ir vartotojo režimo programų vykdymą, tuo tarpu privilegijuotoji architektūra aprašo išimčių, pertraukčių, virtualios atminties bei skirtingų privilegijų režimų veikimą \cite{riscv_privileged_spec}.
+RISC-V yra atvira instrukcijų rinkinio architektūra, kurios specifikacijos ir plėtiniai yra viešai prieinami \cite{riscv_ratified_specs}. Nors RISC-V palaiko tiek 32 bitų, tiek 64 bitų adresų erdvę, darbui buvo pasirinkta RV64 kryptis, kadangi Linux 32 bitų architektūros palaikymas yra žymiai prastesnis. RISC-V architektūra yra skaidoma į dvi pagrindines dalis: neprivilegijuotą (angl. \textit{unprivileged}) ir privilegijuotą (angl. \textit{privileged}) architektūrą. Neprivilegijuotoji dalis apibrėžia bazines instrukcijas, registrus ir vartotojo režimo programų vykdymą, tuo tarpu privilegijuotoji architektūra aprašo išimčių, pertraukčių, virtualios atminties bei skirtingų privilegijų režimų veikimą \cite{riscv_privileged_spec}.
 
 RISC-V architektūra yra modulinė: privalomas bazinis instrukcijų rinkinys gali būti papildomas standartiniais ir nestandartiniais plėtiniais, todėl eksperimentinė instrukcijų grupė gali būti įterpta kaip atskiras plėtinys, o ne kaip visos architektūros perrašymas. Darbe tikslinga pirmiausia validuoti standartines instrukcijas, o tik tada vertinti nestandartinio plėtinio funkcionalumą.
 
-Instrukcijų rinkinio architektūra apibrėžia matomą procesoriaus elgesį, tačiau neapibrėžia visų operacinės sistemos vykdymui reikalingų platformos savybių. Pavyzdžiui, Linux sistemai reikalingi laikmačiai, pertraukčių valdikliai, puslapiavimo mechanizmas, įrenginių aprašymas ir programinės aparatinės įrangos (angl. firmware) sąsaja. Dėl to emuliatoriaus projektavimas turi remtis ne tik neprivilegijuota ISA specifikacija, bet ir privilegijuotos architektūros, ABI, SBI bei Linux paleidimo reikalavimais.
+Instrukcijų rinkinio architektūra apibrėžia matomą procesoriaus elgesį, tačiau neapibrėžia visų operacinės sistemos vykdymui reikalingų platformos savybių. Pavyzdžiui, Linux sistemai reikalingi laikmačiai, pertraukčių valdikliai, puslapiavimo mechanizmas, įrenginių aprašymas ir programinės aparatinės įrangos (angl. \textit{firmware}) sąsaja. Dėl to emuliatoriaus projektavimas turi remtis ne tik neprivilegijuota ISA specifikacija, bet ir privilegijuotos architektūros, ABI, SBI bei Linux paleidimo reikalavimais.
 
 \subsubsection{Neprivilegijuota architektūra}
 
@@ -18,8 +18,9 @@ Bazinė RV64I architektūra apibrėžia \cite{riscv_unprivileged_isa}:
 \item atminties modelį.
 \end{itemize}
 
-RISC-V atmintis modeliuojama kaip MMIO (memory-mapped input/output). Tai reiškia, kad kiekviena adresų erdvė gali atitikti arba pagrindinę atmintį, arba įrenginį. Skaitymai ir rašymai į adresą, atitinkantį įrenginį, gali turėti pašalinių efektų: pavyzdžiui, išsiunčiamas simbolis UART sąsaja. Tuo tarpu veiksmai su pagrindine atmintimi pašalinių efektų nesukelia.
+RISC-V atmintis modeliuojama kaip MMIO (angl. \textit{memory-mapped input/output}). Tai reiškia, kad kiekviena adresų erdvė gali atitikti arba pagrindinę atmintį, arba įrenginį. Skaitymai ir rašymai į adresą, atitinkantį įrenginį, gali turėti pašalinių efektų: pavyzdžiui, išsiunčiamas simbolis UART sąsaja. Tuo tarpu veiksmai su pagrindine atmintimi pašalinių efektų nesukelia.
 
+%TODO: reiktu paieskoti saltinio, bet lygtais is GCC klaidu sita radau
 Linux paleidimui be bazinės RV64I architektūros reikalingas atominių operacijų (\texttt{A}) plėtinys, daugybos ir dalybos (\texttt{M}) plėtinys, CSR valdymo (\texttt{Zicsr}) plėtinys ir instrukcijų sinchronizacijos (\texttt{Zifencei}) plėtinys.
 
 \subsubsection{Priveligijuota architektūra}
