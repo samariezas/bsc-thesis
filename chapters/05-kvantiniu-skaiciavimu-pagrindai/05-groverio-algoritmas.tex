@@ -23,6 +23,4 @@ Vienas oracle ir difuzijos operatoriaus pritaikymas sudaro vieną Groverio itera
     k \approx \frac{\pi}{4}\sqrt{N}.
 \end{equation}
 
-Ši formulė matoma ir darbo programoje \texttt{grover.c}: iteracijų skaičius apskaičiuojamas kaip \texttt{pi/4*sqrt(1 << qpu\_getregwidth(reg))}. Kadangi rezultatas priskiriamas sveikajam skaičiui, gaunama apytikslė, žemyn suapvalinta iteracijų reikšmė.
-
 Po iteracijų registras matuojamas arba analizuojamos jo amplitudės. Idealiu atveju pažymėtos būsenos tikimybė tampa didelė, todėl matavimas dažniausiai grąžina ieškomą elementą. Ši savybė daro Groverio algoritmą tinkamą šiam darbui: jis pakankamai mažas, kad būtų realizuojamas kaip vartotojo erdvės programa, bet kartu naudoja kelis svarbius kvantinius veiksmus -- superpoziciją, oracle, daugkartinę iteraciją ir tikimybių analizę.

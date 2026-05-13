@@ -13,6 +13,4 @@ Kadangi amplitudės yra kompleksiniai skaičiai, praktinėje realizacijoje jos d
     P(x) = a^2 + b^2.
 \end{equation}
 
-Darbe realizuotame QPU plėtinyje šis ryšys matomas per kelias instrukcijas. \texttt{Q.GETREGNODE} leidžia nuskaityti \texttt{libquantum} registro mazgą: bazinę būseną, realią amplitudės dalį ir menamą amplitudės dalį. \texttt{Q.PROB} iš realiosios ir menamosios dalių apskaičiuoja tikimybę. \texttt{Q.BMEASURE} atlieka vieno kubito matavimą ir pakeičia registro būseną pagal matavimo rezultatą.
-
 Groverio algoritmo pavyzdyje po iteracijų nuskaitomi registro mazgai ir ieškoma tokios būsenos, kuri sutampa su ieškoma reikšme. Kai tokia būsena randama, jos amplitudė paverčiama tikimybe ir išvedama vartotojui. Todėl eksperimento rezultatas nėra vien programos baigtis; svarbu ir tai, kokia tikimybė priskiriama ieškomai reikšmei.

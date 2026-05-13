@@ -15,5 +15,3 @@ Groverio algoritmo realizacijoje naudojami šie vartai:
     \item \textbf{CNOT vartai} -- dviejų kubitų vartai, kuriuose vienas kubitas yra kontrolinis, o kitas -- taikinys. Taikinys apverčiamas tik tada, kai kontrolinis kubitas yra būsenoje $1$.
     \item \textbf{Toffoli vartai} -- trijų kubitų vartai, dar vadinami kontroliuojamu kontroliuojamu NOT. Taikinys apverčiamas tik tada, kai abu kontroliniai kubitai yra $1$. Šis vartas naudojamas kelių sąlygų oracle ir difuzijos operatoriaus konstrukcijai.
 \end{itemize}
-
-Emuliatoriaus QPU plėtinys šiuos vartus pateikia kaip atskiras RISC-V specializuotas instrukcijas: \texttt{Q.SIGMAX}, \texttt{Q.HADAMARD}, \texttt{Q.CNOT} ir \texttt{Q.TOFFOLI}. Taip vartai tampa procesoriaus instrukcijų rinkinio dalimi, o vartotojo programa juos gali iškviesti per inline assembly.
