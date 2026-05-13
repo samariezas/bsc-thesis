@@ -1,14 +1,16 @@
-\subsection{CSR registrai, privilegijų režimai ir išimtys}
+\subsection{CSR}
 \label{sec:csr-ir-isimtys}
 
-Privilegijuotos architektūros realizacija sudaryta iš kelių dalių: privilegijų režimo būsenos, CSR registrų žemėlapio, pertraukimų parinkimo ir trap logikos. Palaikomi trys darbo režimai -- User, Supervisor ir Machine. Šių režimų pakanka OpenSBI, Linux branduolio ir vartotojo erdvės programų vykdymui.
+Privilegijuotos architektūros realizacija sudaryta iš kelių dalių: privilegijų režimo būsenos, CSR registrų žemėlapio, išimčių ir pertraukimų logikos. Palaikomi trys darbo režimai -- User, Supervisor ir Machine. Šių režimų pakanka OpenSBI, Linux branduolio ir vartotojo erdvės programų vykdymui.
 
-CSR prieiga realizuota per bendrą registrų žemėlapį. Kiekvienam palaikomam CSR registrui priskiriamas numeris, skaitymo kelias ir rašymo kelias. Tokiu būdu \texttt{CSRRW}, \texttt{CSRRS}, \texttt{CSRRC} bei jų immediate variantai naudoja bendrą CSR skaitymo ir rašymo mechanizmą. Prieš prieigą patikrinama CSR privilegijų klasė: jeigu dabartinio režimo kodas mažesnis už CSR adrese užkoduotą reikalavimą, prieiga atmetama.
+CSR prieiga realizuota per bendrą registrų žemėlapį. Kiekvienam palaikomam CSR registrui priskiriamas numeris, skaitymo kelias ir rašymo kelias. Tokiu būdu \texttt{CSRRW}, \texttt{CSRRS}, \texttt{CSRRC} bei jų \textit{immediate} variantai naudoja bendrą CSR skaitymo ir rašymo mechanizmą. Prieš prieigą patikrinama CSR privilegijų klasė: jeigu dabartinio režimo kodas mažesnis už CSR adrese užkoduotą reikalavimą, prieiga atmetama.
 
-Realizacijoje palaikomi Linux paleidimui svarbiausi CSR registrai: \texttt{mstatus}, \texttt{sstatus}, \texttt{mtvec}, \texttt{stvec}, \texttt{mepc}, \texttt{sepc}, \texttt{mcause}, \texttt{scause}, \texttt{mtval}, \texttt{stval}, \texttt{medeleg}, \texttt{mideleg}, \texttt{mie}, \texttt{mip}, \texttt{sie}, \texttt{sip}, \texttt{mscratch}, \texttt{sscratch}, \texttt{satp}, \texttt{mcounteren}, \texttt{scounteren}, \texttt{time} ir eksperimentinis \texttt{qpuctx}. Kai kurie registrai, pavyzdžiui \texttt{pmpcfg0}, \texttt{pmpaddr0}, \texttt{marchid} ar \texttt{mimpid}, realizuoti kaip stub'ai, nes Linux paleidimo metu jų pakanka tik skaityti arba rašyti be realaus poveikio.
+Realizacijoje palaikomi Linux paleidimui svarbiausi CSR registrai, matomi \ref{table:csr-laukai} lentelėje.
 
-Išimčių aptarnavimas vykdomas pagal RISC-V delegavimo taisykles. Jeigu išimtis kyla ne M režime ir atitinkamas bitas pažymėtas \texttt{medeleg}, ji perduodama S režimui; kitu atveju valdymas perduodamas M režimui. Perduodant valdymą į trap handler'į, emuliatorius įrašo \texttt{mepc}/\texttt{sepc}, \texttt{mcause}/\texttt{scause}, \texttt{mtval}/\texttt{stval}, išjungia atitinkamą pertraukimų leidimą ir pakeičia dabartinį privilegijų režimą.
+\input{chapters/03-realizacija/csr-laukai}
 
-Pertrauktys atnaujinamos iš įrenginių būsenos. CLINT nustato mašininio laikmačio pertrauktį, kai \texttt{mtime > mtimecmp}. PLIC gali nustatyti mašininę arba supervisor išorinę pertrauktį priklausomai nuo PLIC konteksto. Pertraukčių parinkimas atliekamas pagal paprastą prioritetų sąrašą, atskirai tikrinant, ar konkreti pertrauktis turi būti aptarnauta M ar S režime.
+\subsection{Privilegijų režimai ir išimtys}
 
-Svarbu, kad ši realizacija yra praktinis Linux paleidimui reikalingas poaibis, o ne visos privilegijuotos specifikacijos modelis \cite{riscv_privileged_isa}. Pavyzdžiui, \texttt{WFI} vykdomas kaip \texttt{nop}, \texttt{mstatus.MPRV}, \texttt{TVM}, \texttt{TW}, \texttt{TSR}, PMP, hiperprivilegijuotas režimas ir keli naujesni būsenos laukai nėra pilnai realizuoti. Šie ribojimai priimtini šiame darbe, nes paleidžiama vieno harto Linux sistema jų nenaudoja kaip būtinos funkcijos.
+Išimčių aptarnavimas vykdomas pagal RISC-V delegavimo taisykles. Jeigu išimtis kyla ne M režime ir atitinkamas bitas pažymėtas \texttt{medeleg}, ji perduodama S režimui; kitu atveju valdymas perduodamas M režimui. Perduodant valdymą į išimties apdorojimo funkciją, emuliatorius įrašo \texttt{mepc}/\texttt{sepc}, \texttt{mcause}/\texttt{scause}, \texttt{mtval}/\texttt{stval}, išjungia atitinkamą pertraukimų leidimą ir pakeičia dabartinį privilegijų režimą.
+
+Pertrauktys atnaujinamos iš įrenginių būsenos. CLINT nustato mašininio laikmačio pertrauktį, kai \texttt{mtime > mtimecmp}, o PLIC gali nustatyti mašininę arba supervisor išorinę pertrauktį priklausomai nuo PLIC konteksto. Pertraukčių parinkimas atliekamas pagal paprastą prioritetų sąrašą, atskirai tikrinant, ar konkreti pertrauktis turi būti aptarnauta M ar S režime.

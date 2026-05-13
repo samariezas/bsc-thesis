@@ -9,14 +9,22 @@ Vieno žingsnio seka yra tokia:
     \item atnaujinama įvesties/išvesties būsena, įskaitant laikmačio ir terminalo įvykius;
     \item pagal CLINT ir PLIC būseną nustatomi laukiančių pertraukimų bitai;
     \item pagal privilegijų režimą, \texttt{mstatus}, \texttt{mie}, \texttt{mip} ir delegavimo registrus parenkama aukščiausio prioriteto pertrauktis;
-    \item jei pertrauktis gali būti aptarnauta, valdymas nukreipiamas į M arba S režimo trap handler'į;
+    \item jei pertrauktis gali būti aptarnauta, valdymas nukreipiamas į M arba S režimo išimties apdorojimo funkciją;
     \item jei pertraukties nėra, iš atminties nuskaitoma 32 bitų instrukcija;
     \item instrukcija išskaidoma pagal \texttt{opcode}, \texttt{funct3} ir kitus laukus;
     \item surastas instrukcijos vykdymo kelias atlieka operaciją, o programos skaitiklis padidinamas keturiais baitais, jei instrukcija pati nepakeitė \texttt{pc}.
 \end{enumerate}
 
-Realizacijoje palaikomos RV64 bazinės instrukcijos, RV64 specifinės \texttt{W} operacijos, M plėtinio daugyba ir dalyba, A plėtinio atominės operacijos, privilegijuotos instrukcijos ir QPU instrukcijos. FPU ir suspaustų instrukcijų plėtinys neįgyvendinti, todėl emuliatorius nėra \texttt{rv64gc} aparatinės įrangos modelis, nors programinės įrangos grandinėje gali būti naudojamos platesnės ISA eilutės dėl Linux įrankių suderinamumo.
-
-Instrukcijų dekodavimui pagreitinti naudojama vidinė instrukcijų talpykla. Ji saugo jau dekoduotą instrukcijos vykdymo kelią ir pradinę instrukcijos reikšmę. Talpyklos raktas sudarytas iš programos skaitiklio ir privilegijų režimo, o įrašai invaliduojami po veiksmų, galinčių pakeisti instrukcijų matomumą arba adresų vertimą: \texttt{FENCE.I}, \texttt{SFENCE.VMA} ir \texttt{satp} rašymo. Tai nėra mikroarchitektūrinė cache simuliacija: ji nemodeliuoja realių cache linijų, koherentiškumo ar vėlinimų. Jos paskirtis yra sumažinti pasikartojančio dekodavimo kainą emuliatoriaus viduje.
+Realizacijoje palaikomos RV64 bazinės instrukcijos, RV64 specifinės \texttt{W} operacijos, M plėtinio daugyba ir dalyba, A plėtinio atominės operacijos, privilegijuotos instrukcijos ir QPU instrukcijos. FPU plėtinys nebuvo įgyvendintas, tačiau slenkančio kablelio operacijos emuliatoriuje gali būti įvykdomos \textit{soft float} ABI pagalba.
 
 Klaidos vykdymo metu perduodamos bendru išimčių keliu. Kiekviena klaida turi RISC-V priežasties kodą ir, kai reikia, papildomą reikšmę, įrašomą į \texttt{mtval} arba \texttt{stval}. Ta pati schema naudojama instrukcijos dekodavimo klaidoms, atminties prieigoms, adresų vertimui ir QPU operacijoms.
+
+\subsection{Instrukcijų talpykla}
+% TODO: galbut reiktu irodymo kad array buvo greitesnis uz hashmap (extra tyrimas)
+
+Instrukcijų dekodavimui pagreitinti naudojama vidinė instrukcijų talpykla (angl. \textit{cache}). Ji saugo jau dekoduotą instrukcijos vykdymo kelią ir pradinę instrukcijos reikšmę. Talpyklos raktas sudarytas iš programos skaitiklio ir privilegijų režimo, o įrašai invaliduojami po veiksmų, galinčių pakeisti instrukcijų matomumą arba adresų vertimą: \texttt{FENCE.I}, \texttt{SFENCE.VMA} ir \texttt{satp} rašymo.
+
+Buvo realizuotos dvi talpyklos versijos: standartinės bibliotekos maišos lentelė ir specializuota masyvu pagrįsta struktūra. Masyvu pagrįstoje realizacijoje indeksui gauti naudojama liekanos operacija: $\texttt{indeksas} = \texttt{pc} \bmod N$, čia $N$ yra talpyklos masyvo dydis. Talpyklos dydžiui pasirinktas pirminis skaičius, kad adresai tolygiau pasiskirstytų tarp masyvo elementų ir sumažėtų kolizijų tikimybė. Praktinių matavimų metu masyvu pagrįsta realizacija pasirodė šiek tiek spartesnė, todėl galutinėje emuliatoriaus versijoje pasirinktas būtent šis variantas.
+
+Kiekvienas įrašas turi ne tik instrukcijos adresą ir vykdymo informaciją, bet ir kartos numerį (angl. \textit{generation}). Invaliduojant talpyklą nėra išvalomi visi įrašai -- vietoje to padidinamas globalus kartos numeris. Įrašas laikomas galiojančiu tik tada, jei jo kartos numeris sutampa su dabartine talpyklos karta. Toks metodas leidžia atlikti talpyklos invalidavimą pastoviu laiku, nepriklausomai nuo talpyklos dydžio. Ši realizacija taip pat nenaudoja pilno kolizijų sprendimo mechanizmo. Jei keli skirtingi adresai patenka į tą pačią talpyklos vietą, naujas įrašas tiesiog perrašo senąjį. Blogiausiu atveju įvyksta papildomas instrukcijos dekodavimas ir talpyklos įrašo perrašymas.
+

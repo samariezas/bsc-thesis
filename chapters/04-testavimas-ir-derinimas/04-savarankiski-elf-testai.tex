@@ -15,4 +15,4 @@ Testai apima šiuos atvejus:
 
 Testo sėkmė ir nesėkmė perduodama per \texttt{tohost} mechanizmą, apibrėžtą oficialiuose RISC-V testuose. Papildomai testai rašo diagnostinę informaciją į UART adresą \texttt{0x10000000}, todėl galima matyti, kuriame žingsnyje įvyko klaida ir kokios CSR reikšmės buvo tuo metu.
 
-Šie savarankiški testai buvo naudingi todėl, kad jie tikrina ne vien instrukcijų rezultatą, bet ir visą trap kelią: privilegijos režimo pakeitimą, \texttt{mcause}/\texttt{scause} nustatymą, \texttt{mepc}/\texttt{sepc} grįžimo adresus ir trap handlerio pakartotinį įėjimą į C testų ciklą. Būtent šios dalys yra kritinės prieš pereinant prie Linux paleidimo.
+Šie savarankiški testai buvo naudingi todėl, kad jie tikrina ne vien instrukcijų rezultatą, bet ir visą išimties apdorojimo kelią: privilegijos režimo pakeitimą, \texttt{mcause}/\texttt{scause} nustatymą, \texttt{mepc}/\texttt{sepc} grįžimo adresus ir išimties apdorojimo funkcijos pakartotinį įėjimą į C testų ciklą.

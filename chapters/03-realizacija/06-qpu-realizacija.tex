@@ -5,12 +5,10 @@ QPU posistemė įgyvendina projektavimo dalyje aprašytą konteksto ir kvantini�
 
 Kiekvienas QPU kontekstas saugo kvantinių registrų sąrašą. Registrų būsena realizuojama naudojant \texttt{libquantum} biblioteką: naujas registras sukuriamas per bibliotekos registro sukūrimo operaciją, vartai deleguojami atitinkamoms bibliotekos funkcijoms, o kontekstą išlaisvinant sunaikinami visi jam priklausantys registrai. RISC-V QPU instrukcijų vykdymo kelias tik išskaito operandus iš bendrųjų registrų, patikrina aktyvų kontekstą ir perduoda operaciją QPU posistemei.
 
+% TODO: aprasyt instrukciju argumentus
 QPU instrukcijų semantika susieta su šiomis operacijomis:
-
 \begin{table}[h]
     \centering
-    \caption{QPU instrukcijų realizacijos ryšys su kvantinės simuliacijos operacijomis}
-    \label{tab:qpu-realizacijos-rysys}
     \begin{tabular}{|l|l|}
         \hline
         \textbf{Instrukcija} & \textbf{Realizuojama operacija} \\
@@ -38,10 +36,12 @@ QPU instrukcijų semantika susieta su šiomis operacijomis:
         \texttt{Q.GETREGNODE} & registro būsenos ir amplitudės nuskaitymas pagal indeksą \\
         \hline
     \end{tabular}
+    \caption{QPU instrukcijų realizacijos ryšys su kvantinės simuliacijos operacijomis}
+    \label{tab:qpu-realizacijos-rysys}
 \end{table}
 
-Kai kurioms operacijoms reikalingas tarpinis C sluoksnis. Pavyzdžiui, tikimybės skaičiavimui patogiau perduoti realią ir menamą amplitudės dalį kaip paprastas slankiojo kablelio reikšmes, o registro mazgo nuskaitymui reikia ištraukti būseną ir amplitudės dalis iš bibliotekos vidinių duomenų. Taip išvengiama tiesioginio darbo su C kompleksiniais tipais iš Zig pusės.
+Kai kurioms operacijoms reikalingas tarpinis C sluoksnis. Kadangi Zig nepalaiko sąveikos su C kompleksiniais skaičiais, kai kurioms \texttt{libquantum} operacijoms reikalingas papildomas sluoksnis kuris priima realią ir menamą amplitudės dalį kaip paprastas slankiojo kablelio reikšmes.
 
-QPU instrukcijų operandų išdėstymas iš esmės atitinka R tipo instrukcijų laukus, tačiau kai kurioms operacijoms prireikė papildomų konvencijų. Pavyzdžiui, \texttt{Q.TOFFOLI} turi tris kubitų argumentus ir registro rankeną, todėl antras kontrolinis kubitas perduodamas per sutartą papildomą bendrosios paskirties registrą. \texttt{Q.GETREGNODE} taip pat naudoja papildomus įvesties registrus, o rezultatą grąžina per kelis išvesties registrus. Vartotojo programoje šios instrukcijos įterpiamos per assemblerio \texttt{.insn r} sintaksę.
+QPU instrukcijų operandų išdėstymas iš esmės atitinka R tipo instrukcijų laukus, tačiau kai kurioms operacijoms prireikė papildomų konvencijų. Pavyzdžiui, \texttt{Q.TOFFOLI} turi tris kubitų argumentus ir registro rankeną, todėl antras kontrolinis kubitas perduodamas per sutartą papildomą bendrosios paskirties registrą. \texttt{Q.GETREGNODE} taip pat naudoja papildomus įvesties registrus, o rezultatą grąžina per kelis išvesties registrus. Vartotojo programoje šios instrukcijos įterpiamos per assemblerio \texttt{.insn r} sintaksę, kuri užtikrina kad papildomų įvesties registrų būsena bus užsaugoma.
 
 Klaidos QPU posistemėje paprastai paverčiamos \texttt{IllegalInstruction} išimtimi. Taip daroma, jeigu aktyvus kontekstas neegzistuoja, registro rankena neteisinga arba konkreti operacija neįgyvendinta. \texttt{Q.NEWCTX} ir \texttt{Q.FREECTX} papildomai reikalauja bent Supervisor privilegijų, nes šios operacijos skirtos branduolio konteksto valdymui. Vartotojo programos paprastai vykdo ne konteksto kūrimą, o jau įjungtame kontekste esančias registro ir vartų operacijas.

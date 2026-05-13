@@ -9,4 +9,4 @@ OpenSBI surenkamas generinei RISC-V platformai, naudojant \texttt{rv64ima\_zicsr
 
 Linux branduolys surenkamas su minimalia konfigūracija ir darbo QPU pataisa. Surinkimo metu naudojama RISC-V architektūra ir \texttt{riscv64-unknown-linux-musl} kryžminė įrankių grandinė. Į rezultatą įtraukiamas paleidžiamas branduolio vaizdas ir simboliais papildytas failas, kurį galima naudoti derinimui.
 
-DTB failas nėra laikomas statiniu artefaktu. Prieš paleidimą jis sugeneruojamas pagal faktinį initramfs failo dydį, kad \texttt{linux,initrd-end} reikšmė atitiktų naują archyvą. Šis sprendimas svarbus, nes Linux branduolys initramfs ribas gauna per DTB \texttt{chosen} mazgą.
+DTB failas nėra laikomas statiniu artefaktu. Prieš paleidimą jis sugeneruojamas pagal faktinį initramfs failo dydį.

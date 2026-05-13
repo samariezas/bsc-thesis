@@ -1,0 +1,69 @@
+\begin{longtable}{|p{0.25\textwidth}|p{0.75\textwidth}|}
+    \hline
+    \textbf{Lauko pavadinimas} & \textbf{Paskirtis} \\
+    \hline
+
+    \texttt{mtvec.BASE} & M režimo išimčių apdorojimo adreso bazė. \\
+    \hline
+    \texttt{mtvec.MODE} & M režimo išimčių apdorojimo metodas: tiesioginis arba vektorizuotas. \\
+    \hline
+    \texttt{stvec.BASE} & S režimo išimčių apdorojimo adreso bazė. \\
+    \hline
+    \texttt{stvec.MODE} & S režimo išimčių apdorojimo metodas: tiesioginis arba vektorizuotas. \\
+    \hline
+
+    \texttt{mepc} & Programos skaitiklio reikšmė, prie kurios reikia grįžti po \texttt{mret} instrukcijos. \\
+    \hline
+    \texttt{mcause} & M režime apdorojamos išimties priežastis. \\
+    \hline
+    \texttt{mtval} & Papildoma reikšmė, susijusi su M režimo išimtimi. \\
+    \hline
+    \texttt{sepc} & Programos skaitiklio reikšmė, prie kurios reikia grįžti po \texttt{sret} instrukcijos.  \\
+    \hline
+    \texttt{scause} & S režime apdorojamos išimties priežastis. \\
+    \hline
+    \texttt{stval} & Papildoma reikšmė, susijusi su S režimo išimtimi. \\
+    \hline
+    \texttt{mstatus.MPP} & Ankstesnis privilegijų režimas prieš perėjimą į M. \\
+    \hline
+    \texttt{mstatus.SPP} & Ankstesnis privilegijų režimas prieš perėjimą į S. \\
+    \hline
+    \texttt{mstatus.MIE} & Globalus M režimo pertraukčių įjungimo bitas. \\
+    \hline
+    \texttt{sstatus.SIE}, \texttt{mstatus.SIE} & Globalus S režimo pertraukčių įjungimo bitas. \\
+    \hline
+    \texttt{mstatus.MPIE} & Ankstesnė \texttt{MIE} reikšmė prieš išimtį. \\
+    \hline
+    \texttt{sstatus.SPIE}, \texttt{mstatus.SPIE} & Saugo ankstesnę \texttt{SIE} reikšmę išimties apdorojimo metu. Vykdant \texttt{sret}, ši reikšmė atkuriama į \texttt{SIE}. \\
+    \hline
+    \texttt{mstatus.SUM}, \texttt{sstatus.SUM} & Ar S režimui leidžiama pasiekti vartotojo režimo puslapius. \\
+    \hline
+    \texttt{mstatus.MXR}, \texttt{sstatus.MXR} & Leidžia skaityti puslapius, kurie pažymėti kaip vykdomi, bet nepažymėti kaip skaitomi. \\
+    \hline
+    \texttt{medeleg} & Nurodo, kurios išimtys gali būti deleguojamos iš M režimo į S režimą. \\
+    \hline
+    \texttt{mideleg} & Nurodo, kurios pertrauktys gali būti deleguojamos iš M režimo į S režimą. \\
+    \hline
+    \texttt{mie} & Konkrečių pertraukčių šaltinių įjungimo bitus. \\
+    \hline
+    \texttt{mip} & Saugo laukiančių pertraukčių bitus. \\
+    \hline
+    \texttt{mcounteren} & Nurodo, kuriuos skaitiklius leidžiama skaityti S ir U privilegijų režimams. \\
+    \hline
+    \texttt{scounteren} & Nurodo, kuriuos skaitiklius leidžiama skaityti U režimui. \\
+    \hline
+    \texttt{mscratch} & M režimo programinei įrangai skirtas laikinas registras. \\
+    \hline
+    \texttt{sscratch} & M režimo programinei įrangai skirtas laikinas registras. \\
+    \hline
+
+    \texttt{satp.MODE} & Virtualių adresų vertimo režimas. \texttt{MODE = 0} reiškia išjungia vertimą, o \texttt{MODE = 8} įjungia \textit{Sv39} režimą. \\
+    \hline
+    \texttt{satp.ASID}  & Adresų erdvės identifikatorius. \\
+    \hline
+    \texttt{satp.PPN} & Fizinio puslapio numeris, nurodantis šakninės puslapių lentelės adresą. \\
+    \hline
+
+    \caption{Implementuoti CSR laukai.}
+    \label{table:csr-laukai}
+\end{longtable}
