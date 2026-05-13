@@ -13,6 +13,8 @@ Testai apima šiuos atvejus:
     \item \textbf{blogas atminties prieigas} -- atliekamas skaitymas ir rašymas į neteisingą adresą, kad būtų patikrinta magistralės klaidų ir RISC-V išimčių sąsaja.
 \end{itemize}
 
-Testo sėkmė ir nesėkmė perduodama per \texttt{tohost} mechanizmą, apibrėžtą oficialiuose RISC-V testuose. Papildomai testai rašo diagnostinę informaciją į UART adresą \texttt{0x10000000}, todėl galima matyti, kuriame žingsnyje įvyko klaida ir kokios CSR reikšmės buvo tuo metu.
+Testo sėkmė ir nesėkmė perduodama per \texttt{tohost} mechanizmą, apibrėžtą oficialiuose RISC-V testuose. Papildomai testai rašo diagnostinę informaciją į UART, todėl galima matyti, kuriame žingsnyje įvyko klaida ir kokios CSR reikšmės buvo tuo metu.
 
 Šie savarankiški testai buvo naudingi todėl, kad jie tikrina ne vien instrukcijų rezultatą, bet ir visą išimties apdorojimo kelią: privilegijos režimo pakeitimą, \texttt{mcause}/\texttt{scause} nustatymą, \texttt{mepc}/\texttt{sepc} grįžimo adresus ir išimties apdorojimo funkcijos pakartotinį įėjimą į C testų ciklą.
+
+% TODO: GETPRIV, CSRR_DEBUG

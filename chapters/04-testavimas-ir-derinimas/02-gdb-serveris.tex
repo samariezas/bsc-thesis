@@ -3,6 +3,7 @@
 
 GDB serveris veikia per UNIX \texttt{SOCK\_STREAM} lizdą. Paleidimo metu, jeigu vartotojas pateikia lizdo kelią, emuliatorius laukia GDB kliento prisijungimo, o procesoriaus vykdymas pradedamas sustabdytoje būsenoje. Tai leidžia prisijungti prie emuliatoriaus prieš pradedant vykdyti OpenSBI instrukcijas.
 
+% TODO: lentele komandoms?
 Serveris palaiko tik darbo metu reikalingą Remote Serial Protocol komandų poaibį: \texttt{qSupported}, \texttt{vCont?}, \texttt{vCont}, \texttt{c}, \texttt{g}, \texttt{m}, \texttt{Z1}/\texttt{z1}, \texttt{?} ir \texttt{qRcmd}. Programinės pertraukos \texttt{Z0} sąmoningai neįgyvendintos, nes breakpoints laikomi emuliatoriaus pusėje kaip adresų sąrašas, o ne įrašant \texttt{EBREAK} instrukcijas į svečio atmintį. Tai supaprastina derinimą Linux aplinkoje, nes nereikia modifikuoti emuliuojamos atminties.
 
 Registrų perdavimas vykdomas per \texttt{g} komandą: iš procesoriaus paimami 32 bendrieji registrai ir programos skaitiklis, o rezultatas siunčiamas kaip heksadecimalinė baitų seka. Atminties skaitymas realizuotas per \texttt{m} komandą. Jeigu emuliatorius negali perskaityti viso prašomo intervalo dėl adresų vertimo ar magistralės klaidos, grąžinama tiek baitų, kiek pavyko nuskaityti.
