@@ -1,0 +1,2500 @@
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74001395
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73457745
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73143471
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72794769
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72882921
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73426336
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72971889
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72843691
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73603573
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73271527
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73235880
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72983981
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72908158
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73141000
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72951768
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72959339
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73341999
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72893622
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72856571
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73301412
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72793771
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72849154
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73393658
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72751433
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72790990
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73433711
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72957885
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72960570
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73119169
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72864151
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72986771
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73190972
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72914482
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73234632
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72891607
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72873706
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73163396
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73495945
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73068571
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73272371
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72781242
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72845064
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73513906
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72833178
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72813245
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73484622
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72837347
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73283904
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73201992
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72935434
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73154936
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73021311
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72857602
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73105917
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72872171
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73048793
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73214997
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72777445
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72900111
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73385194
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72831713
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72964606
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73352694
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72839370
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73094628
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73163034
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72850939
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73119348
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73032831
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73092032
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73366757
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72894380
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73224057
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73218975
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72837694
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72947560
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73275836
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72738517
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72828318
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73536297
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72832058
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72896348
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73536832
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72884587
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72907817
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73235000
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72873398
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73073424
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72818478
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72960561
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73074769
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72717469
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73059853
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73411182
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72819976
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73113567
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73222527
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72946089
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72821141
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73475875
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73044258
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72857166
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73295729
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72785465
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73275967
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72922075
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72818951
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73178781
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72783760
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73112788
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73161681
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72779737
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72939637
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73443464
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72704087
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73640828
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 77547134
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72885035
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 75760701
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74718168
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72871916
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 77365023
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73039749
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72999817
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 77598156
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73000609
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72842436
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 77519778
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72906416
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72784797
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 77506515
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72927420
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73742950
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 76892965
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 72859603
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 77548158
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73508129
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73391979
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73612617
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73372333
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73369228
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73915945
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73300275
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73092169
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73743988
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73314712
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73380332
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73407902
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73320793
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73692415
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73764982
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73276177
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73909915
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73369062
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73229047
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73525285
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73375511
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73449999
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73815943
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73451993
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73575969
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74182666
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73444029
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73450211
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73721194
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73473913
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73273711
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73503874
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73290227
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73741297
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73425086
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73249273
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73734766
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73266116
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73202693
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73716580
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73247796
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73329751
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73986204
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73417590
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73343823
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73784310
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73532189
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73510108
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73209628
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73323237
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73654635
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73427024
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73232284
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73714597
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73434586
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73406784
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73744926
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73357608
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73200477
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73823074
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73191329
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73347503
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73680870
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73692748
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73649956
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73552807
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73376560
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73761923
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73431913
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73407282
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74271268
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73381970
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73347070
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73951654
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73378371
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73394690
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73815637
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73375951
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73543502
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73943435
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73578930
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73876673
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73540881
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73700673
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73849214
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73582541
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73475039
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73867450
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73399969
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73528159
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74065338
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 77180322
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73684740
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73771560
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73304536
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73574552
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73868353
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73673366
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73848119
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73720817
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73326108
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73789632
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73191204
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73537996
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73931056
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73335467
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73584523
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73956113
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73570886
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73730934
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73616018
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73333663
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73396004
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73616893
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73276787
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73736870
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73320563
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73341090
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73969554
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73374771
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73187989
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73990752
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73264129
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73654330
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73771519
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73427673
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73700483
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73499625
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73312625
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73629973
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73362729
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73257991
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73814963
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73428327
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73349245
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73742486
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73583838
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73310665
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74276291
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73416583
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73596397
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74336757
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73474751
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73656854
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73725690
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74351790
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74157786
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73421136
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73282256
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73756428
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73279059
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73455842
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73759021
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73396947
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73489034
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73763804
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73269850
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73273709
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73509633
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73371938
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73822488
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73774827
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73439934
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74106152
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73453539
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73437992
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74084277
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73239485
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73457147
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74159631
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73466810
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73432458
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73736363
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73549879
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73697506
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73717724
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73468333
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73733419
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73609742
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73640921
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73866999
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73434724
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73683132
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74090139
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73354700
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73383914
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73837151
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73344825
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73645307
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73825525
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73492222
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73507334
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73500749
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73576661
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73779324
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73329889
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73335097
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73710247
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73278214
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73635925
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73924955
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73259980
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73381043
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73877036
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73599508
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73608930
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74155576
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73465013
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73906753
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73779282
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73581906
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73940401
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73369557
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73509193
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73715133
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73292210
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73566490
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73917056
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73438308
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73598049
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73735228
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73327472
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73581434
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73718797
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73145896
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73413296
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73800816
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73338142
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73817947
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73810400
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73351241
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 75421409
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73248270
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73524899
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73799966
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73600560
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73623809
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73703337
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73582013
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73555922
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73585721
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73399713
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73500956
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73561528
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73388343
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73917412
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73513130
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73284368
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73836523
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73581909
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73447026
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73845645
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73282224
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73634745
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73735936
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73357046
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73609080
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73601304
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73506135
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73712123
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73862464
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73225847
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73854159
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73446224
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73292964
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73723803
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73356534
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73161141
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73790510
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73398699
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73569543
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73572684
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73441762
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73441035
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73972369
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73215377
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73782630
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73585841
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73318295
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73847035
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73348834
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73020708
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73713755
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73358756
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73279715
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73840042
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73333693
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73278565
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73571156
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73320883
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73478998
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73685920
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73247405
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73739201
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73425308
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73195690
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73761818
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73345580
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73191100
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73914709
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73294609
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73173090
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73764536
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73444839
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73258160
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73501831
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73436935
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73415175
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73545991
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73328937
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73501602
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73263128
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73202497
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73543875
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73561072
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73310929
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73983118
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73320622
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73123430
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 74018858
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73207621
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73292448
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73563093
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73151722
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73269679
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73305446
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73325567
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73513520
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73230523
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73485632
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73624966
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73235525
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73122155
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73577736
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73097200
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73103977
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73690846
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73291481
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73104332
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73708151
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73235241
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73579689
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73767510
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73516782
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73490744
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73351713
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73437634
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73555444
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73272795
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73169998
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73718499
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73214339
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73269862
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73727446
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73160707
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73174935
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73840700
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73240251
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73637301
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73342777
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73118830
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73693827
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73602028
+Iterating 50 times
+
+Found 128 with a probability of 0.999945
+
+Time taken: 73361727

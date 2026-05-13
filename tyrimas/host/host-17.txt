@@ -1,0 +1,2500 @@
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16230639800
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16243372051
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16248999525
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16285112485
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16322286830
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16316732669
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16428014143
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16403578642
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16315992944
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16220966640
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16327937876
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16459802216
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16444093777
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16425979741
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16434149924
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16427204436
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16424146640
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16620244870
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627650050
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627356476
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16630536767
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16629847367
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16641523902
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16268189423
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16211069733
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16216838087
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16197499043
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16333091142
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16343593139
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16406670889
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16333383056
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16323522370
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16333311748
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16330414346
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16334487431
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16328927528
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16339301865
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16421672264
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16423489672
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16434723392
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16364500249
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16218828570
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16214136615
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16228715657
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16245183912
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16256277659
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16250784753
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16253416528
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16253789092
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16245782225
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16215057701
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16219204176
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16217537761
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16214952219
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16211183105
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16218486134
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16243162163
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16227982187
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16189378891
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16186222229
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16238536214
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16110968203
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16116428689
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16140292618
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16132988595
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16142225464
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16116849508
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16114403843
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16121373567
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16113478625
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16171508380
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16338421281
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16340381355
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16462700325
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16489700332
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16487112171
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16415572634
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16405407144
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16404994162
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16407679043
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16403361863
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16404965834
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16404788249
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16403663781
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16441200354
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16510657718
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16490834775
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16461466110
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16504356479
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16498199365
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16498614169
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16497865388
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16508456901
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16515747978
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16521810031
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16518398759
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16517839702
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16511715878
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16521036922
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16609629028
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16541082817
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16460146225
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16303932052
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16203443856
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16207057041
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16216203594
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16254131340
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16251328840
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16255555426
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16304126698
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16320805522
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16326978371
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16389368670
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16326825799
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16309327199
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16309843141
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16315372176
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16324055497
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16315670892
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16359098692
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16418594090
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16354281915
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16445077955
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16361472283
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16347323562
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16436914623
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16517621610
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16396367387
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16379315152
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16363843787
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16372861636
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16377779058
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16372354541
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16362945929
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16398703314
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16362912687
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16378407584
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16381778639
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16336087479
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16434902982
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16401671958
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16393042036
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16348916827
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16348258980
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16349148066
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16335321360
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16321023837
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16467197130
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16256370691
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16306920508
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16331754847
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16344928443
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16342237681
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16345940234
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16330723616
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16324158007
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16314033097
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16321118668
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16319493912
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16319622210
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16381354774
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16477598315
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16364003323
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16280645763
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16596893242
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16601214143
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16442644491
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16412607776
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16423813146
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16416570831
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16421854287
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16342626284
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16317117150
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16314609699
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16328137575
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16320506064
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16312434698
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16305837589
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16444945531
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16445755500
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16425202764
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16432938064
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16379512515
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16317611820
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16330634700
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16310301592
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16274224918
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16284751924
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16390363703
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16396571245
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16387738169
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16415683089
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16454917246
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16469690889
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16461999682
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16423123376
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16269424235
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16269381386
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16266740584
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16269265661
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16270816534
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16273690697
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16275930575
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16279463075
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16266333522
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16276060812
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16281903308
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16367148688
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16313669054
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16354112526
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16443965234
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16417912298
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16414044188
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16424464414
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16472208289
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16267182371
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16267228994
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16264968457
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16262998130
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16268442857
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16263690668
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16280340403
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16343723698
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16460004797
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16370649729
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16381431773
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16470207248
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16371833786
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16420420933
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16403648091
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16316768829
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16279370136
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16282024732
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16282362291
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16290853764
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16299322770
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16287764971
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16282148675
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16289770115
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16284869224
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16285276588
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16285053980
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16298200873
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16288666895
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16273619269
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16241688876
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16264935182
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16260829416
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16315431319
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16312293462
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16316434984
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16337792335
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16320554787
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16321086930
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16314075465
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16323033238
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16318948731
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16321059104
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16317929059
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16301823868
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16299509012
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16301350135
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16327033560
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16452324468
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16409805547
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16289938791
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16289119128
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16291884498
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16282967558
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16273318826
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16251918557
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16284139446
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16334054829
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16289382493
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16305746913
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16310473624
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16350896789
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16344918278
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16345162274
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16309040069
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16314914437
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16333870777
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16352969772
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16327480007
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16348307909
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16303572099
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16306389200
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16330503184
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16346616714
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16322913189
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16312720481
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16314746476
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16283699007
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16278029213
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16203737014
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16192376458
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16205897541
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16249956716
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16222541236
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16215649796
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16319021708
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16496575990
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16358289570
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16398377344
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16370979720
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16306067627
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16294346572
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16281683779
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16286824137
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16290303388
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16286991506
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16336714741
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16362385214
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16351551719
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16344188029
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16269545508
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16343261137
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16405411083
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16400991175
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16401720032
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16406700274
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16393339933
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16485994764
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16488773862
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16490662309
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16446465970
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16463772554
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16462701297
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16476299673
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16479546806
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16457013417
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16476844834
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16448242765
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16347130629
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16353273632
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16355279136
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16352866037
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16348427176
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16363628081
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16353817274
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16414570063
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16515290277
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16467569761
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16442997306
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16437828013
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16461460992
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16488404423
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16351856332
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16384282430
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16453557561
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16413564207
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16352920513
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16359588593
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16338486765
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16375951723
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16295701523
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16311350448
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16328461113
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16331793855
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16335683573
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16398444795
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16412910390
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16465590416
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16571745507
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16572014353
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16576282661
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16575463889
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16412111219
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16351081918
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16706023905
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16597830401
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16410111076
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16524305115
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16420020668
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16421404984
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16406149142
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16413563072
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16416002889
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16398116921
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16382581009
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16397054908
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16385125231
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16388659787
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16426120561
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16397082089
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16433084981
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16441290708
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16445258132
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16440019653
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16443685619
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16443400365
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16445480899
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16463967508
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16413634577
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16422332599
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16421370670
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16421991789
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16412070937
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16503044085
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16549835187
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16503583171
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16337326967
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16333768757
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16337130254
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16325617559
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16358422065
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16469394883
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16491403170
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16486049765
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16479961667
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16476546502
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16477262945
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16493230250
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16514506792
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16519411089
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16517674104
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16520960077
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16501175881
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16462902811
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16422044156
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16552153242
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16491630605
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16476140910
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16557638079
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16460703871
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16470938899
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16463862724
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16464501813
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16460461465
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16464737704
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16462545977
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16471110469
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16483477657
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16493935976
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16495202756
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16541501267
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16480392306
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16476424316
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16479496868
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16491015130
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16489956511
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16492573853
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16487361282
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16548653562
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16554290859
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16545427764
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16552144766
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16544554230
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16486931631
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16434587884
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16440092090
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16434714718
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16440959851
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16436468831
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16458592815
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16520837272
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16560440419
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16548919933
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16536429750
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16553616170
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16643528005
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16635538485
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16607932156
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16405720352
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16553464547
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16602222353
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16643241382
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16514934597
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16521379207
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16448540208
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16483428823
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16500526013
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16450027166
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16462240647
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16521403544
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16425111491
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16497394571
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16502920911
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16432336880
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16437262349
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16440567175
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16456419717
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16459013028
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16463508904
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16463557062
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16457636807
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16465029858
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16460497925
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16468198313
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16457867027
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16458578664
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16456753079
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16223359460
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16203327690
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16210523957
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16195285904
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16181548790
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16226865328
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16316274171
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16304439252

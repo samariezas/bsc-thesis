@@ -1,0 +1,2500 @@
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 202647910
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200087958
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200048642
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199378180
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199598513
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199522075
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199442288
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199562635
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199575041
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199672276
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199758421
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199396792
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199611728
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199588148
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199446765
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199515026
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199487138
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199509415
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199385975
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199443506
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199178296
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200003056
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199454958
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199604264
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199364449
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199740668
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199564108
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199731437
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199861981
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199810586
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199463256
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199635569
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199555695
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199376521
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199515091
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199719607
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199752468
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199668853
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199538076
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199367107
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199278725
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199958009
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204801428
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199863370
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199426819
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199660746
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199775181
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199558790
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199585522
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199499656
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199804481
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199753089
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199622012
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199583099
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199408851
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199589342
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199586829
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199481711
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199454523
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199510731
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199764025
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199881354
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199791973
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199651955
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199800489
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199660164
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199504193
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200073883
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199869511
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199852092
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199352331
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199248471
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199370303
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199716968
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199669317
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200024686
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199590182
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199511546
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199636235
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199716024
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199455086
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199490850
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199736735
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200271338
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199804592
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199467276
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199554697
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199743956
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199922783
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199298977
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199758542
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199618077
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199727636
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204422788
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 202140617
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200248530
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199154810
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199409497
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198962618
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199252210
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199589298
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199247673
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199591845
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199124972
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 203602229
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199511251
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200216861
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200059703
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199886506
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200104283
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199970027
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200030037
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199947796
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199843639
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199980921
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200142340
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200090921
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200465151
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200065191
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200027898
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200069246
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199907320
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199778619
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199691361
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199992764
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200062355
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200299964
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199837150
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199924083
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199961627
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199893600
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204319291
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204751691
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204427547
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204303592
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204299410
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204501952
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204428635
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199949496
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199942633
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200064090
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200198684
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200420412
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199953412
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199927380
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200035144
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204473632
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204070659
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204339835
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204339737
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199954751
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199646385
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199810295
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199606943
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199566903
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199783139
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199838762
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199776596
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199361833
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199533950
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199779183
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200096091
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199728886
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 202903127
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204283932
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 203992094
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199833661
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199931094
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199819787
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204067408
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204352685
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204078766
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204393775
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204175532
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204389616
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204345672
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204477054
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199597247
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199779482
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199785192
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199519715
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200043712
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199688055
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204014713
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199891149
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199692107
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199209369
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199403575
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199296600
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199804020
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199431119
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199336050
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199909563
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199387418
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199442530
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199339557
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199387812
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199461770
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199306786
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199561657
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199444196
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199598089
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199440886
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199424515
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199155571
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199500229
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199211066
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199396030
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199329066
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199703034
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199249812
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199264468
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199485485
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199274439
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199218252
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199623703
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199132498
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199693352
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199394065
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199329038
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199541879
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199420148
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199463014
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199198899
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199473985
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199915354
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199148531
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199309005
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199254739
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199241407
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199040800
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199375082
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198924853
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199300488
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198991124
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199324923
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199511943
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199174042
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199454098
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199181334
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199373803
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199390441
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199988735
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199541555
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199149078
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198728083
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199339322
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199064282
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199119755
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199221430
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199186120
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199661321
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199147522
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199234510
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199062778
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198985901
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198906112
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199021777
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198985729
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199153576
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199376315
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199173795
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199144367
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 202012677
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198267098
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199314133
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198948372
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199313240
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199409530
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198836426
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 203710315
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204163799
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 203556256
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 201566056
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200415554
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200523271
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200492605
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200226391
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200336555
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200432669
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200391220
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200658932
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200392615
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200039856
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199848686
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200559471
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200274997
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200267983
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200469275
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200432649
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200171951
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200338870
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200576115
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200386414
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200464856
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200216346
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200477328
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200404109
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200471135
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200340147
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200591369
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200629231
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200447216
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200444711
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200194062
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200333958
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200554148
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200365171
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200162822
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200613528
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200116489
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200213876
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199963299
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 202924972
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200273811
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200336013
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 201484007
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200647822
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200267030
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199834569
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199948879
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200258895
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200022502
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199895401
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199897832
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200112358
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200122784
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200079899
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200060802
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199768253
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199855283
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200025951
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199944425
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200122838
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200026856
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200278980
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199974317
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199875903
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199845202
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199676726
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199747305
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200573930
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200194650
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200050504
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199838807
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199841187
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200184934
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199770722
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 204409146
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 202315098
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199489897
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 200379792
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199300863
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199277819
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199315687
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199198121
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199422793
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199232091
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199371724
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199131062
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199495295
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199452068
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199233427
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199126909
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198891384
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199451869
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198941264
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199642600
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199535812
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199379178
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199391170
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199415734
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199337577
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199094015
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199349339
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199798690
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199217030
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199351225
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199534322
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198877015
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199268445
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199328992
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199305793
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199268414
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199215145
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199267327
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199304029
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199229508
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199163386
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199391465
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199446238
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199240235
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199747209
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199526145
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199241836
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199287370
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199401801
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199362458
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199466767
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199378989
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199536620
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199500621
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199658109
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199275020
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199186846
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199370624
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199498823
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199080960
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199112164
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199177444
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199411329
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199221291
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198868068
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199410292
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199252770
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199237398
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199426409
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199250011
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199760246
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199372052
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199455799
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199242532
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199298111
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199332167
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199450842
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199361915
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199545763
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199427583
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198923997
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198922231
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199467190
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199529862
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199202217
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199252087
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199035398
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199130689
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198890135
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199527431
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199332627
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199000853
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199437204
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199029438
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199495504
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199796303
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199310479
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199093997
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199363653
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199276130
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199474198
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199210444
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199168429
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199364379
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199110750
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199395173
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199432316
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199299371
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199223600
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199261014
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199241744
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199445753
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198726736
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199419824
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199606473
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199253991
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199574779
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199510533
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199355909
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199447283
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199995976
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199626543
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199582582
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199276456
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199287140
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199326157
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199347955
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199167709
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199825782
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199490970
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199227504
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199207411
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199182185
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199282373
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199323394
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199436744
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 198866824
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199192857
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199573559
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199301465
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199388166
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199222843
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199154469
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199019182
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199289236
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199858459
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199153502
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199402373
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199886199
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199222330
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199501730
+Iterating 71 times
+
+Found 128 with a probability of 0.999916
+
+Time taken: 199535224
