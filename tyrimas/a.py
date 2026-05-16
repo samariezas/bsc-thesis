@@ -4,8 +4,8 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 
-GUEST_RESULTS = './guest-combined/'
-HOST_RESULTS = './host/'
+GUEST_RESULTS = './guest/'
+HOST_RESULTS = './host2/'
 NUMBER_FINDER = re.compile('[0-9]+')
 
 
@@ -34,19 +34,32 @@ def load_results(path):
     return retval
 
 
+def do_plot(ax, name, data, dev=None):
+    mean = np.mean(data)
+    if dev is None:
+        dev = np.std(data)
+    print(f'{name:10} | {mean:8.4f} | {np.std(data):14.10f} |')
+    ax.set_title(name)
+    ax.hist(data, bins=32, range=(mean - 2*dev, mean + 2*dev))
+
+
 if __name__ == '__main__':
     guest_results = load_results(GUEST_RESULTS)
     host_results = load_results(HOST_RESULTS)
-    for qbits in range(12, 17):
+    k1 = sorted(list(guest_results.keys()))
+    k2 = sorted(list(host_results.keys()))
+    assert k1 == k2
+    keys = k1
+
+    for qbits in keys:
         guest = np.array(guest_results[qbits], dtype=np.float64)
         host = np.array(host_results[qbits], dtype=np.float64)
-        arr = host
-        mean = np.mean(arr)
-        dev = np.std(arr)
-        print(arr)
-        print(mean, dev)
-        # plt.hist(arr, bins=32, range=(mean - 2*dev, mean + 2*dev))
-        plt.hist(arr, bins=64)
+
+        dev = max(np.std(guest), np.std(host))
+
+        print(f'diff: {np.mean(guest) / np.mean(host)}')
+
+        fig, (ax1, ax2) = plt.subplots(1, 2)
+        do_plot(ax1, f'host-{qbits}', host, dev=dev)
+        do_plot(ax2, f'guest-{qbits}', guest, dev=dev)
         plt.show()
-        # print(f'{np.std(guest)=}, {np.mean(guest)=}')
-        # print(f'{np.std(host)=}, {np.mean(host)=}')

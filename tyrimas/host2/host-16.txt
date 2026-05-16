@@ -1,0 +1,5000 @@
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5232902502
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224405238
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224807805
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224813849
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226170844
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224553804
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224744053
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224687684
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223324331
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5222950570
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224056387
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223423922
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223842358
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223891870
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5219056783
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212623856
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5214565474
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212413848
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212678409
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212630133
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212386488
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211655991
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211454047
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212807031
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212263448
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211961300
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211711625
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212752214
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211390154
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211819206
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211329746
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211676072
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212546017
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211994636
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212987627
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211852749
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211331781
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212813607
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211429287
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211934645
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211934784
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211742177
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211817395
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5213041382
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212339050
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212289119
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5213488683
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5221954204
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211781461
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212930469
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211708834
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212714854
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211590111
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5213406414
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211205294
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5210964229
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211239266
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212008360
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211820521
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211491196
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5213092862
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211272362
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212921185
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5213179141
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211684035
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212216397
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211493566
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5221955104
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5214299438
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212692158
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211649663
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212493048
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212682975
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212816266
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5213283337
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212278794
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211620241
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5211691725
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5210892049
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5213173137
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5212301759
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5218521574
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216956998
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173394670
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173102345
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174723260
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173762676
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172873330
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172451576
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173727263
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174003100
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5171508021
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174662154
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174214136
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173358773
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173383037
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174082741
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173419801
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173932986
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173247533
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173291781
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173063104
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172124461
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173217842
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172664754
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174502411
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173770304
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172216813
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174080024
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173602917
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175671691
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174975271
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173133324
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172826312
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5171805305
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172809881
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172825461
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174439014
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174981018
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173687602
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172484882
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174234310
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174694490
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174671978
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5171891071
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5171732017
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172822561
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175750089
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173929270
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172899520
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172587966
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173720149
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172336948
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172797956
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172805914
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5171114503
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172772689
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173870799
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172886062
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173381000
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172807634
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5170942418
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172605822
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173428296
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174699328
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173543461
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172235442
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5171216467
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172042191
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5171867516
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172261957
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174445508
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174236620
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172844344
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172264175
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173888604
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173700005
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175027927
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173618226
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173944206
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173482391
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175262626
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173197952
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174451981
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172697829
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172988854
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173459561
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5171699790
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173420784
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173588929
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172864631
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172124596
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172940861
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173419063
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172321685
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174122842
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172928575
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173384956
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174093730
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174996670
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172067564
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173062261
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172634377
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5171316007
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172092949
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173362285
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172026007
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173561997
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172827490
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173606397
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173384860
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172440642
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172624672
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172345559
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172863367
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173177528
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172723962
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173338502
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173622651
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173824033
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173573194
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174285702
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174087809
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175822500
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173387617
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174895418
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174687122
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174570002
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173521963
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5199515705
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173133635
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175892681
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173900574
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173669250
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173532610
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174943935
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172325857
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174036323
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174213125
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173556399
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175482484
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173750637
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174281582
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173585449
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175893320
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174799627
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173480257
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174483745
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173614505
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174196704
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173417143
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174038081
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174574668
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175237039
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176238476
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172558834
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174788259
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174867956
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174096814
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174855093
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172163311
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174330265
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173419444
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175543077
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174984302
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173250468
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175422490
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173736594
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174329600
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176463436
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174090149
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174741091
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172746548
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174693596
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174455301
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175040355
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172821612
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173732403
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172786710
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174261497
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173974757
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173229807
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173856474
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173172892
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174083762
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175442879
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172323668
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175084453
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173498836
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177238418
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175244206
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5179114439
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173988476
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173818217
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173800429
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173095892
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173391201
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5171668979
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173108881
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173821698
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174959449
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174782622
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174375502
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174767506
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175589317
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175442460
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175235513
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173947538
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173552282
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175086409
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175527915
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174725979
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174056679
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173729361
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174416780
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172819882
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173724888
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174280837
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174579771
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173122748
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173260243
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173765221
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174687381
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174860310
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175673060
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174837748
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174584338
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173709176
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173872918
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173947572
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173558336
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174873445
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174013877
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173192132
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175578785
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174394827
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173966836
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175595661
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173291974
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172501775
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174989970
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173586476
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172990093
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173614764
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175534573
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175622788
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175306691
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174894691
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175863915
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175073277
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173856207
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174940427
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174105344
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172505393
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176292399
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175222772
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172596547
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175028244
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174091021
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5172941840
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174430127
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174624438
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173535504
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174003831
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173325577
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176539033
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176808822
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177334034
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177852674
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175020750
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176327852
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176268185
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173861821
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175302010
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175871370
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176128087
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175859933
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175996476
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177292499
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177016265
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177425735
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175472946
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177214397
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176209345
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177314302
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177076890
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176398468
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176149933
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176582508
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176097589
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176599258
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176391671
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5178140939
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177233254
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176381497
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177559784
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177585036
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176840752
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175676797
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176068294
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177457471
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175460312
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176985590
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176433895
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176147248
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177272408
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5178279136
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176779678
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176032229
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177029202
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177723566
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176695144
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176747461
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175819278
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177870348
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177103725
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175981112
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176950854
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176984531
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175990913
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177294016
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175446180
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5178034842
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174589083
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176946457
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176804405
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5178035498
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176623741
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176871462
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176916383
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176923499
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174652136
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177413041
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177401902
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177262005
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177397908
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176724591
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175538974
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176628430
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177146414
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176794691
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5184436672
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176359745
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175588807
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176017388
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173798288
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175337116
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176895459
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174164894
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175876888
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176433487
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174904068
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174053771
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175402738
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175276004
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175188505
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174553593
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175041613
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174517839
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174114069
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175653826
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175041066
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176830890
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175494174
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176103536
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175184516
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176050767
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175762590
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174848475
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176651234
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175271655
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174730987
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175346228
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174440230
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175426198
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174297431
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175651690
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176156339
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174053426
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173552787
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174186623
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175043039
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175021790
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174998813
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176422644
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174372230
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175530062
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175096768
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175781484
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175673995
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176684813
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175018145
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175590146
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175524740
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175954201
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175362247
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175919979
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175721857
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174492887
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176421220
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176735846
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175500302
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176824535
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176172948
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176490131
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175150704
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174545797
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176591485
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176766622
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175264026
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177312432
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176560624
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175737079
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175265008
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177192992
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5181572927
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5179967700
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174737947
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177124588
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175282999
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175948719
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176984519
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175760007
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176042374
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176535342
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175274872
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176311165
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177559564
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5182100875
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175813343
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5178068053
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176039838
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175288044
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174231445
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173776272
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174793873
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175839503
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174352649
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175179816
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174751310
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174245028
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174297959
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176009657
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175356941
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173599289
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173971007
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176619090
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173136547
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175217887
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175264921
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174653617
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174132938
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173728432
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173627951
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174488110
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175864075
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175097920
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173994566
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175781414
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174719755
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174622830
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174575697
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174648714
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176438751
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173675813
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175848881
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175484127
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175566024
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175395835
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175299616
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175336258
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173794649
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173570341
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175994643
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176689404
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175804737
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175499941
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175429738
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174565127
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175728160
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175966622
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174002008
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176310229
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174792452
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174884725
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174046987
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173759580
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174656591
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174544641
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173886143
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175178314
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174151972
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174452849
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174793409
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174664119
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174799119
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174088889
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174939216
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173881551
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175100541
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176381903
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176122424
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174815478
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174972873
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176926476
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173399036
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173528246
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175824125
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175826070
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175373344
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173844068
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174242061
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176162990
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174168174
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174242312
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174221894
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174066715
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175836069
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174712385
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173553333
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173920070
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174506961
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174190559
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176290086
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174816311
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173122716
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174303560
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175192822
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173977392
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175479952
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173872803
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175386635
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174779059
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173133826
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176089029
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175008782
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175507449
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175876679
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173909954
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175186100
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174727520
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174486583
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174953085
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173612265
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174588107
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173248319
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174588641
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173976984
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174921326
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174747935
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5179059215
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177218800
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176408591
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177075043
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177683724
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175813007
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176040850
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175937166
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176917577
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176096572
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177530110
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176938430
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176128920
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176580408
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176763865
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176900253
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176427930
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176594743
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177214894
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177513500
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175945557
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176892569
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176502259
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177506193
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176956740
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175715259
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176736042
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176352861
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176184211
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176905568
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175646208
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177267618
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177235292
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175456965
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175820899
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175800666
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175215517
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176051282
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5178080937
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176213591
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177523803
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175894516
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175526371
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176380395
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176588121
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176316287
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177946939
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177042915
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177667392
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176843538
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177435831
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176173767
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177937211
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5168354903
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5163282687
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5161932668
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5162784304
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5163450793
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5163737483
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5162752001
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5163290799
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5162765674
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5163678595
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5162802089
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5167248133
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175578184
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175981896
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175080232
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174664470
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176320606
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175750302
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175828309
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175650101
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173325604
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175271455
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174534069
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175127632
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174072792
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174268145
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176091239
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174910062
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173875954
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176952461
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174949530
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174331457
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5173401117
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174570101
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175975647
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175940724
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177723664
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174432745
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176098781
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174761507
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176627898
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177715567
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177034166
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176356972
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176018671
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176388016
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177788334
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174860951
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5178268715
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176196822
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176391243
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176698458
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175055297
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177335362
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175460323
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176412372
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177027942
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176773137
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175462545
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176070538
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176887795
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176101466
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177101647
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5178413251
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176983111
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176002355
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177071363
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176061886
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176565448
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174790695
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177987452
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175222865
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175943801
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177223452
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175485763
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176290146
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176787492
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175954858
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175474390
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176045483
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176098004
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176134934
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5180399119
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176741534
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5178524446
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176278572
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176425040
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5174691601
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177727020
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5177455839
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175143215
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175396486
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176525113
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176141289
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5176543993
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5175736362
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5209028264
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224427154
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224528861
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224307165
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223973656
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226883911
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224813682
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227117111
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226639890
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226048300
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226944301
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226937512
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223511424
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5222435756
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223686740
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225243940
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225439383
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223439465
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223350512
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224508436
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224662452
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225011076
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224317347
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5222397385
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223144129
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223357101
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223811958
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224086097
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224792872
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5222888102
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225272382
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223958024
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224161264
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224397672
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225223329
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223951068
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224719549
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225536786
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225845481
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226075999
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223733381
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224181822
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223105621
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5222435405
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225187066
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223769468
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223464621
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223918425
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224088271
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224269036
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5223618384
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224605397
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225950575
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229062974
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229585770
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5230223489
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229158933
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229119006
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229879243
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229814101
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5230193100
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228076048
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228604864
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5230425746
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229556141
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229466004
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228986622
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5230918805
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229028657
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228753385
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228558483
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228938448
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229064499
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228896762
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228693746
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228786755
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5230456333
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227727665
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228578841
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227764601
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229514682
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228760822
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5230453951
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229031357
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228480604
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228419442
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227496580
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227000277
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226987499
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227033032
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227283896
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226816609
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226713654
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226962396
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225510212
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226137360
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226231713
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226362244
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225718717
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226897043
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226247513
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227382299
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227612789
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227196844
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225441941
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227465595
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226922274
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226544628
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228131755
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227806591
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227723790
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227359069
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5230007176
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229100632
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228977394
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228959058
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228314625
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227723984
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227860313
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228608461
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228893515
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226946827
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228867700
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228365816
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229402144
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228705785
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5250983910
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229644926
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227842796
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228775800
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228272542
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229005660
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5230477414
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227865247
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228673781
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228770516
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228015610
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229120180
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229381214
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228969776
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228376850
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227209562
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227055172
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227891702
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228464835
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228904880
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227684281
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228710088
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228158800
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228968160
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228599138
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5230009663
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228219621
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228349404
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229685543
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229223322
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227130845
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228255288
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227553724
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225925426
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227003240
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227881583
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224493187
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225781584
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228071438
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228853477
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228902629
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226479738
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228242211
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227096360
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5220177117
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5215965052
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216440633
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216051151
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5217849822
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216104226
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216933168
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216210620
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5215729301
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216467596
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5215699013
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216777831
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216693153
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5217033310
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216633057
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216660067
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216785388
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216943886
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216137020
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5217579038
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5215861819
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216773901
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216218256
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5216250458
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5215507301
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5222791787
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226943231
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5229216505
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5227563755
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228525859
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228982101
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5228653059
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224956527
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226124423
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226957540
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226129913
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226662269
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225978844
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5224791969
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226150353
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226711907
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225690461
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226036675
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226741904
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225525913
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225566376
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226606934
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5225699589
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226486537
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226070011
+Iterating 201 times
+
+Found 128 with a probability of 0.999988
+
+Time taken: 5226544858

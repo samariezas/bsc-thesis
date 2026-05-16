@@ -33,6 +33,11 @@ pkgs.stdenv.mkDerivation {
         diagbox
         pict2e;
     })
+
+    (python3.withPackages (ps: with ps; [
+        matplotlib
+        numpy
+    ]))
   ];
   buildPhase = ''
     mkdir -p .cache/latex
