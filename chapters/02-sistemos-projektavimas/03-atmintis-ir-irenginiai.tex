@@ -77,7 +77,7 @@ PLIC veikia kaip MMIO įrenginys. Įrenginiai, kuriantys pertrauktis, nustato \t
 
 Prioritetų registrų sritis yra \texttt{0x80} baitų ilgio, nes kiekvienai iš 32 pertraukčių skiriamas vienas 32 bitų registras. \textit{Pending} ir \textit{enable} sritys šiame modelyje yra po vieną 32 bitų registrą, kadangi palaikomas tik pertraukčių intervalas \texttt{0-31}. Kiekvienas šių registrų bitas atitinka to paties numerio pertrauktį.
 
-Reali PLIC specifikacija leidžia turėti daug pertraukčių šaltinių ir daug skirtingų kontekstų. Kiekvienam šaltiniui gali būti priskirtas atskiras prioritetas, o kiekvienas kontekstas gali turėti atskirą įjungtų pertraukčių rinkinį ir prioritetų slenkstį. Emuliatoriuje šis modelis sumažintas iki minimalaus rinkinio, būtino Linux vykdymui: 32 galimi pertraukčių numeriai, vienas UART pertraukimo šaltinis, du privilegijų režimus atitinkantys kontekstai ir pagrindinė \texttt{claim}/\texttt{complete} semantika. Toks supaprastinimas leidžia išlaikyti teisingą operacinės sistemos elgseną, bet išvengti perteklinės logikos, kuri šiame darbe nebūtų naudojama.
+Reali PLIC specifikacija leidžia turėti daug pertraukčių šaltinių ir daug skirtingų kontekstų. Kiekvienam šaltiniui gali būti priskirtas atskiras prioritetas, o kiekvienas kontekstas gali turėti atskirą įjungtų pertraukčių rinkinį ir prioritetų slenkstį. Emuliatoriuje šis modelis sumažintas iki minimalaus rinkinio, būtino Linux vykdymui: 32 galimi pertraukčių numeriai, vienas UART pertraukimo šaltinis, du privilegijų režimus atitinkantys kontekstai ir pagrindinė \texttt{claim}/\texttt{complete} semantika. Toks supaprastinimas leidžia išlaikyti teisingą operacinės sistemos elgseną ir išvengti perteklinės logikos, kuri šiame darbe nebūtų naudojama.
 
 \subsubsection{Išjungimo įrenginys}
 
@@ -87,11 +87,8 @@ Išjungimo įrenginys praneša emuliatoriui apie darbo baigimo užklausą. Linux
 
 % TODO: ar tikrai reik sitos sekcijos
 
-Linux paleidimo konfigūracijoje naudojamas adresų žemėlapis, matomas \ref{tab:emuliatoriaus-adresu-zemelapis} lentelėje.
-
 \begin{table}[h]
     \centering
-    \label{tab:emuliatoriaus-adresu-zemelapis}
     \begin{tabular}{|l|l|l|}
         \hline
         \textbf{Pradžios adresas} & \textbf{Dydis} & \textbf{Paskirtis} \\
@@ -114,4 +111,7 @@ Linux paleidimo konfigūracijoje naudojamas adresų žemėlapis, matomas \ref{ta
         \hline
     \end{tabular}
     \caption{Emuliatoriaus atminties ir įrenginių žemėlapis}
+    \label{table:adresu_zemelapis}
 \end{table}
+
+Linux paleidimo konfigūracijoje naudojamas adresų žemėlapis matomas \ref{table:adresu_zemelapis} lentelėje.

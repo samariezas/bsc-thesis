@@ -1,0 +1,72 @@
+\section{Paleidimas}
+\label{chap:priedas-paleidimas}
+
+Emuliatorius gali būti paleistas Linux aplinkoje naudojant šias komandas:
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  numbers=none,
+  frame=single,
+  breaklines=true
+}
+
+\begin{lstlisting}[language=Bash]
+wget https://mif.vu.lt/~jope9155/remu/remu.AppImage
+wget https://mif.vu.lt/~jope9155/remu/remu-package.tar.gz
+chmod +x remu.AppImage
+tar xvf remu-package.tar.gz
+remu-package/run.sh
+\end{lstlisting}
+
+Emuliatorius sukompiliuotas Sandy Bridge procesorių architektūrai norint užtikrinti korektišką veikimą VU MIF Linux aplinkoje. Emuliatorius (bei vaizdas: Linux, initramfs, OpenSBI ir reikalingi kryžminiai kompiliatoriai) gali būti sukompiliuotas naudojant Nix:
+
+\begin{lstlisting}
+nix run github:samariezas/remu/qpu
+\end{lstlisting}
+
+Paleistoje sistemoje pateiktos dvi pavyzdinės programos, kurias galima sukompiliuoti su \texttt{tcc}. Naujas programas galima rašyti naudojant \texttt{vi} programą. Programos kurios naudoja QPU turi būti susietos naudojant \texttt{-lqpu}:
+
+\begin{lstlisting}
+/samples # ls
+build-all.sh  hello.c       qpu-basic.c
+/samples # ./build-all.sh 
++ tcc hello.c -o hello
++ tcc qpu-basic.c -lqpu -o qpu-basic
+/samples # ./hello
+Hello, World!
+/samples # ./qpu-basic
+QPU register id: 1
+q0=0, q1=1, q2=1
+/samples # ./qpu-basic
+QPU register id: 1
+q0=0, q1=1, q2=1
+/samples # ./qpu-basic
+QPU register id: 1
+q0=1, q1=0, q2=0
+/samples #
+\end{lstlisting}
+
+Pavyzdinė QPU programa \texttt{qpu-basic.c}:
+
+\begin{lstlisting}
+#include <stdio.h>
+#include <qpu.h>
+
+int main(){
+    uint64_t id = qpu_new_qureg(0, 3);
+    printf("QPU register id: %llu\n", id);
+    qpu_hadamard(0, id);
+    qpu_cnot(0, 1, id);
+    qpu_toffoli(0, 1, 2, id);
+
+    qpu_sigma_x(2, id);
+    qpu_sigma_y(1, id);
+    qpu_sigma_z(0, id);
+
+    int r2 = qpu_bmeasure(2, id);
+    int r1 = qpu_bmeasure(1, id);
+    int r0 = qpu_bmeasure(0, id);
+    printf("q0=%d, q1=%d, q2=%d\n", r0, r1, r2);
+    return 0;
+}
+\end{lstlisting}

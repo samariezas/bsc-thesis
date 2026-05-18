@@ -15,5 +15,3 @@ QPU būsenos valdymas susideda iš kelių dalių:
 \end{itemize}
 
 Pirmo panaudojimo kelias veikia taip: vartotojo programa įvykdo QPU instrukciją, kai \texttt{CSR\_QPU\_CTX} dar lygus nuliui. Emuliatorius tokiu atveju negali įvykdyti QPU operacijos ir sukelia neleistinos instrukcijos išimtį. Linux išimties apdorojimo funkcija nusiskaito instrukcijos žodį, patikrina, ar ji priklauso QPU plėtiniui, sukuria arba atstato proceso QPU kontekstą, įrašo jo ID į \texttt{CSR\_QPU\_CTX} ir palieka \texttt{epc} nepakeistą. Grįžus iš išimties ta pati QPU instrukcija vykdoma iš naujo, bet jau su aktyviu kontekstu.
-
-Šiame darbe QPU branduolio pataisa taip pat turi sąmoningų supaprastinimų. QPU būsena nėra serializuojama į branduolio buferį: faktinė būsena saugoma emuliatoriaus pusėje ir pasiekiama per konteksto ID. Išsaugojimo, atkūrimo ir klonavimo keliai palikti kaip struktūriniai stub'ai, nes darbo eksperimentams pakanka naujo konteksto sukūrimo, jo įjungimo ir išlaisvinimo. Tai reiškia, kad pataisa parodo reikalingą OS integracijos struktūrą, bet nėra pilnas gamybinis QPU būsenos serializavimo sprendimas.
