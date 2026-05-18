@@ -1,7 +1,7 @@
 \section{QPU instrukcijų sąrašas}
 \label{chap:priedas-qpu-instr}
 
-\ref{table:qpu_instructions} lentelėje pateikiamos QPU instrukcijų sąrašas. Visų instrukcijų kodas (\textit{opcode}) lygus \texttt{0b0101011}, o \texttt{funct3 = 1}. \texttt{Q.NEWCTX} ir \texttt{Q.FREECTX} neturi C sąsajos, kadangi jos skirtos S režimo programinei įrangai, o ne vartotojo programoms. Kai kuriose instrukcijose \texttt{rd} laukas naudojamas kaip įvesties registras, o ne kaip rezultato registras. Instrukcijos \texttt{Q.TOFFOLI} ir \texttt{Q.GETREGNODE} papildomai naudoja registrus \texttt{x10}, \texttt{x11} ir \texttt{x12}.
+\ref{table:qpu_instructions} lentelėje pateikiamos QPU instrukcijų sąrašas. Visų instrukcijų kodas (angl. \textit{opcode}) lygus \texttt{0b0101011}, o \texttt{funct3 = 1}. \texttt{Q.NEWCTX} ir \texttt{Q.FREECTX} neturi C sąsajos, kadangi jos skirtos S režimo programinei įrangai, o ne vartotojo programoms. Kai kuriose instrukcijose \texttt{rd} laukas naudojamas kaip įvesties registras, o ne kaip rezultato registras. Instrukcijos \texttt{Q.TOFFOLI} ir \texttt{Q.GETREGNODE} papildomai naudoja registrus \texttt{x10}, \texttt{x11} ir \texttt{x12}.
 
 \footnotesize
 \begin{xltabular}{\textwidth}{|l|l|

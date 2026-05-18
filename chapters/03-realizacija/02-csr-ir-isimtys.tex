@@ -3,7 +3,7 @@
 
 Privilegijuotos architektūros realizacija sudaryta iš kelių dalių: privilegijų režimo būsenos, CSR registrų žemėlapio, išimčių ir pertraukimų logikos. Palaikomi trys darbo režimai -- User, Supervisor ir Machine. Šių režimų pakanka OpenSBI, Linux branduolio ir vartotojo erdvės programų vykdymui.
 
-CSR prieiga realizuota per bendrą registrų žemėlapį. Kiekvienam palaikomam CSR registrui priskiriamas numeris, skaitymo kelias ir rašymo kelias. Tokiu būdu \texttt{CSRRW}, \texttt{CSRRS}, \texttt{CSRRC} bei jų \textit{immediate} variantai naudoja bendrą CSR skaitymo ir rašymo mechanizmą. Prieš prieigą patikrinama CSR privilegijų klasė: jeigu dabartinio režimo kodas mažesnis už CSR adrese užkoduotą reikalavimą, prieiga atmetama.
+CSR prieiga realizuota per bendrą registrų žemėlapį. Kiekvienam palaikomam CSR registrui priskiriamas numeris, skaitymo kelias ir rašymo kelias. Tokiu būdu \texttt{CSRRW}, \texttt{CSRRS}, \texttt{CSRRC} bei jų \textit{immediate} variantai naudoja bendrą CSR skaitymo ir rašymo mechanizmą. Prieš prieigą patikrinama CSR privilegijų klasė: jeigu dabartinio režimo kodas mažesnis už CSR adrese užkoduotą reikalavimą, prieiga atmetama \cite[p.~13]{riscv-privileged-20260120}.
 
 Realizacijoje palaikomi Linux paleidimui svarbiausi CSR registrai, matomi \ref{table:csr-laukai} lentelėje.
 

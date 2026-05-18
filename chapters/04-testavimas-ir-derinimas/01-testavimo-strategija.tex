@@ -9,7 +9,7 @@ Naudota testavimo strategija gali būti suskirstyta į šiuos etapus:
 
 \begin{itemize}
     \item \textbf{vienetiniai testai} -- tikrinamos mažos, izoliuotos funkcijos;
-    \item \textbf{etaloninis palyginimas su Spike} -- RISC-V testų rezultatai lyginami su oficialiu RISC-V ISA simuliatoriumi Spike \cite{riscv_isa_sim};
+    \item \textbf{etaloninis palyginimas su Spike} -- RISC-V testų rezultatai lyginami su oficialiu RISC-V ISA simuliatoriumi Spike \cite{spike-riscv-isa-sim};
     \item \textbf{savarankiški ELF testai} -- tikrinamos privilegijų režimų, išimčių, delegavimo, blogų atminties prieigų ir UART išvesties situacijos, kurių nepatogu patikrinti vien paprastais vienetiniais testais;
     \item \textbf{Linux paleidimo validavimas} -- tikrinama, ar OpenSBI perduoda valdymą Linux branduoliui, ar branduolys gauna teisingą DTB informaciją, ar veikia initramfs ir vartotojo erdvės programa;
     \item \textbf{interaktyvus derinimas} -- naudojamas GDB serveris, UART išvestis ir papildomos monitor komandos puslapių lentelių bei adresų vertimo problemoms tirti.

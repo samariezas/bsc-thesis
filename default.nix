@@ -33,7 +33,8 @@ pkgs.stdenv.mkDerivation {
         diagbox
         pict2e
         xltabular
-        ltablex;
+        ltablex
+        multirow;
     })
 
     (python3.withPackages (ps: with ps; [

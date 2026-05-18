@@ -1,7 +1,7 @@
 \subsection{Eksperimentinio QPU plėtinio projektavimas}
 \label{sec:qpu-pletinio-projektavimas}
 
-QPU plėtinys projektuotas kaip eksperimentinis RISC-V specializuotų instrukcijų rinkinys. Visos QPU instrukcijos naudoja \texttt{custom-1} tipo opkodą \texttt{0b0101011}, \texttt{funct3 = 1}, o konkreti operacija atskiriama pagal \texttt{funct7}. Toks pasirinkimas leidžia QPU instrukcijas dekoduoti tuo pačiu keliu kaip standartines RISC-V instrukcijas, nepakeičiant bendros instrukcijų vykdymo architektūros.
+QPU plėtinys projektuotas kaip eksperimentinis RISC-V specializuotų instrukcijų rinkinys. Visos QPU instrukcijos naudoja \texttt{custom-1} tipo instrukcijų kodą \texttt{0b0101011}, \texttt{funct3 = 1}, o konkreti operacija atskiriama pagal \texttt{funct7}. Toks pasirinkimas atitinka RISC-V instrukcijų kodų žemėlapį, kuriame \texttt{custom-0}--\texttt{custom-3} sritys rezervuotos nestandartiniams plėtiniams \cite[p.~584]{riscv-unprivileged-20260120}. Tai leidžia QPU instrukcijas dekoduoti tuo pačiu keliu kaip standartines RISC-V instrukcijas, nepakeičiant bendros instrukcijų vykdymo architektūros.
 
 Plėtinio būsena padalinta į dvi dalis. Procesoriuje laikomas tik aktyvaus QPU konteksto identifikatorius, pasiekiamas per \texttt{CSR\_QPU\_CTX} adresu \texttt{0x9da}. Visa reali QPU būsena laikoma atskiroje emuliatoriaus QPU posistemėje: joje kiekvienas kontekstas turi savo kvantinius registrus, o patys registrai susiejami su naudojamos kvantinės simuliacijos bibliotekos duomenų struktūromis.
 

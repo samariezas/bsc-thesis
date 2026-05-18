@@ -17,4 +17,22 @@ Testo sėkmė ir nesėkmė perduodama per \texttt{tohost} mechanizmą, apibrėž
 
 Šie savarankiški testai buvo naudingi todėl, kad jie tikrina ne vien instrukcijų rezultatą, bet ir visą išimties apdorojimo kelią: privilegijos režimo pakeitimą, \texttt{mcause}/\texttt{scause} nustatymą, \texttt{mepc}/\texttt{sepc} grįžimo adresus ir išimties apdorojimo funkcijos pakartotinį įėjimą į C testų ciklą.
 
-% TODO: GETPRIV, CSRR_DEBUG
+Šiems testams papildomai įgyvendintos dvi nestandartinės diagnostinės instrukcijos, kurios naudojamos tik testavimo režime lyginant šio emuliatoriaus ir Spike būseną (žr. \ref{table:debug_instructions} lentelę). RISC-V privilegijų modelis neleidžia tiesiogiai sužinoti dabartinio privilegijų lygio, ką būtina sekti norint užtikrinti kad emuliatorius teisingai modeliuoja privilegijų lygio keitimus. Todėl testams pasiūloma \texttt{GETPRIV} instrukcija, kuri į paskirties registrą įrašo einamąjį privilegijų režimo kodą: \texttt{0} -- U, \texttt{1} -- S, \texttt{3} -- M.
+
+CSR reikšmių palyginimui taip pat reikia atskiro diagnostinio kelio. RISC-V CSR adresas koduoja mažiausią privilegijų lygį, kuriam registras prieinamas, o prieiga iš žemesnio lygio turi būti atmesta išimtimi \cite[p.~13]{riscv-privileged-20260120}. Tai naudinga normaliai svečio programai, bet apsunkina testus, kuriuose norima lyginti konkrečias CSR reikšmes tarp Spike ir kuriamo emuliatoriaus. Dėl to pridėta \texttt{CSRR\_DEBUG} instrukcija: ji nuskaito nurodytą CSR ir grąžina reikšmę į \texttt{rd}. Tokia pati instrukcija buvo implementuota ir Spike emuliatoriuje, dėl ko abiejuose emuliatoriuose galima leisti tą patį programinį kodą ir lyginti UART išvestį.
+
+\begin{table}[h]
+    \centering
+    \small
+    \begin{tabular}{|l|p{0.34\textwidth}|p{0.42\textwidth}|}
+        \hline
+        \textbf{Instrukcija} & \textbf{Kodavimas} & \textbf{Paskirtis testuose} \\
+        \hline
+        \texttt{GETPRIV} & \texttt{custom-0} opcode \texttt{0b0001011}, \texttt{funct3 = 0}, \texttt{funct7 = 0x78} & Į \texttt{rd} įrašo dabartinį privilegijų režimą. \\
+        \hline
+        \texttt{CSRR\_DEBUG} & \texttt{SYSTEM} opcode \texttt{0b1110011}, \texttt{funct3 = 4}, CSR numeris lauke \texttt{inst[31:20]} & Nuskaito pasirinktą CSR į \texttt{rd}, praleidžiant privilegijų tikrinimą. \\
+        \hline
+    \end{tabular}
+    \caption{Nestandartinės diagnostinės instrukcijos savarankiškiems ELF testams.}
+    \label{table:debug_instructions}
+\end{table}

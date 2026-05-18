@@ -2,7 +2,7 @@
 \label{subsec:elf-abi-userspace}
 
 % TODO: ar tikrai aktualu? gal svarbiausia tiktais extension
-Vartotojo erdvės programos emuliatoriuje pasiekia sistemą per dvejetainį programos formatą ir ABI. RISC-V psABI specifikacija apibrėžia kvietimo konvenciją, ELF objektų formatą, DWARF derinimo informaciją, kodo modelius, relokacijas ir susiejimo optimizacijas \cite{riscv_psabi}. Tai svarbu tiek vykdant atskirus testinius ELF failus, tiek paleidžiant programas Linux aplinkoje.
+Vartotojo erdvės programos emuliatoriuje pasiekia sistemą per dvejetainį programos formatą ir ABI. RISC-V psABI specifikacija apibrėžia kvietimo konvenciją, ELF objektų formatą, DWARF derinimo informaciją, kodo modelius, relokacijas ir susiejimo optimizacijas \cite{riscv-psabi}. Tai svarbu tiek vykdant atskirus testinius ELF failus, tiek paleidžiant programas Linux aplinkoje.
 
 Emuliatoriui, kuris gali įkelti ELF failus tiesiogiai, reikia suprasti programos segmentus, įėjimo tašką ir atminties teises. Toks režimas patogus ankstyvam testavimui, nes leidžia paleisti mažus, kontroliuojamus testus be visos operacinės sistemos. Tačiau Linux aplinkoje ELF failus įkelia branduolys, o emuliatorius turi teisingai vykdyti procesoriaus ir platformos modelį, kad branduolys pats galėtų atlikti programos įkėlimą. Dėl to darbe prasminga turėti abu testavimo lygius: tiesiogiai įkeliamus ELF testus ir pilnos sistemos testus per Linux.
 

@@ -11,17 +11,74 @@ RAM sritys šiame modelyje traktuojamos kaip paprasti baitų masyvai, susieti su
 
 \subsubsection{UART įrenginys}
 
-UART įrenginys imituoja tik Linux konsolės darbui reikalingus \texttt{ns16550} registrus: duomenų registrą, pertraukimų įjungimą, pertraukimų identifikavimą, linijos būseną, \texttt{DLAB} bitą ir scratch registrą. FIFO valdymo registras priimamas, bet realiai ignoruojamas; modemų signalai, klaidų būsenos ir tiksli baud rate semantika nemodeliuojami.
+UART įrenginys imituoja tik Linux konsolės darbui reikalingus \texttt{ns16550} registrus: duomenų registrą, pertraukimų įjungimą, pertraukimų identifikavimą, linijos būseną, \texttt{DLAB} bitą ir scratch registrą. Registrų išdėstymas remiasi 16550 šeimos UART modeliu, kuriame tie patys poslinkiai naudojami priėmimo, perdavimo, pertraukimų ir daliklio registrams, o prieiga prie daliklio registrų valdoma \texttt{DLAB} bitu \cite[p.~18--20]{ti-pc16550d}. FIFO valdymo registras priimamas, bet realiai ignoruojamas; modemų signalai, klaidų būsenos ir tiksli baud rate semantika nemodeliuojami.
 
 Siekiant išvengti perteklinių I/O operacijų, emuliuojamas UART įrenginys turi 4096 baitų buferius tiek įvesčiai, tiek išvesčiai. Toks buferizavimas neturi tikslaus aparatinio atitikmens, bet praktiniam Linux konsolės darbui yra pakankamas.
 
-\textbf{TODO: papildyti registrais}
+
+Emuliatoriuje UART MMIO regionas prasideda adresu \texttt{0x1000\_0000}, o \ref{table:uart_registers} lentelėje nurodyti registrai pasiekiami vieno baito poslinkiais nuo šio adreso. \texttt{DLAB} yra \texttt{LCR} registro 7 bitas. Kai \texttt{DLAB = 0}, poslinkiai \texttt{0x00} ir \texttt{0x01} naudojami duomenų ir pertraukimų registrams; kai \texttt{DLAB = 1}, tie patys poslinkiai naudojami daliklio registrams \cite[p.~18--19]{ti-pc16550d}.
+
+\begin{table}[h]
+    \centering
+    \small
+    \begin{tabular}{|l|c|l|p{0.42\textwidth}|}
+        \hline
+        \textbf{Poslinkis} & \textbf{DLAB} & \textbf{Registras} & \textbf{Emuliatoriaus elgsena} \\
+        \hline
+
+        \multirow{2}{*}{\texttt{0x00}}
+            & 0 & \texttt{RBR} skaitymui, \texttt{THR} rašymui
+            & Skaitymas grąžina įvesties baitą, rašymas perduoda baitą į išvesties buferį. \\
+        \cline{2-4}
+            & 1 & \texttt{DLL}
+            & Reikšmė įsimenama be jokių efektų. \\
+        \hline
+
+        \multirow{2}{*}{\texttt{0x01}}
+            & 0 & \texttt{IER}
+            & Pertraukčių įjungimo registras, palaikomi tik \texttt{ERBFI} ir \texttt{ETBEI} bitai, t. y. priėmimo ir tuščio perdavimo registro pertrauktys. \\
+        \cline{2-4}
+            & 1 & \texttt{DLM}
+            & Reikšmė įsimenama be jokių efektų. \\
+        \hline
+
+        \texttt{0x02}
+            & x & \texttt{IIR} skaitymui, \texttt{FCR} rašymui
+            & \texttt{IIR} grąžina pertraukčių būsenas; \texttt{FCR} rašymas ignoruojamas. \\
+        \hline
+
+        \texttt{0x03}
+            & x & \texttt{LCR}
+            & Atvaizduoja \texttt{DLAB} bito būseną. \\
+        \hline
+
+        \texttt{0x04}
+            & x & \texttt{MCR}
+            & Reikšmė įsimenama be jokių efektų. \\
+        \hline
+
+        \texttt{0x05}
+            & x & \texttt{LSR}
+            & Palaikomi \texttt{DR}, \texttt{THRE} ir \texttt{TEMT} bitai; klaidų bitai nemodeliuojami. \\
+        \hline
+
+        \texttt{0x07}
+            & x & \texttt{SCR}
+            & Reikšmė įsimenama be jokių efektų. \\
+        \hline
+    \end{tabular}
+    \caption{UART registrai, realizuoti emuliatoriaus \texttt{ns16550} modelyje.}
+    \label{table:uart_registers}
+\end{table}
+
+\texttt{LCR} registre emuliatorius naudoja tik tris bitus: \texttt{DR} nurodo, kad priėmimo buferyje yra baitas, \texttt{THRE} -- kad perdavimo registras gali priimti naują baitą, o \texttt{TEMT} -- kad perdavimo kelias tuščias. Šie bitai atitinka 16550 \texttt{LSR} registro 0, 5 ir 6 bitų paskirtį \cite[p.~20--21]{ti-pc16550d}. Kai įjungta priėmimo arba perdavimo pertrauktis ir atitinkamas \texttt{LSR} bitas aktyvus, UART modelis nustato PLIC pertraukimo šaltinį 1.
+
 
 \subsubsection{CLINT}
 
-CLINT (angl. \textit{Core Local Interrupt Controller}) -- mechanizmas, kuriuo emuliatorius sulaukia periodinių laikmačio pertraukčių. Svarbiausi yra du registrai: \texttt{mtime} ir \texttt{mtimecmp}. \texttt{mtime} skaičiuojamas iš šeimininko sistemos laikmačio, naudojant DTB nurodytą 10 MHz dažnį, tuo tarpu \texttt{mtimecmp} nustatomas svečio sistemos. Kai \texttt{mtime} $>$ \texttt{mtimecmp}, procesoriui pranešama apie laikmačio pertrauktį. Šie registrai pasiekiami naudojantis MMIO.
+CLINT (angl. \textit{Core Local Interrupt Controller}) -- mechanizmas, kuriuo emuliatorius sulaukia periodinių laikmačio pertraukčių. Šis adresų išdėstymas atitinka ACLINT suderinamumo su SiFive CLINT modelį, kuriame programinių pertraukčių sritis prasideda nuo \texttt{0x0000}, o laikmačio registrų sritis -- nuo \texttt{0x4000} \cite{riscv-aclint-1.0}. Svarbiausi yra du registrai: \texttt{mtime} ir \texttt{mtimecmp}. \texttt{mtime} skaičiuojamas iš šeimininko sistemos laikmačio, naudojant DTB nurodytą 10 MHz dažnį, tuo tarpu \texttt{mtimecmp} nustatomas svečio sistemos. Kai \texttt{mtime} tampa didesnis už \texttt{mtimecmp}, procesoriui pranešama apie laikmačio pertrauktį \cite[p.~61]{riscv-privileged-20260120}. Šie registrai pasiekiami naudojantis MMIO.
 
-CLINT specifikacija apibrėžia dar vieną registrą -- \texttt{msip}, į kurį rašant įvykdoma programinė pertrauktis. Šiame modelyje šis registras neįgyvendintas, kadangi jis daugiausia naudojamas pertraukimams tarp hartų, o emuliatorius turi tik vieną hartą.
+CLINT specifikacija apibrėžia dar vieną registrą -- \texttt{msip}, į kurį rašant įvykdoma programinė pertrauktis. Šiame modelyje šis registras neįgyvendintas, kadangi jis naudojamas pertraukimams tarp hartų, o emuliatorius turi tik vieną hartą.
 
 \begin{table}[h]
     \centering
@@ -42,9 +99,9 @@ CLINT specifikacija apibrėžia dar vieną registrą -- \texttt{msip}, į kurį 
 
 \subsubsection{PLIC}
 
-PLIC (angl. \textit{Platform-Level Interrupt Controller}) -- RISC-V platformose naudojamas išorinių pertraukčių valdiklis. CLINT modelis yra atsakingas už lokalias procesoriaus pertrauktis, tokias kaip laikmačio pertrauktis, o PLIC naudojamas įrenginių pertrauktims apdoroti. Šiame emuliatoriuje PLIC pirmiausia reikalingas tam, kad UART įrenginys galėtų pranešti operacinei sistemai apie išorinę pertrauktį.
+PLIC (angl. \textit{Platform-Level Interrupt Controller}) -- RISC-V platformose naudojamas išorinių pertraukčių valdiklis. PLIC specifikacija apibrėžia prioritetų, laukiančių pertraukčių, įjungimo, slenksčio, \texttt{claim} ir \texttt{complete} registrų blokus \cite[p.~9]{riscv-plic-1.0.0}. CLINT modelis yra atsakingas už lokalias procesoriaus pertrauktis, tokias kaip laikmačio pertrauktis, o PLIC naudojamas įrenginių pertrauktims apdoroti. Šiame emuliatoriuje PLIC pirmiausia reikalingas tam, kad UART įrenginys galėtų pranešti operacinei sistemai apie išorinę pertrauktį.
 
-PLIC veikia kaip MMIO įrenginys. Įrenginiai, kuriantys pertrauktis, nustato \textit{pending} bitus, tuomet PLIC tikrina, kurios pertrauktys yra įjungtos, kokį prioritetą jos turi ir ar jų prioritetas viršija nustatytą \textit{threshold} reikšmę. Jei pertrauktis gali būti aptarnaujama, PLIC tai praneša procesoriui. Procesorius praneša apie apdorojimą nuskaitant iš \texttt{claim} registro. Baigus pertraukties aptarnavimą, ta pati reikšmė įrašoma į \texttt{complete} registrą.
+PLIC veikia kaip MMIO įrenginys \cite[p.~10--16]{riscv-plic-1.0.0}. Įrenginiai, kuriantys pertrauktis, nustato \textit{pending} bitus, tuomet PLIC tikrina, kurios pertrauktys yra įjungtos, kokį prioritetą jos turi ir ar jų prioritetas viršija nustatytą \textit{threshold} reikšmę. Jei pertrauktis gali būti aptarnaujama, PLIC tai praneša procesoriui. Procesorius praneša apie apdorojimą nuskaitant iš \texttt{claim} registro. Baigus pertraukties aptarnavimą, ta pati reikšmė įrašoma į \texttt{complete} registrą.
 
 Šiame darbe realizuotas supaprastintas PLIC modelis, palaikantis 32 pertraukčių numerius (nuo 0 iki 31). Pertrauktis 0 pagal PLIC modelį laikoma rezervuota ir nenaudojama, todėl realūs įrenginių pertraukčių šaltiniai prasideda nuo 1. Emuliatoriuje naudojamas vienas realus pertraukimo šaltinis -- UART -- ir du kontekstai, atitinkantys M režimo ir S režimo išorines pertrauktis. Įgyvendinti prioritetai, \textit{pending} bitai, \textit{enable} bitai, \textit{threshold} registrai bei \texttt{claim}/\texttt{complete} kelias. Vis dėlto neįgyvendinta pilna daugiašaltinė ir daugiakontekstė PLIC konfigūracija, nes Linux paleidimui šiame emuliatoriaus modelyje pakanka vieno išorinio įrenginio pertraukčių šaltinio.
 
