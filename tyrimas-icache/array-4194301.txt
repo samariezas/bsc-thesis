@@ -1,0 +1,505 @@
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.226s
+user	0m12.881s
+sys	0m0.322s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.252s
+user	0m12.897s
+sys	0m0.332s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.185s
+user	0m12.846s
+sys	0m0.315s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.223s
+user	0m12.888s
+sys	0m0.313s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.422s
+user	0m13.075s
+sys	0m0.323s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.231s
+user	0m12.875s
+sys	0m0.334s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.170s
+user	0m12.820s
+sys	0m0.328s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.230s
+user	0m12.875s
+sys	0m0.333s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.311s
+user	0m12.947s
+sys	0m0.342s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.224s
+user	0m12.884s
+sys	0m0.317s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.203s
+user	0m12.849s
+sys	0m0.331s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.281s
+user	0m12.920s
+sys	0m0.333s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.406s
+user	0m13.039s
+sys	0m0.344s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.254s
+user	0m12.900s
+sys	0m0.332s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.222s
+user	0m12.893s
+sys	0m0.307s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.253s
+user	0m12.905s
+sys	0m0.326s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.193s
+user	0m12.847s
+sys	0m0.318s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.388s
+user	0m13.037s
+sys	0m0.328s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.426s
+user	0m13.076s
+sys	0m0.327s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.227s
+user	0m12.879s
+sys	0m0.326s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.189s
+user	0m12.845s
+sys	0m0.322s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.237s
+user	0m12.852s
+sys	0m0.345s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.200s
+user	0m12.828s
+sys	0m0.350s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.280s
+user	0m12.925s
+sys	0m0.333s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.234s
+user	0m12.887s
+sys	0m0.325s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.201s
+user	0m12.862s
+sys	0m0.317s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.459s
+user	0m13.118s
+sys	0m0.317s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.284s
+user	0m12.923s
+sys	0m0.334s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.258s
+user	0m12.917s
+sys	0m0.318s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.417s
+user	0m13.080s
+sys	0m0.313s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.313s
+user	0m12.969s
+sys	0m0.321s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.222s
+user	0m12.866s
+sys	0m0.334s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.218s
+user	0m12.861s
+sys	0m0.335s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.165s
+user	0m12.802s
+sys	0m0.339s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.191s
+user	0m12.849s
+sys	0m0.320s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.209s
+user	0m12.862s
+sys	0m0.325s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.263s
+user	0m12.925s
+sys	0m0.315s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.198s
+user	0m12.855s
+sys	0m0.321s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.250s
+user	0m12.911s
+sys	0m0.316s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.244s
+user	0m12.899s
+sys	0m0.323s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.298s
+user	0m12.953s
+sys	0m0.323s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.236s
+user	0m12.894s
+sys	0m0.320s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.234s
+user	0m12.891s
+sys	0m0.321s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.318s
+user	0m12.962s
+sys	0m0.334s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.189s
+user	0m12.841s
+sys	0m0.326s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.274s
+user	0m12.901s
+sys	0m0.348s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.235s
+user	0m12.902s
+sys	0m0.311s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.259s
+user	0m12.919s
+sys	0m0.318s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.210s
+user	0m12.879s
+sys	0m0.309s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.255s
+user	0m12.917s
+sys	0m0.316s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.205s
+user	0m12.866s
+sys	0m0.317s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.228s
+user	0m12.884s
+sys	0m0.323s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.293s
+user	0m12.956s
+sys	0m0.315s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.182s
+user	0m12.825s
+sys	0m0.335s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.218s
+user	0m12.868s
+sys	0m0.327s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.204s
+user	0m12.835s
+sys	0m0.343s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.397s
+user	0m13.071s
+sys	0m0.303s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.197s
+user	0m12.856s
+sys	0m0.319s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.382s
+user	0m13.032s
+sys	0m0.327s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.308s
+user	0m12.957s
+sys	0m0.329s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.284s
+user	0m12.946s
+sys	0m0.314s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.365s
+user	0m13.005s
+sys	0m0.332s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.228s
+user	0m12.874s
+sys	0m0.329s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.316s
+user	0m12.966s
+sys	0m0.327s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.244s
+user	0m12.892s
+sys	0m0.324s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.189s
+user	0m12.834s
+sys	0m0.325s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.181s
+user	0m12.832s
+sys	0m0.327s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.406s
+user	0m13.060s
+sys	0m0.324s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.211s
+user	0m12.868s
+sys	0m0.321s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.244s
+user	0m12.905s
+sys	0m0.317s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.219s
+user	0m12.865s
+sys	0m0.332s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.213s
+user	0m12.880s
+sys	0m0.311s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.234s
+user	0m12.904s
+sys	0m0.308s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.198s
+user	0m12.865s
+sys	0m0.311s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.251s
+user	0m12.900s
+sys	0m0.328s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.238s
+user	0m12.893s
+sys	0m0.324s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.312s
+user	0m12.972s
+sys	0m0.317s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.221s
+user	0m12.860s
+sys	0m0.338s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.212s
+user	0m12.870s
+sys	0m0.320s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.234s
+user	0m12.891s
+sys	0m0.314s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.312s
+user	0m12.979s
+sys	0m0.310s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.331s
+user	0m12.975s
+sys	0m0.332s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.332s
+user	0m12.969s
+sys	0m0.335s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.188s
+user	0m12.829s
+sys	0m0.332s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.443s
+user	0m13.095s
+sys	0m0.323s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.231s
+user	0m12.888s
+sys	0m0.320s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.274s
+user	0m12.944s
+sys	0m0.307s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.265s
+user	0m12.908s
+sys	0m0.335s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.193s
+user	0m12.857s
+sys	0m0.314s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.233s
+user	0m12.893s
+sys	0m0.311s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.233s
+user	0m12.899s
+sys	0m0.312s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.224s
+user	0m12.876s
+sys	0m0.325s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.344s
+user	0m12.987s
+sys	0m0.334s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.232s
+user	0m12.880s
+sys	0m0.330s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.174s
+user	0m12.828s
+sys	0m0.324s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.338s
+user	0m12.978s
+sys	0m0.337s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.434s
+user	0m13.093s
+sys	0m0.317s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.189s
+user	0m12.851s
+sys	0m0.314s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.298s
+user	0m12.952s
+sys	0m0.322s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.305s
+user	0m12.951s
+sys	0m0.326s
++ zig-out/bin/remu binary ./image-build/opensbi/fw_dynamic.bin ./image-build/simple.dtb ./image-build/linux/Image ./image-build/initrd
+
+real	0m13.204s
+user	0m12.867s
+sys	0m0.309s

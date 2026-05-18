@@ -20,6 +20,7 @@ Realizacijoje palaikomos RV64 bazinės instrukcijos, RV64 specifinės \texttt{W}
 Klaidos vykdymo metu perduodamos bendru išimčių keliu. Kiekviena klaida turi RISC-V priežasties kodą ir, kai reikia, papildomą reikšmę, įrašomą į \texttt{mtval} arba \texttt{stval}. Ta pati schema naudojama instrukcijos dekodavimo klaidoms, atminties prieigoms, adresų vertimui ir QPU operacijoms.
 
 \subsection{Instrukcijų talpykla}
+\label{chap:instrukciju-cache-realizacija}
 % TODO: galbut reiktu irodymo kad array buvo greitesnis uz hashmap (extra tyrimas)
 
 Instrukcijų dekodavimui pagreitinti naudojama vidinė instrukcijų talpykla (angl. \textit{cache}). Ji saugo jau dekoduotą instrukcijos vykdymo kelią ir pradinę instrukcijos reikšmę. Talpyklos raktas sudarytas iš programos skaitiklio ir privilegijų režimo, o įrašai invaliduojami po veiksmų, galinčių pakeisti instrukcijų matomumą arba adresų vertimą: \texttt{FENCE.I}, \texttt{SFENCE.VMA} ir \texttt{satp} rašymo.

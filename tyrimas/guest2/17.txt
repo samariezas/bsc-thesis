@@ -1,0 +1,8000 @@
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16686307000
+real	0m 16.72s
+user	0m 16.63s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16401238400
+real	0m 16.44s
+user	0m 16.30s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16502389400
+real	0m 16.54s
+user	0m 16.42s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16397418100
+real	0m 16.43s
+user	0m 16.32s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16514201200
+real	0m 16.55s
+user	0m 16.46s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16380952900
+real	0m 16.42s
+user	0m 16.33s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16521606700
+real	0m 16.55s
+user	0m 16.42s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16394374300
+real	0m 16.43s
+user	0m 16.30s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625693900
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16532428300
+real	0m 16.57s
+user	0m 16.43s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16569125900
+real	0m 16.60s
+user	0m 16.46s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16456199100
+real	0m 16.49s
+user	0m 16.37s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16520801300
+real	0m 16.56s
+user	0m 16.46s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16665930100
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16594660200
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16661464100
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16573701600
+real	0m 16.61s
+user	0m 16.48s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16534180100
+real	0m 16.57s
+user	0m 16.44s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16528908500
+real	0m 16.56s
+user	0m 16.42s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16544862000
+real	0m 16.58s
+user	0m 16.42s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16503938400
+real	0m 16.54s
+user	0m 16.44s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16556850900
+real	0m 16.59s
+user	0m 16.47s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16505022800
+real	0m 16.54s
+user	0m 16.39s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16527342100
+real	0m 16.56s
+user	0m 16.42s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16548882000
+real	0m 16.59s
+user	0m 16.49s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16542192000
+real	0m 16.58s
+user	0m 16.48s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16566967300
+real	0m 16.60s
+user	0m 16.48s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16646896000
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16808040300
+real	0m 16.84s
+user	0m 16.74s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16676446700
+real	0m 16.71s
+user	0m 16.61s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16764384000
+real	0m 16.80s
+user	0m 16.68s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16639925900
+real	0m 16.68s
+user	0m 16.59s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16742283700
+real	0m 16.78s
+user	0m 16.66s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16490893900
+real	0m 16.53s
+user	0m 16.42s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16707653800
+real	0m 16.74s
+user	0m 16.64s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16763718700
+real	0m 16.80s
+user	0m 16.67s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644043800
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16738730200
+real	0m 16.77s
+user	0m 16.66s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16595280000
+real	0m 16.63s
+user	0m 16.48s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16780181300
+real	0m 16.81s
+user	0m 16.70s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16633972000
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16770869000
+real	0m 16.81s
+user	0m 16.67s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16628085700
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16787949100
+real	0m 16.82s
+user	0m 16.75s
+sys	0m 0.05s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16528825000
+real	0m 16.56s
+user	0m 16.45s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644810300
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16747925100
+real	0m 16.78s
+user	0m 16.68s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16655209900
+real	0m 16.69s
+user	0m 16.60s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16744621500
+real	0m 16.78s
+user	0m 16.63s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16678024400
+real	0m 16.71s
+user	0m 16.59s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16766455500
+real	0m 16.80s
+user	0m 16.64s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16631404600
+real	0m 16.67s
+user	0m 16.58s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16773731100
+real	0m 16.81s
+user	0m 16.70s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16619297700
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16743884300
+real	0m 16.78s
+user	0m 16.64s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16476979200
+real	0m 16.51s
+user	0m 16.37s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16683839300
+real	0m 16.72s
+user	0m 16.58s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16770203000
+real	0m 16.80s
+user	0m 16.64s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16557176300
+real	0m 16.59s
+user	0m 16.48s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16791749600
+real	0m 16.83s
+user	0m 16.71s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16702956800
+real	0m 16.74s
+user	0m 16.64s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16792506900
+real	0m 16.83s
+user	0m 16.67s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16677832700
+real	0m 16.71s
+user	0m 16.55s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16675935100
+real	0m 16.71s
+user	0m 16.59s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16609494800
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16694757800
+real	0m 16.73s
+user	0m 16.62s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16554661700
+real	0m 16.59s
+user	0m 16.49s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16632153000
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16584459600
+real	0m 16.62s
+user	0m 16.50s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16535164900
+real	0m 16.57s
+user	0m 16.47s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16635458800
+real	0m 16.67s
+user	0m 16.58s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16489703500
+real	0m 16.53s
+user	0m 16.40s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16569061100
+real	0m 16.61s
+user	0m 16.48s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16485563500
+real	0m 16.52s
+user	0m 16.39s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16564093200
+real	0m 16.60s
+user	0m 16.50s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16483731900
+real	0m 16.52s
+user	0m 16.41s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16530726400
+real	0m 16.56s
+user	0m 16.42s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16464079200
+real	0m 16.50s
+user	0m 16.39s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16480610700
+real	0m 16.51s
+user	0m 16.39s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16535832500
+real	0m 16.57s
+user	0m 16.48s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16512883600
+real	0m 16.55s
+user	0m 16.46s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16545965100
+real	0m 16.58s
+user	0m 16.47s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16506965400
+real	0m 16.54s
+user	0m 16.41s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16582233500
+real	0m 16.62s
+user	0m 16.47s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16634187400
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16749539600
+real	0m 16.78s
+user	0m 16.66s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16648651700
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16723810100
+real	0m 16.76s
+user	0m 16.67s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16545700800
+real	0m 16.58s
+user	0m 16.46s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16650078500
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16747254900
+real	0m 16.78s
+user	0m 16.69s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16658082800
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16735777800
+real	0m 16.77s
+user	0m 16.66s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16631654200
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16717101200
+real	0m 16.75s
+user	0m 16.66s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16677707000
+real	0m 16.71s
+user	0m 16.58s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16696414900
+real	0m 16.73s
+user	0m 16.60s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16614400000
+real	0m 16.65s
+user	0m 16.51s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16689058200
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16501287600
+real	0m 16.54s
+user	0m 16.44s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623449100
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16679588900
+real	0m 16.71s
+user	0m 16.57s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16646487800
+real	0m 16.68s
+user	0m 16.59s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16713144100
+real	0m 16.75s
+user	0m 16.64s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16632312500
+real	0m 16.67s
+user	0m 16.52s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16710820800
+real	0m 16.75s
+user	0m 16.61s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16587572300
+real	0m 16.62s
+user	0m 16.49s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16640320200
+real	0m 16.67s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16648935000
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16689538000
+real	0m 16.72s
+user	0m 16.61s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16516104600
+real	0m 16.55s
+user	0m 16.43s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16590023300
+real	0m 16.62s
+user	0m 16.51s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16647487600
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16693429200
+real	0m 16.73s
+user	0m 16.63s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16646847200
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16702554800
+real	0m 16.74s
+user	0m 16.63s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16638009000
+real	0m 16.67s
+user	0m 16.53s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16689528500
+real	0m 16.72s
+user	0m 16.62s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16612675400
+real	0m 16.65s
+user	0m 16.55s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16660999200
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16617902700
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16658741600
+real	0m 16.70s
+user	0m 16.60s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16498051900
+real	0m 16.53s
+user	0m 16.38s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16587195000
+real	0m 16.62s
+user	0m 16.47s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16626298000
+real	0m 16.66s
+user	0m 16.58s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16631683700
+real	0m 16.67s
+user	0m 16.53s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16655209900
+real	0m 16.69s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16636810500
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16630252100
+real	0m 16.66s
+user	0m 16.52s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16595076500
+real	0m 16.63s
+user	0m 16.53s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625543800
+real	0m 16.66s
+user	0m 16.58s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16583413500
+real	0m 16.62s
+user	0m 16.49s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16624429200
+real	0m 16.66s
+user	0m 16.52s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16533788400
+real	0m 16.57s
+user	0m 16.46s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16571150200
+real	0m 16.60s
+user	0m 16.46s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16626699100
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16552809600
+real	0m 16.59s
+user	0m 16.49s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16485879600
+real	0m 16.52s
+user	0m 16.42s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16522265600
+real	0m 16.56s
+user	0m 16.45s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16534032000
+real	0m 16.57s
+user	0m 16.48s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16549645600
+real	0m 16.58s
+user	0m 16.46s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16583796900
+real	0m 16.62s
+user	0m 16.50s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16551611200
+real	0m 16.59s
+user	0m 16.47s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16595594500
+real	0m 16.63s
+user	0m 16.49s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16483910200
+real	0m 16.52s
+user	0m 16.39s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16560496800
+real	0m 16.59s
+user	0m 16.49s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16574758700
+real	0m 16.61s
+user	0m 16.54s
+sys	0m 0.05s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16551276400
+real	0m 16.59s
+user	0m 16.46s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16597689400
+real	0m 16.63s
+user	0m 16.50s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16556410500
+real	0m 16.59s
+user	0m 16.49s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16598707900
+real	0m 16.63s
+user	0m 16.50s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16546809100
+real	0m 16.58s
+user	0m 16.45s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16589606100
+real	0m 16.62s
+user	0m 16.53s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16567410800
+real	0m 16.60s
+user	0m 16.52s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16586892300
+real	0m 16.62s
+user	0m 16.50s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16534504000
+real	0m 16.57s
+user	0m 16.47s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16578797300
+real	0m 16.61s
+user	0m 16.46s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16602219500
+real	0m 16.63s
+user	0m 16.53s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16590446800
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16611353900
+real	0m 16.65s
+user	0m 16.55s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16549801100
+real	0m 16.58s
+user	0m 16.46s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16626496900
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16582572600
+real	0m 16.62s
+user	0m 16.49s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16662932500
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16619633900
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16673509100
+real	0m 16.71s
+user	0m 16.59s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16467139700
+real	0m 16.50s
+user	0m 16.40s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16630554400
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16670799900
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16603899100
+real	0m 16.64s
+user	0m 16.50s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16680230900
+real	0m 16.72s
+user	0m 16.62s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16599677400
+real	0m 16.63s
+user	0m 16.53s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627834800
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16612738700
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16654713700
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16608784300
+real	0m 16.64s
+user	0m 16.52s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16642837300
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16547470500
+real	0m 16.58s
+user	0m 16.46s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16599570000
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16720092100
+real	0m 16.75s
+user	0m 16.64s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16599664300
+real	0m 16.63s
+user	0m 16.52s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644999600
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16619398500
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16645301900
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16620932900
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16647544800
+real	0m 16.68s
+user	0m 16.59s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16611690700
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16652366500
+real	0m 16.69s
+user	0m 16.56s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16478465800
+real	0m 16.51s
+user	0m 16.40s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16613710700
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623290400
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16619508500
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16621832000
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16600081900
+real	0m 16.64s
+user	0m 16.50s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618095300
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16592104400
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16624100600
+real	0m 16.66s
+user	0m 16.52s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16612845700
+real	0m 16.64s
+user	0m 16.54s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622241300
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16540642400
+real	0m 16.58s
+user	0m 16.44s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16586410400
+real	0m 16.62s
+user	0m 16.50s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16636872500
+real	0m 16.67s
+user	0m 16.53s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16597945500
+real	0m 16.63s
+user	0m 16.54s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16629872800
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16596550700
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16628289600
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16594692100
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16634352200
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16617648900
+real	0m 16.65s
+user	0m 16.56s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622241200
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16502295300
+real	0m 16.54s
+user	0m 16.44s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16613941600
+real	0m 16.65s
+user	0m 16.52s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16616427900
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16590387900
+real	0m 16.62s
+user	0m 16.48s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16631007500
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16597744300
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16610314400
+real	0m 16.64s
+user	0m 16.51s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16607552800
+real	0m 16.64s
+user	0m 16.51s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16595575100
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622067200
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16641375200
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16553114000
+real	0m 16.59s
+user	0m 16.46s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16472828200
+real	0m 16.51s
+user	0m 16.40s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644860000
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16642713200
+real	0m 16.68s
+user	0m 16.59s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16688904500
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16661220900
+real	0m 16.70s
+user	0m 16.56s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16707510300
+real	0m 16.74s
+user	0m 16.64s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16675241700
+real	0m 16.71s
+user	0m 16.61s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16706539700
+real	0m 16.74s
+user	0m 16.62s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16671103800
+real	0m 16.70s
+user	0m 16.61s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16683578000
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16633379900
+real	0m 16.67s
+user	0m 16.58s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16476646900
+real	0m 16.51s
+user	0m 16.38s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16634810000
+real	0m 16.67s
+user	0m 16.58s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16635517500
+real	0m 16.67s
+user	0m 16.59s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16647383600
+real	0m 16.68s
+user	0m 16.59s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16599628900
+real	0m 16.64s
+user	0m 16.53s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16647330300
+real	0m 16.68s
+user	0m 16.54s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16621538900
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16638597600
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16612504300
+real	0m 16.65s
+user	0m 16.51s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644961700
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16630352400
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16553676700
+real	0m 16.59s
+user	0m 16.51s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16640106700
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625636100
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16656562700
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622752300
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16621987500
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16528931000
+real	0m 16.56s
+user	0m 16.46s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16551976100
+real	0m 16.59s
+user	0m 16.50s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16561332100
+real	0m 16.59s
+user	0m 16.49s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16624807600
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16600196500
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16487165200
+real	0m 16.52s
+user	0m 16.40s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16506260100
+real	0m 16.54s
+user	0m 16.41s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16534126200
+real	0m 16.57s
+user	0m 16.46s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16535163800
+real	0m 16.57s
+user	0m 16.45s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16555283200
+real	0m 16.59s
+user	0m 16.46s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16511731700
+real	0m 16.54s
+user	0m 16.45s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16527433100
+real	0m 16.56s
+user	0m 16.44s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16533731600
+real	0m 16.57s
+user	0m 16.44s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16560648400
+real	0m 16.60s
+user	0m 16.46s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16536089000
+real	0m 16.57s
+user	0m 16.42s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16578524900
+real	0m 16.61s
+user	0m 16.51s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16568951500
+real	0m 16.60s
+user	0m 16.48s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16509835600
+real	0m 16.54s
+user	0m 16.41s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16530112600
+real	0m 16.57s
+user	0m 16.43s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16512057800
+real	0m 16.55s
+user	0m 16.42s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16545486100
+real	0m 16.58s
+user	0m 16.47s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16544656600
+real	0m 16.58s
+user	0m 16.46s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16531272600
+real	0m 16.57s
+user	0m 16.47s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16558012500
+real	0m 16.59s
+user	0m 16.48s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16593197900
+real	0m 16.63s
+user	0m 16.50s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16596574300
+real	0m 16.63s
+user	0m 16.46s
+sys	0m 0.15s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16601587800
+real	0m 16.64s
+user	0m 16.50s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16480695800
+real	0m 16.52s
+user	0m 16.37s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16612610100
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16593158400
+real	0m 16.63s
+user	0m 16.54s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16573094100
+real	0m 16.61s
+user	0m 16.50s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16575356500
+real	0m 16.61s
+user	0m 16.50s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16589457200
+real	0m 16.62s
+user	0m 16.52s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16580151200
+real	0m 16.62s
+user	0m 16.51s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16592953300
+real	0m 16.63s
+user	0m 16.53s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16593179700
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16588759600
+real	0m 16.63s
+user	0m 16.49s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16574753600
+real	0m 16.61s
+user	0m 16.49s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16571621200
+real	0m 16.61s
+user	0m 16.50s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16590428800
+real	0m 16.63s
+user	0m 16.51s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16576866700
+real	0m 16.61s
+user	0m 16.49s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16576183200
+real	0m 16.61s
+user	0m 16.47s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16576435100
+real	0m 16.61s
+user	0m 16.49s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16570585700
+real	0m 16.61s
+user	0m 16.50s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16594500600
+real	0m 16.63s
+user	0m 16.52s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16598127000
+real	0m 16.63s
+user	0m 16.52s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16589893400
+real	0m 16.62s
+user	0m 16.52s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16593558500
+real	0m 16.63s
+user	0m 16.55s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16581743000
+real	0m 16.62s
+user	0m 16.50s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16483411000
+real	0m 16.52s
+user	0m 16.43s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16626666100
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16655801800
+real	0m 16.69s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16541186800
+real	0m 16.58s
+user	0m 16.47s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16544569000
+real	0m 16.58s
+user	0m 16.44s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16611366000
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16676633900
+real	0m 16.71s
+user	0m 16.59s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16679439700
+real	0m 16.71s
+user	0m 16.61s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16656194100
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16691266600
+real	0m 16.73s
+user	0m 16.63s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16598619400
+real	0m 16.64s
+user	0m 16.50s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16556600200
+real	0m 16.59s
+user	0m 16.48s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16681738200
+real	0m 16.72s
+user	0m 16.59s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16628528500
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16642989900
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16742456100
+real	0m 16.78s
+user	0m 16.65s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16683673000
+real	0m 16.72s
+user	0m 16.58s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16657964200
+real	0m 16.69s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16655704900
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16660585900
+real	0m 16.70s
+user	0m 16.58s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16681250300
+real	0m 16.72s
+user	0m 16.62s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16636489200
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16484341500
+real	0m 16.52s
+user	0m 16.41s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627918600
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16548002300
+real	0m 16.58s
+user	0m 16.48s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16585899300
+real	0m 16.62s
+user	0m 16.53s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16541458600
+real	0m 16.58s
+user	0m 16.46s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16611287000
+real	0m 16.64s
+user	0m 16.51s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16566058600
+real	0m 16.60s
+user	0m 16.50s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16616019700
+real	0m 16.65s
+user	0m 16.52s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16558420600
+real	0m 16.59s
+user	0m 16.47s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16639005000
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16561649300
+real	0m 16.60s
+user	0m 16.49s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16543898500
+real	0m 16.58s
+user	0m 16.49s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16526229500
+real	0m 16.56s
+user	0m 16.46s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16649751600
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16550999100
+real	0m 16.58s
+user	0m 16.49s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16669525000
+real	0m 16.70s
+user	0m 16.58s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16552077400
+real	0m 16.59s
+user	0m 16.49s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16647017100
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16553319900
+real	0m 16.59s
+user	0m 16.45s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16638088600
+real	0m 16.67s
+user	0m 16.58s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16546081800
+real	0m 16.58s
+user	0m 16.47s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16612778800
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16569655400
+real	0m 16.60s
+user	0m 16.51s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16467630000
+real	0m 16.50s
+user	0m 16.39s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16669054300
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16636470700
+real	0m 16.67s
+user	0m 16.59s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16632621300
+real	0m 16.67s
+user	0m 16.53s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623171700
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16640113000
+real	0m 16.68s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16639057400
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622777900
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16600421100
+real	0m 16.64s
+user	0m 16.49s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16617999200
+real	0m 16.65s
+user	0m 16.55s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16579993000
+real	0m 16.61s
+user	0m 16.52s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16532393200
+real	0m 16.57s
+user	0m 16.46s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16545996100
+real	0m 16.58s
+user	0m 16.45s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16608209600
+real	0m 16.64s
+user	0m 16.50s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16608318100
+real	0m 16.64s
+user	0m 16.52s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16616194600
+real	0m 16.65s
+user	0m 16.57s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16656140500
+real	0m 16.69s
+user	0m 16.60s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16649706800
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16636645700
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16631861700
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16642167100
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16706707800
+real	0m 16.74s
+user	0m 16.62s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16470025500
+real	0m 16.50s
+user	0m 16.39s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16708034400
+real	0m 16.74s
+user	0m 16.63s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16721467400
+real	0m 16.76s
+user	0m 16.67s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16656007300
+real	0m 16.69s
+user	0m 16.56s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16702308000
+real	0m 16.74s
+user	0m 16.63s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16686783700
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16699991200
+real	0m 16.73s
+user	0m 16.65s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16688923000
+real	0m 16.72s
+user	0m 16.62s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16689126000
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16646994800
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16663770800
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16551603200
+real	0m 16.59s
+user	0m 16.47s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16658660400
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16659575500
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16650017300
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16663972500
+real	0m 16.70s
+user	0m 16.58s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16654772400
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16669454900
+real	0m 16.70s
+user	0m 16.61s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16658865500
+real	0m 16.69s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16672295900
+real	0m 16.71s
+user	0m 16.58s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16679357200
+real	0m 16.71s
+user	0m 16.62s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16684082500
+real	0m 16.72s
+user	0m 16.61s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16469074900
+real	0m 16.50s
+user	0m 16.37s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16684267200
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16634751300
+real	0m 16.67s
+user	0m 16.57s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16647901800
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622125100
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16650040600
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16643580100
+real	0m 16.68s
+user	0m 16.54s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16660492000
+real	0m 16.69s
+user	0m 16.56s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16578755000
+real	0m 16.61s
+user	0m 16.51s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16578961300
+real	0m 16.61s
+user	0m 16.48s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16574869100
+real	0m 16.61s
+user	0m 16.52s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16551072600
+real	0m 16.58s
+user	0m 16.47s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16602756200
+real	0m 16.64s
+user	0m 16.55s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618527300
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627096300
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16662189300
+real	0m 16.70s
+user	0m 16.54s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16628359000
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16661846600
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16633111900
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16651978000
+real	0m 16.69s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622940500
+real	0m 16.66s
+user	0m 16.52s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16649940700
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16473885200
+real	0m 16.51s
+user	0m 16.38s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16619104000
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16636089800
+real	0m 16.67s
+user	0m 16.59s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16678644000
+real	0m 16.71s
+user	0m 16.61s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16726462000
+real	0m 16.76s
+user	0m 16.65s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16696485700
+real	0m 16.73s
+user	0m 16.61s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16748333800
+real	0m 16.78s
+user	0m 16.64s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16699153500
+real	0m 16.73s
+user	0m 16.65s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16725684500
+real	0m 16.76s
+user	0m 16.64s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16725819600
+real	0m 16.76s
+user	0m 16.67s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16757333400
+real	0m 16.79s
+user	0m 16.67s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16565147400
+real	0m 16.60s
+user	0m 16.44s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16739323400
+real	0m 16.78s
+user	0m 16.66s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16705802800
+real	0m 16.74s
+user	0m 16.61s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16760862700
+real	0m 16.80s
+user	0m 16.68s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16665640400
+real	0m 16.70s
+user	0m 16.58s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16687321800
+real	0m 16.72s
+user	0m 16.62s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16660556200
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16739549000
+real	0m 16.77s
+user	0m 16.66s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16722561200
+real	0m 16.76s
+user	0m 16.63s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16739116400
+real	0m 16.77s
+user	0m 16.65s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16704936100
+real	0m 16.74s
+user	0m 16.60s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16464717100
+real	0m 16.50s
+user	0m 16.40s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618116500
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16637661300
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16659186100
+real	0m 16.69s
+user	0m 16.60s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16697252600
+real	0m 16.73s
+user	0m 16.59s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16700543200
+real	0m 16.73s
+user	0m 16.63s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16667881700
+real	0m 16.70s
+user	0m 16.56s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16666762000
+real	0m 16.70s
+user	0m 16.56s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16641393700
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16744215600
+real	0m 16.78s
+user	0m 16.64s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16679529500
+real	0m 16.71s
+user	0m 16.61s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16540101100
+real	0m 16.57s
+user	0m 16.48s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16465091800
+real	0m 16.50s
+user	0m 16.37s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16715337500
+real	0m 16.75s
+user	0m 16.64s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16725547300
+real	0m 16.76s
+user	0m 16.61s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16798909700
+real	0m 16.84s
+user	0m 16.72s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16756863900
+real	0m 16.79s
+user	0m 16.66s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16814737800
+real	0m 16.85s
+user	0m 16.71s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16626165700
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16634607000
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16610803700
+real	0m 16.65s
+user	0m 16.52s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16642856300
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623657900
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16470717800
+real	0m 16.51s
+user	0m 16.39s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644189900
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16632373900
+real	0m 16.67s
+user	0m 16.53s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16626889600
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16611666100
+real	0m 16.65s
+user	0m 16.52s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16615560600
+real	0m 16.65s
+user	0m 16.56s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625709500
+real	0m 16.66s
+user	0m 16.52s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622063500
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16619973900
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16637258200
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627010900
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16538640600
+real	0m 16.57s
+user	0m 16.46s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625594000
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16642718400
+real	0m 16.68s
+user	0m 16.60s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16697067800
+real	0m 16.73s
+user	0m 16.62s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16730557000
+real	0m 16.76s
+user	0m 16.64s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16695287300
+real	0m 16.73s
+user	0m 16.59s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16745496900
+real	0m 16.78s
+user	0m 16.69s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16706184100
+real	0m 16.74s
+user	0m 16.64s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16738776500
+real	0m 16.77s
+user	0m 16.67s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16735545700
+real	0m 16.77s
+user	0m 16.69s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16678456400
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16463628700
+real	0m 16.50s
+user	0m 16.39s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16738233000
+real	0m 16.77s
+user	0m 16.69s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16740103200
+real	0m 16.77s
+user	0m 16.61s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16729595200
+real	0m 16.76s
+user	0m 16.65s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644811800
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16596408800
+real	0m 16.63s
+user	0m 16.47s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16645184300
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16619703400
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16624802600
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623800400
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627582500
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16516155600
+real	0m 16.55s
+user	0m 16.44s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16619822500
+real	0m 16.66s
+user	0m 16.51s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16604765400
+real	0m 16.64s
+user	0m 16.54s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16637544600
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618833100
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16606243000
+real	0m 16.64s
+user	0m 16.52s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623638800
+real	0m 16.66s
+user	0m 16.58s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16603952700
+real	0m 16.64s
+user	0m 16.51s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16615908300
+real	0m 16.65s
+user	0m 16.52s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16631396500
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16617880500
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16558761200
+real	0m 16.59s
+user	0m 16.47s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623289500
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16617344900
+real	0m 16.65s
+user	0m 16.57s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16648450700
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16621643400
+real	0m 16.65s
+user	0m 16.57s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16626981500
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16601738600
+real	0m 16.64s
+user	0m 16.51s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16638293800
+real	0m 16.67s
+user	0m 16.57s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16607202300
+real	0m 16.64s
+user	0m 16.53s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16630675400
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16626040500
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16518551600
+real	0m 16.55s
+user	0m 16.44s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623615000
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16670737900
+real	0m 16.70s
+user	0m 16.60s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16648877700
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618634500
+real	0m 16.65s
+user	0m 16.50s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16678348400
+real	0m 16.71s
+user	0m 16.62s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16635069800
+real	0m 16.67s
+user	0m 16.58s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16684020100
+real	0m 16.72s
+user	0m 16.64s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16646540500
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16658700900
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16632833900
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16547539300
+real	0m 16.58s
+user	0m 16.46s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16628116100
+real	0m 16.66s
+user	0m 16.51s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16628632000
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16602092400
+real	0m 16.64s
+user	0m 16.53s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16717637900
+real	0m 16.75s
+user	0m 16.66s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16698263900
+real	0m 16.73s
+user	0m 16.63s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16603274300
+real	0m 16.64s
+user	0m 16.53s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16617708800
+real	0m 16.65s
+user	0m 16.55s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16629237300
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16615932700
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16632079500
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16551179100
+real	0m 16.58s
+user	0m 16.46s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16551441400
+real	0m 16.59s
+user	0m 16.48s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16586167800
+real	0m 16.62s
+user	0m 16.51s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16559308000
+real	0m 16.59s
+user	0m 16.47s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16594549300
+real	0m 16.63s
+user	0m 16.49s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16547918300
+real	0m 16.58s
+user	0m 16.47s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16551089500
+real	0m 16.59s
+user	0m 16.46s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16542491300
+real	0m 16.58s
+user	0m 16.45s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16542892000
+real	0m 16.58s
+user	0m 16.47s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16547339800
+real	0m 16.58s
+user	0m 16.46s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16650620000
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16567794700
+real	0m 16.60s
+user	0m 16.50s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16655319000
+real	0m 16.69s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16615270700
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16612390800
+real	0m 16.65s
+user	0m 16.51s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16652557600
+real	0m 16.69s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16608989900
+real	0m 16.64s
+user	0m 16.50s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16753003800
+real	0m 16.79s
+user	0m 16.69s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16649862400
+real	0m 16.69s
+user	0m 16.53s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16751836000
+real	0m 16.79s
+user	0m 16.69s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16675761900
+real	0m 16.71s
+user	0m 16.57s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16748689800
+real	0m 16.78s
+user	0m 16.65s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16530639300
+real	0m 16.57s
+user	0m 16.45s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16501362500
+real	0m 16.54s
+user	0m 16.40s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16706965800
+real	0m 16.74s
+user	0m 16.62s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16751903700
+real	0m 16.79s
+user	0m 16.67s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16667112700
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16741096700
+real	0m 16.77s
+user	0m 16.67s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16665921500
+real	0m 16.70s
+user	0m 16.60s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16746879000
+real	0m 16.78s
+user	0m 16.67s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16681128300
+real	0m 16.72s
+user	0m 16.62s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16759570300
+real	0m 16.79s
+user	0m 16.67s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16679691000
+real	0m 16.71s
+user	0m 16.62s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16762606100
+real	0m 16.80s
+user	0m 16.70s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16519598200
+real	0m 16.55s
+user	0m 16.45s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16702581700
+real	0m 16.74s
+user	0m 16.61s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16745117500
+real	0m 16.78s
+user	0m 16.67s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16735948900
+real	0m 16.77s
+user	0m 16.64s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16717280400
+real	0m 16.75s
+user	0m 16.64s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16721131200
+real	0m 16.75s
+user	0m 16.63s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16767543900
+real	0m 16.80s
+user	0m 16.68s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16676971200
+real	0m 16.71s
+user	0m 16.57s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16838285700
+real	0m 16.87s
+user	0m 16.74s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16615163300
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16694308200
+real	0m 16.73s
+user	0m 16.63s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16538029700
+real	0m 16.57s
+user	0m 16.46s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16662016900
+real	0m 16.70s
+user	0m 16.60s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16679824900
+real	0m 16.72s
+user	0m 16.55s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16630511700
+real	0m 16.67s
+user	0m 16.57s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16626195200
+real	0m 16.66s
+user	0m 16.52s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627561000
+real	0m 16.66s
+user	0m 16.52s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16621057500
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623586000
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16611298300
+real	0m 16.64s
+user	0m 16.54s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16633658700
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16645849800
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16482480000
+real	0m 16.52s
+user	0m 16.37s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16629278400
+real	0m 16.66s
+user	0m 16.50s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16642571600
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625304200
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16611602600
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16612581600
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16624246500
+real	0m 16.66s
+user	0m 16.52s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622436100
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622077000
+real	0m 16.66s
+user	0m 16.52s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16652335400
+real	0m 16.69s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16586166800
+real	0m 16.62s
+user	0m 16.52s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16497501400
+real	0m 16.53s
+user	0m 16.43s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16637093200
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16613074700
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618582100
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16591335400
+real	0m 16.62s
+user	0m 16.49s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16621961600
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16611345900
+real	0m 16.65s
+user	0m 16.52s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16620248500
+real	0m 16.65s
+user	0m 16.57s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16615923000
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618980300
+real	0m 16.65s
+user	0m 16.55s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16629309900
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16488145100
+real	0m 16.52s
+user	0m 16.40s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16610028700
+real	0m 16.64s
+user	0m 16.52s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16638606300
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16616232200
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16630073400
+real	0m 16.67s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16602176500
+real	0m 16.64s
+user	0m 16.52s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16652102100
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16570930600
+real	0m 16.60s
+user	0m 16.48s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16674880500
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16591561700
+real	0m 16.62s
+user	0m 16.50s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16665502200
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16503787500
+real	0m 16.54s
+user	0m 16.43s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16605412200
+real	0m 16.64s
+user	0m 16.54s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16679530500
+real	0m 16.72s
+user	0m 16.61s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16621814700
+real	0m 16.66s
+user	0m 16.59s
+sys	0m 0.04s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16678487400
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16595861900
+real	0m 16.63s
+user	0m 16.53s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16668611800
+real	0m 16.70s
+user	0m 16.54s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16620747100
+real	0m 16.65s
+user	0m 16.55s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16668565800
+real	0m 16.70s
+user	0m 16.60s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618490800
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16667930000
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16475554000
+real	0m 16.51s
+user	0m 16.39s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16632318700
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16658098500
+real	0m 16.69s
+user	0m 16.61s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16617483200
+real	0m 16.65s
+user	0m 16.56s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16696084600
+real	0m 16.73s
+user	0m 16.62s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625587200
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16718581200
+real	0m 16.75s
+user	0m 16.65s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16628057000
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16715070900
+real	0m 16.75s
+user	0m 16.62s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16639579600
+real	0m 16.67s
+user	0m 16.53s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16635703500
+real	0m 16.67s
+user	0m 16.57s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16526083800
+real	0m 16.56s
+user	0m 16.48s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16560562300
+real	0m 16.60s
+user	0m 16.47s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16635691800
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16559991000
+real	0m 16.59s
+user	0m 16.48s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622246600
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16590650200
+real	0m 16.63s
+user	0m 16.52s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16629022300
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16568899000
+real	0m 16.60s
+user	0m 16.50s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618258300
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16583672900
+real	0m 16.62s
+user	0m 16.49s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16628078500
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16490611600
+real	0m 16.52s
+user	0m 16.42s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16589594600
+real	0m 16.62s
+user	0m 16.49s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16616332700
+real	0m 16.65s
+user	0m 16.52s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16565652900
+real	0m 16.60s
+user	0m 16.48s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16624659100
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16595897600
+real	0m 16.63s
+user	0m 16.49s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16615583100
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16609740700
+real	0m 16.64s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16651589400
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16601526400
+real	0m 16.64s
+user	0m 16.49s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16608775600
+real	0m 16.64s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16527196000
+real	0m 16.56s
+user	0m 16.44s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16472467900
+real	0m 16.51s
+user	0m 16.39s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16551735600
+real	0m 16.59s
+user	0m 16.48s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16620845500
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16568205500
+real	0m 16.60s
+user	0m 16.48s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16604622100
+real	0m 16.64s
+user	0m 16.47s
+sys	0m 0.15s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16602888500
+real	0m 16.63s
+user	0m 16.55s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16687405200
+real	0m 16.72s
+user	0m 16.62s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16634510300
+real	0m 16.67s
+user	0m 16.53s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16702420200
+real	0m 16.74s
+user	0m 16.62s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625202600
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16651193200
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16483594700
+real	0m 16.52s
+user	0m 16.40s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16638692500
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16694754800
+real	0m 16.73s
+user	0m 16.60s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16626120200
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16697652500
+real	0m 16.73s
+user	0m 16.61s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16619123200
+real	0m 16.65s
+user	0m 16.56s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16690717800
+real	0m 16.72s
+user	0m 16.61s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16630197000
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16701104500
+real	0m 16.74s
+user	0m 16.63s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16672588000
+real	0m 16.71s
+user	0m 16.61s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16664610200
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16515449900
+real	0m 16.55s
+user	0m 16.43s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16645431900
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16663059000
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16646386200
+real	0m 16.68s
+user	0m 16.60s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16662884200
+real	0m 16.70s
+user	0m 16.58s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16656380100
+real	0m 16.69s
+user	0m 16.60s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16638332000
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16657296300
+real	0m 16.69s
+user	0m 16.56s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644231700
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16662353000
+real	0m 16.70s
+user	0m 16.58s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16642765600
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16495751700
+real	0m 16.53s
+user	0m 16.43s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16604475700
+real	0m 16.64s
+user	0m 16.53s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16674025000
+real	0m 16.71s
+user	0m 16.59s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16733310500
+real	0m 16.77s
+user	0m 16.64s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16758596000
+real	0m 16.79s
+user	0m 16.68s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16666313300
+real	0m 16.70s
+user	0m 16.60s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16699283800
+real	0m 16.73s
+user	0m 16.63s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16589898100
+real	0m 16.62s
+user	0m 16.53s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16751237600
+real	0m 16.78s
+user	0m 16.68s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16691325100
+real	0m 16.73s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16726002500
+real	0m 16.76s
+user	0m 16.63s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16519902400
+real	0m 16.55s
+user	0m 16.43s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16747764800
+real	0m 16.78s
+user	0m 16.66s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16737116200
+real	0m 16.77s
+user	0m 16.62s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16690447500
+real	0m 16.72s
+user	0m 16.63s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16819570000
+real	0m 16.85s
+user	0m 16.76s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16707265100
+real	0m 16.74s
+user	0m 16.60s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16713533600
+real	0m 16.75s
+user	0m 16.66s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16701307600
+real	0m 16.74s
+user	0m 16.57s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16719339600
+real	0m 16.76s
+user	0m 16.63s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16691242600
+real	0m 16.73s
+user	0m 16.64s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16737076600
+real	0m 16.77s
+user	0m 16.63s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16497304600
+real	0m 16.53s
+user	0m 16.39s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16708215100
+real	0m 16.74s
+user	0m 16.66s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16679789900
+real	0m 16.71s
+user	0m 16.62s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16710906100
+real	0m 16.75s
+user	0m 16.63s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16676103900
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16683424200
+real	0m 16.72s
+user	0m 16.61s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16653781000
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16610785700
+real	0m 16.65s
+user	0m 16.55s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16661273600
+real	0m 16.69s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16635303200
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16668473700
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16507631800
+real	0m 16.54s
+user	0m 16.43s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627672300
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16639852800
+real	0m 16.67s
+user	0m 16.57s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16621652900
+real	0m 16.65s
+user	0m 16.55s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16651074200
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622734700
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16659174900
+real	0m 16.69s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16605363700
+real	0m 16.64s
+user	0m 16.52s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16663074600
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16611866000
+real	0m 16.65s
+user	0m 16.51s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16649384100
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16501875300
+real	0m 16.54s
+user	0m 16.40s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16612169300
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16655536200
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16633693300
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16643531800
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627015400
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16641931600
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16624588300
+real	0m 16.66s
+user	0m 16.51s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16668568400
+real	0m 16.70s
+user	0m 16.61s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623331600
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16650306200
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16550502900
+real	0m 16.58s
+user	0m 16.45s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16613546700
+real	0m 16.65s
+user	0m 16.56s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16672862700
+real	0m 16.71s
+user	0m 16.58s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16620000600
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16666225200
+real	0m 16.70s
+user	0m 16.58s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16611788500
+real	0m 16.65s
+user	0m 16.52s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16667047100
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16615565400
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16660724700
+real	0m 16.70s
+user	0m 16.58s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16586429000
+real	0m 16.62s
+user	0m 16.46s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16667945900
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16485469600
+real	0m 16.52s
+user	0m 16.42s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644335700
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16751247800
+real	0m 16.79s
+user	0m 16.67s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16706643600
+real	0m 16.74s
+user	0m 16.63s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16756941600
+real	0m 16.79s
+user	0m 16.70s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16649180700
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16680854900
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618398800
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16672013300
+real	0m 16.71s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16543533400
+real	0m 16.58s
+user	0m 16.47s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16667228700
+real	0m 16.70s
+user	0m 16.61s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16540956700
+real	0m 16.58s
+user	0m 16.44s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16505844800
+real	0m 16.54s
+user	0m 16.44s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16526551300
+real	0m 16.56s
+user	0m 16.46s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16667225900
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16548708100
+real	0m 16.58s
+user	0m 16.44s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16671394600
+real	0m 16.71s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16551282400
+real	0m 16.58s
+user	0m 16.47s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16674620600
+real	0m 16.71s
+user	0m 16.57s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16722870800
+real	0m 16.76s
+user	0m 16.63s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16665710700
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16657837500
+real	0m 16.69s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16675213700
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16442668900
+real	0m 16.48s
+user	0m 16.37s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16651043600
+real	0m 16.69s
+user	0m 16.53s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16698527300
+real	0m 16.73s
+user	0m 16.61s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16647086300
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16702564000
+real	0m 16.74s
+user	0m 16.59s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16667357500
+real	0m 16.70s
+user	0m 16.60s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16720486700
+real	0m 16.75s
+user	0m 16.65s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16652307700
+real	0m 16.69s
+user	0m 16.54s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16702029800
+real	0m 16.73s
+user	0m 16.64s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644908200
+real	0m 16.68s
+user	0m 16.59s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16669629200
+real	0m 16.71s
+user	0m 16.57s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16506356400
+real	0m 16.54s
+user	0m 16.39s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16632287600
+real	0m 16.67s
+user	0m 16.52s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16652081800
+real	0m 16.69s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16663344500
+real	0m 16.70s
+user	0m 16.58s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16637234800
+real	0m 16.67s
+user	0m 16.57s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16630761200
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16645172000
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16645026900
+real	0m 16.68s
+user	0m 16.59s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644973200
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625647900
+real	0m 16.66s
+user	0m 16.51s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16648084900
+real	0m 16.68s
+user	0m 16.53s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16435604200
+real	0m 16.47s
+user	0m 16.36s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16620328600
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16643694700
+real	0m 16.68s
+user	0m 16.53s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16683348700
+real	0m 16.72s
+user	0m 16.57s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16639483700
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16631821600
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16643647700
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644182900
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625721500
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16614497100
+real	0m 16.65s
+user	0m 16.55s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16618672200
+real	0m 16.65s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16516206300
+real	0m 16.55s
+user	0m 16.41s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16637276700
+real	0m 16.67s
+user	0m 16.53s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16673433900
+real	0m 16.71s
+user	0m 16.56s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16635653600
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16603215600
+real	0m 16.64s
+user	0m 16.51s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16578787700
+real	0m 16.61s
+user	0m 16.47s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16655028600
+real	0m 16.69s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16569416700
+real	0m 16.60s
+user	0m 16.48s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16660180600
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16637183600
+real	0m 16.67s
+user	0m 16.57s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622790400
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16423125600
+real	0m 16.46s
+user	0m 16.36s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16624109600
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16630491300
+real	0m 16.66s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16552078200
+real	0m 16.59s
+user	0m 16.47s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627586200
+real	0m 16.66s
+user	0m 16.58s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16534157800
+real	0m 16.57s
+user	0m 16.48s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16635186800
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16673609400
+real	0m 16.71s
+user	0m 16.61s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16629689800
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16653880300
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16628030800
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16528236900
+real	0m 16.56s
+user	0m 16.44s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16643881000
+real	0m 16.68s
+user	0m 16.54s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16640589800
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16662404400
+real	0m 16.70s
+user	0m 16.58s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16631622900
+real	0m 16.67s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16647806200
+real	0m 16.68s
+user	0m 16.56s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16622249600
+real	0m 16.66s
+user	0m 16.53s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16654528600
+real	0m 16.69s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16614292400
+real	0m 16.65s
+user	0m 16.54s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16657806800
+real	0m 16.69s
+user	0m 16.60s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16659449600
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16427882200
+real	0m 16.46s
+user	0m 16.37s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16703745300
+real	0m 16.74s
+user	0m 16.61s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16645304800
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16683618400
+real	0m 16.72s
+user	0m 16.61s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16627078300
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16673757400
+real	0m 16.71s
+user	0m 16.58s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16641670400
+real	0m 16.68s
+user	0m 16.54s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16691758600
+real	0m 16.73s
+user	0m 16.61s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16641732500
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16675248200
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16624397900
+real	0m 16.66s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16536173300
+real	0m 16.57s
+user	0m 16.47s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16688073500
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16598742900
+real	0m 16.63s
+user	0m 16.49s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16680494400
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16639795300
+real	0m 16.67s
+user	0m 16.55s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16694715300
+real	0m 16.73s
+user	0m 16.61s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16629137600
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16665123700
+real	0m 16.70s
+user	0m 16.61s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16690779900
+real	0m 16.72s
+user	0m 16.64s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16690040700
+real	0m 16.73s
+user	0m 16.62s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16678350200
+real	0m 16.71s
+user	0m 16.58s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16454996500
+real	0m 16.49s
+user	0m 16.39s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16715750800
+real	0m 16.75s
+user	0m 16.67s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16697796700
+real	0m 16.73s
+user	0m 16.64s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16704626200
+real	0m 16.74s
+user	0m 16.62s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16694508600
+real	0m 16.73s
+user	0m 16.61s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16650870000
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16669610600
+real	0m 16.70s
+user	0m 16.62s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16730532900
+real	0m 16.77s
+user	0m 16.66s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16695598400
+real	0m 16.73s
+user	0m 16.57s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16720313100
+real	0m 16.75s
+user	0m 16.62s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16693704300
+real	0m 16.73s
+user	0m 16.61s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16517814500
+real	0m 16.55s
+user	0m 16.42s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16484226600
+real	0m 16.52s
+user	0m 16.40s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16720447800
+real	0m 16.75s
+user	0m 16.58s
+sys	0m 0.15s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16692580300
+real	0m 16.73s
+user	0m 16.60s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16712281100
+real	0m 16.75s
+user	0m 16.63s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16662808800
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16729424300
+real	0m 16.77s
+user	0m 16.66s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16660319400
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16727038700
+real	0m 16.76s
+user	0m 16.63s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16648838700
+real	0m 16.68s
+user	0m 16.59s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16676833000
+real	0m 16.71s
+user	0m 16.63s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16645324900
+real	0m 16.68s
+user	0m 16.55s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16407227400
+real	0m 16.44s
+user	0m 16.31s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16705016800
+real	0m 16.74s
+user	0m 16.63s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16743999500
+real	0m 16.78s
+user	0m 16.64s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16689793400
+real	0m 16.72s
+user	0m 16.64s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16725767100
+real	0m 16.76s
+user	0m 16.64s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16750408900
+real	0m 16.78s
+user	0m 16.67s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16726445900
+real	0m 16.76s
+user	0m 16.64s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16847655400
+real	0m 16.88s
+user	0m 16.77s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16815637400
+real	0m 16.85s
+user	0m 16.74s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16779430300
+real	0m 16.81s
+user	0m 16.64s
+sys	0m 0.15s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16813561900
+real	0m 16.85s
+user	0m 16.73s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16520284500
+real	0m 16.55s
+user	0m 16.47s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16781659500
+real	0m 16.82s
+user	0m 16.70s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16847018500
+real	0m 16.88s
+user	0m 16.74s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16792633700
+real	0m 16.83s
+user	0m 16.70s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16735670500
+real	0m 16.77s
+user	0m 16.65s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16722686000
+real	0m 16.76s
+user	0m 16.65s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16753981300
+real	0m 16.79s
+user	0m 16.66s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16657237100
+real	0m 16.69s
+user	0m 16.54s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16682823200
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16683575400
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16671640700
+real	0m 16.71s
+user	0m 16.56s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16392744100
+real	0m 16.43s
+user	0m 16.35s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16691848500
+real	0m 16.73s
+user	0m 16.62s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16679789800
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16665387400
+real	0m 16.70s
+user	0m 16.60s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16682397000
+real	0m 16.72s
+user	0m 16.59s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16647812100
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16686247500
+real	0m 16.72s
+user	0m 16.59s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16648134000
+real	0m 16.68s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644510500
+real	0m 16.68s
+user	0m 16.53s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16652288000
+real	0m 16.69s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16660968200
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16509060800
+real	0m 16.54s
+user	0m 16.41s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16675350300
+real	0m 16.71s
+user	0m 16.59s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16652100500
+real	0m 16.69s
+user	0m 16.56s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16644777200
+real	0m 16.68s
+user	0m 16.58s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16662617400
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16670753900
+real	0m 16.71s
+user	0m 16.58s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16688912600
+real	0m 16.72s
+user	0m 16.62s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16678685500
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16706546500
+real	0m 16.74s
+user	0m 16.58s
+sys	0m 0.14s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16652094400
+real	0m 16.69s
+user	0m 16.61s
+sys	0m 0.05s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16722269100
+real	0m 16.76s
+user	0m 16.59s
+sys	0m 0.15s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16407700000
+real	0m 16.44s
+user	0m 16.32s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16656316900
+real	0m 16.69s
+user	0m 16.59s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16705720000
+real	0m 16.74s
+user	0m 16.64s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16623579300
+real	0m 16.66s
+user	0m 16.57s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16666394200
+real	0m 16.70s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16632527200
+real	0m 16.67s
+user	0m 16.54s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16671905300
+real	0m 16.70s
+user	0m 16.61s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16638582300
+real	0m 16.67s
+user	0m 16.56s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16672906700
+real	0m 16.71s
+user	0m 16.62s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16625993900
+real	0m 16.66s
+user	0m 16.55s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16670685500
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16497153900
+real	0m 16.53s
+user	0m 16.42s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16660729900
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16695938300
+real	0m 16.73s
+user	0m 16.59s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16659997900
+real	0m 16.69s
+user	0m 16.61s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16697778100
+real	0m 16.73s
+user	0m 16.62s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16676541800
+real	0m 16.71s
+user	0m 16.59s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16711218800
+real	0m 16.75s
+user	0m 16.62s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16637479600
+real	0m 16.67s
+user	0m 16.57s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16719554400
+real	0m 16.75s
+user	0m 16.64s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16665134400
+real	0m 16.70s
+user	0m 16.61s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16733192500
+real	0m 16.77s
+user	0m 16.64s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16411743700
+real	0m 16.45s
+user	0m 16.33s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16674571000
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16734427000
+real	0m 16.77s
+user	0m 16.69s
+sys	0m 0.06s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16654146800
+real	0m 16.69s
+user	0m 16.55s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16719741900
+real	0m 16.75s
+user	0m 16.64s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16661873700
+real	0m 16.69s
+user	0m 16.57s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16717778200
+real	0m 16.75s
+user	0m 16.60s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16680024800
+real	0m 16.71s
+user	0m 16.58s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16717615400
+real	0m 16.75s
+user	0m 16.65s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16664183600
+real	0m 16.70s
+user	0m 16.60s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16666973100
+real	0m 16.70s
+user	0m 16.60s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16518372000
+real	0m 16.55s
+user	0m 16.44s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16688552600
+real	0m 16.72s
+user	0m 16.63s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16681988800
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16685181200
+real	0m 16.72s
+user	0m 16.62s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16687496200
+real	0m 16.72s
+user	0m 16.59s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16686262500
+real	0m 16.72s
+user	0m 16.62s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16702200000
+real	0m 16.74s
+user	0m 16.65s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16695021700
+real	0m 16.73s
+user	0m 16.64s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16672692000
+real	0m 16.71s
+user	0m 16.59s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16681338500
+real	0m 16.72s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16670353800
+real	0m 16.70s
+user	0m 16.57s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16409643900
+real	0m 16.44s
+user	0m 16.30s
+sys	0m 0.13s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16681829000
+real	0m 16.72s
+user	0m 16.58s
+sys	0m 0.12s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16666736300
+real	0m 16.70s
+user	0m 16.61s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16679160200
+real	0m 16.71s
+user	0m 16.60s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16714643500
+real	0m 16.75s
+user	0m 16.64s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16668185300
+real	0m 16.70s
+user	0m 16.61s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16707381200
+real	0m 16.74s
+user	0m 16.63s
+sys	0m 0.09s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16694649700
+real	0m 16.73s
+user	0m 16.63s
+sys	0m 0.08s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16773876600
+real	0m 16.81s
+user	0m 16.69s
+sys	0m 0.10s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16694709600
+real	0m 16.73s
+user	0m 16.60s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16722894000
+real	0m 16.76s
+user	0m 16.63s
+sys	0m 0.11s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16494516800
+real	0m 16.53s
+user	0m 16.44s
+sys	0m 0.07s
+Iterating 284 times
+
+Found 128 with a probability of 1.000000
+
+Time taken: 16519371900
+real	0m 16.55s
+user	0m 16.41s
+sys	0m 0.13s

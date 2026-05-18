@@ -4,7 +4,7 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 
-GUEST_RESULTS = './guest/'
+GUEST_RESULTS = './guest2/'
 HOST_RESULTS = './host2/'
 NUMBER_FINDER = re.compile('[0-9]+')
 
@@ -57,9 +57,14 @@ if __name__ == '__main__':
 
         dev = max(np.std(guest), np.std(host))
 
-        print(f'diff: {np.mean(guest) / np.mean(host)}')
+        m_guest = np.mean(guest)
+        m_host = np.mean(host)
+        diff = m_guest / m_host
+        # print(f'diff: {diff}')
 
-        fig, (ax1, ax2) = plt.subplots(1, 2)
-        do_plot(ax1, f'host-{qbits}', host, dev=dev)
-        do_plot(ax2, f'guest-{qbits}', guest, dev=dev)
-        plt.show()
+        print(f'{qbits:10} & {m_host:8.4f} & {m_guest:8.4f} & {diff:8.4f}')
+
+        # fig, (ax1, ax2) = plt.subplots(1, 2)
+        # do_plot(ax1, f'host-{qbits}', host, dev=dev)
+        # do_plot(ax2, f'guest-{qbits}', guest, dev=dev)
+        # plt.show()

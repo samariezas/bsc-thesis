@@ -1,0 +1,33 @@
+\subsection{Instrukcijų talpyklos našumas}
+\label{chap:cache-nasumas}
+
+
+Norint įvertinti instrukcijų talpyklos našumą paruošiamas Linux vaizdas kuris iškart išjungs emuliatorių sėkmingai užkrovus vaizdą naudojantis \texttt{poweroff -f} komanda. Emuliatorius paleidžiamas po 100 kartų su kiekviena iš talpyklos strategijų: be jokios talpyklos, maišos lentele grįsta talpykla ir masyvu grįsta talpykla (žr. \ref{chap:instrukciju-cache-realizacija} skyrių). Masyvu grįstai talpyklos dydžiui išbandoma daug pirminių skaičių:
+\texttt{1022, 2039, 4093, 8191, 16381, 32749, 65521, 131071, 262139, 524287, 1048573, 2097143, 4194301, 8388593}. Pagal \ref{fig:cache-dydis} iliustraciją, Linux užkrovimui optimaliausias masyvo dydis yra \texttt{1048573}.
+
+Iš \ref{tbl:instrukciju-cache} lentelės matome, kad geriausia instrukcijų talpyklos strategija šiam emuliatoriui yra masyvas su dydžiu \texttt{1048573}.
+
+\begin{figure}[h]
+    \input{tyrimas-icache/array.pgf}
+    \caption{Linux sistemos užkrovimo laiko priklausomybė nuo talpyklos dydžio.}
+    \label{fig:cache-dydis}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|r|r|}
+  \hline
+    \textbf{Strategija} & \textbf{Vid. vykdymo laikas (s)} & \textbf{Stand. nuokrypis}  \\
+
+  \hline
+  % \input{tyrimas-icache/performance}
+Be talpyklos & 21.655 & 0.099 \\
+\hline
+Maišos lentelė & 26.390 & 0.149 \\
+\hline
+Masyvas, $N = 1048573$ & 13.192 & 0.060 \\
+  \hline
+\end{tabular}
+    \caption{Linux sistemo užkrovimo laiko priklausomybė nuo instrukcijų talpyklos strategijos.}
+    \label{tbl:instrukciju-cache}
+\end{table}

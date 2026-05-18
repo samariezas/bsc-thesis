@@ -1,0 +1,32 @@
+\subsection{QPU instrukcijų našumas}
+\label{chap:qpu-nasumas}
+
+\begin{table}
+\centering
+\begin{tabular}{|l|r|r|r|}
+
+\hline
+    \textbf{Kubitų skaičius} &
+    \textbf{\makecell{Vid. vykdymo laikas\\ šeimininko sistemoje}} &
+    \textbf{\makecell{Vid. vykdymo laikas\\ svečio sistemoje}} &
+    \textbf{\makecell{Vid. vykdymo \\ laiko santykis}} \\
+\hline
+        12 &   0.0731 &   0.0863 &   1.1803 \\
+        \hline
+        13 &   0.1988 &   0.2250 &   1.1316 \\
+        \hline
+        14 &   0.6016 &   0.6580 &   1.0938 \\
+        \hline
+        15 &   1.8653 &   2.0101 &   1.0777 \\
+        \hline
+        16 &   5.1895 &   5.4681 &   1.0537 \\
+        \hline
+        17 &  16.1554 &  16.6300 &   1.0294 \\
+        \hline
+
+\end{tabular}
+    \caption{Vidutinis Groverio algoritmo vykdymo laikas šeimininko ir svečio sistemose.}
+    \label{tbl:qpu-performance-ivertinimas}
+\end{table}
+
+Emuliatoriaus našumui įvertinti vykdant QPU instrukcijas bus naudojama \texttt{libquantum} pateikta Groverio algoritmo implementacija. Programa vykdoma 1000 kartų tiek šeimininko, tiek svečio sistemose. Kubitų skaičius kinta nuo 12 iki 17. Vidutinis vykdymo laikas skirtingose sistemose ir sąlyginis suletėjimas emuliuojamoje sistemoje matomas \ref{tbl:qpu-performance-ivertinimas} lentelėje. Didinant kubitų skaičių didėja laiko kiekis praleidžiamas \texttt{libquantum} skaičiavimuose, todėl sąlyginis suletėjimas sumažėja -- nuo 18\% su 12 kubitų iki 3\% su 17 kubitų.

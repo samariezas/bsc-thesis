@@ -34,7 +34,8 @@ pkgs.stdenv.mkDerivation {
         pict2e
         xltabular
         ltablex
-        multirow;
+        multirow
+        makecell;
     })
 
     (python3.withPackages (ps: with ps; [
