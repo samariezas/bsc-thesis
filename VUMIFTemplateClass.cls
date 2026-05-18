@@ -118,6 +118,7 @@
 % Skyriaus pavadinimas, turinyje neturintis numerio
 \newcommand{\sectionnonum}[1]{%
     \section*{#1}%
+    \phantomsection
     \addcontentsline{toc}{section}{#1}%
 }
 

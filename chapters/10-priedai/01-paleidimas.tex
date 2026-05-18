@@ -1,14 +1,22 @@
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mypurple}{rgb}{0.58,0,0.82}
+
+\lstset{
+  frame=single,
+  numbers=none,
+  breaklines=true,
+  captionpos=b,
+  basicstyle=\ttfamily\footnotesize,
+  commentstyle=\color{mygreen},
+  keywordstyle=\color{blue},
+  stringstyle=\color{mypurple},
+}
+
 \section{Paleidimas}
 \label{chap:priedas-paleidimas}
 
 Emuliatorius gali būti paleistas Linux aplinkoje naudojant šias komandas:
-
-\lstset{
-  basicstyle=\ttfamily\small,
-  numbers=none,
-  frame=single,
-  breaklines=true
-}
 
 \begin{lstlisting}[language=Bash]
 wget https://mif.vu.lt/~jope9155/remu/remu.AppImage
@@ -48,7 +56,7 @@ q0=1, q1=0, q2=0
 
 Pavyzdinė QPU programa \texttt{qpu-basic.c}:
 
-\begin{lstlisting}
+\begin{lstlisting}[language=C]
 #include <stdio.h>
 #include <qpu.h>
 

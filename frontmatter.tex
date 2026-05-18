@@ -1,7 +1,29 @@
 \selectlanguage{lithuanian}
 \sectionnonum{Santrauka}
+Šiame bakalauro baigiamajame darbe nagrinėjamas pilnos sistemos RISC-V emuliatoriaus su eksperimentiniu kvantinio procesoriaus plėtiniu kūrimas. Darbe sujungiami bendros paskirties procesoriaus emuliatoriaus įgyvendinimo principai, nestandartinių instrukcijų rinkinio plėtinių tyrimas ir jų integravimas į Linux pagrindu veikiančią vykdymo aplinką.
+
+Darbo metu analizuojami pagrindiniai RISC-V architektūros, privilegijuoto vykdymo, virtualiosios atminties, įrenginių emuliavimo ir operacinės sistemos paleidimo principai. Remiantis šia analize, Zig programavimo kalba įgyvendinamas emuliatorius, galintis vykdyti RISC-V programas, palaikyti šiuolaikinei operacinei sistemai reikalingus mechanizmus ir suteikti minimalią virtualią aparatinę įrangą Linux sistemai paleisti. Pasiūlomas nestandartinis kvantinio procesoriaus plėtinys, kuris išplečia emuliuojamą RISC-V platformą instrukcijomis, skirtomis kvantinių skaičiavimų abstrakcijoms valdyti. Siekiant, kad plėtinys būtų pritaikomas realistiškoje programinės įrangos aplinkoje, jo palaikymas įgyvendinamas ne tik emuliatoriuje, bet ir Linux branduolyje bei vartotojo erdvės programose.
+
+Galutinis darbo rezultatas -- eksperimentinė emuliavimo platforma, parodanti, kaip bendros paskirties RISC-V sistema gali būti papildyta specializuotu funkcionalumu.
+
+\vspace{1cm}
+\textbf{Raktiniai žodžiai}: RISC-V, emuliatorius, pilnos sistemos emuliavimas, Linux, instrukcijų rinkinio plėtinys, kvantiniai skaičiavimai, kompiuterių architektūra.
+
+\selectlanguage{english}
+\sectionnonum{Summary}
+This bachelor’s thesis focuses on the development of a full-system RISC-V emulator with support for an experimental quantum processing extension. The work combines the implementation of a general-purpose processor emulator with the exploration of custom instruction set extensions and their integration into a Linux-based execution environment.
+
+During the project, the main principles of RISC-V architecture, privileged execution, virtual memory, device emulation, and operating system bootstrapping are analysed and applied in practice. Based on this analysis, an emulator is implemented in Zig. The emulator is capable of executing RISC-V programs, supporting the mechanisms required by a modern operating system, and providing the minimal virtual hardware needed to run Linux. A custom quantum computing extensions is proposed, which extends the emulated RISC-V platform with instructions for manipulating quantum computation abstractions. To make the extension usable in a realistic software environment, support is added not only to the emulator, but also to the Linux kernel and user-space programs.
+
+The final result is an experimental emulation platform that demonstrates how a general-purpose RISC-V system can be extended with domain-specific functionality.
+
+\vspace{1cm}
+\textbf{Keywords}: RISC-V, emulator, full-system emulation, Linux, instruction set extension, quantum computing, computer architecture.
+
+
+\selectlanguage{lithuanian}
 \singlespacing
-\listoffigures % TODO: dabar dar nera jokiu
+% \listoffigures % TODO: dabar dar nera jokiu
 \listoftables
 \tableofcontents
 \onehalfspacing
@@ -30,12 +52,20 @@
 
 \sectionnonum{Įvadas}
 
-\textbf{TODO} Darbo tikslai:
+Pasirinkta baigiamojo bakalauro darbo tema yra RISC-V emuliatoriaus su eksperimentiniu kvantinio procesoriaus plėtiniu kūrimas.
+
+Procesorių architektūros yra viena iš pagrindinių kompiuterių sistemų sričių, apibrėžiančių, kaip programinė įranga sąveikauja su aparatine įranga. Nors daugeliu atvejų programuotojai dirba aukštesnio lygio abstrakcijose, kai kuriuose srityse -- tokiose kaip operacinėse sistemose, kompiliatoriuose ar įterptinėse sistemose -- būtina suprasti žemesnio lygio vykdymo principus. Pastaraisiais metais vis daugiau dėmesio sulaukia RISC-V architektūra. Viena svarbiausių jos savybių yra atviras ir modulinis instrukcijų rinkinio standartas. Dėl šios priežasties RISC-V yra patraukli ne tik praktiniam procesorių projektavimui, bet ir moksliniams bei eksperimentiniams darbams. Bazinis instrukcijų rinkinys gali būti plečiamas standartiniais arba nestandartiniais plėtiniais, todėl ši architektūra sudaro tinkamas sąlygas tirti specializuotus skaičiavimo modelius, naujas instrukcijas ir jų integraciją į esamas programinės įrangos sistemas.
+
+Vienas iš būdų tirti procesorių architektūrą yra emuliatorių kūrimas. Emuliatorius leidžia programiškai atkurti procesoriaus ir jį supančios platformos veikimą. Tai leidžia stebėti vykdymo eigą, analizuoti procesoriaus būsenos pokyčius, testuoti instrukcijų semantiką ir eksperimentuoti su architektūriniais sprendimais neturint fizinės įrangos. Paprastesni emuliatoriai gali vykdyti atskiras programas, tačiau pilnos sistemos emuliatorius turi palaikyti ir operacinės sistemos darbui reikalingus mechanizmus: privilegijuotą vykdymą, virtualiąją atmintį, pertrauktis, išimtis ir įrenginių modeliavimą.
+
+Šiame darbe emuliatorius nagrinėjamas ne tik kaip priemonė RISC-V programoms vykdyti, bet ir kaip eksperimentinė platforma nestandartiniam instrukcijų rinkinio plėtiniui įgyvendinti -- kvantinio procesoriaus plėtinys. Kvantiniai skaičiavimai remiasi kitokiu skaičiavimo modeliu nei klasikiniai kompiuteriai. Vietoje klasikinių bitų naudojami kubitai, o skaičiavimai atliekami taikant kvantinius vartus ir matavimo operacijas. Nors praktinių kvantinių kompiuterių naudojimas vis dar yra ribotas, kvantinių skaičiavimų simuliavimas leidžia tirti jų pritaikymo galimybes ir sąsajas su įprastomis kompiuterių architektūromis.
+
+Šio darbo tikslas -- suprojektuoti ir įgyvendinti RISC-V pilnos sistemos emuliatorių, galintį paleisti Linux aplinką ir palaikyti eksperimentinį kvantinio procesoriaus instrukcijų plėtinį. Siekiant įgyvendinti užsibrėžtą tikslą, buvo iškelti šie uždaviniai:
 
 \begin{enumerate}
     \item Išanalizuoti RISC-V architektūros, privilegijuoto vykdymo, atminties valdymo ir Linux paleidimo reikalavimus, reikalingus pilnai RV64 sistemos emuliacijai.
 
-    \item Suprojektuoti ir realizuoti RV64 emuliatorių, gebantį vykdyti bazines, privilegijuotas ir atomines RISC-V instrukcijas bei emuliuoti Linux paleidimui būtinus įrenginius.
+    \item Suprojektuoti ir realizuoti RV64 emuliatorių, gebantį vykdyti Linux reikalingas RISC-V instrukcijas bei emuliuoti būtinus įrenginius.
 
     \item Įgyvendinti eksperimentinį kvantinių skaičiavimų instrukcijų plėtinį ir paruošti programinės įrangos grandinę, leidžiančią šias instrukcijas naudoti vartotojo erdvės programose.
 

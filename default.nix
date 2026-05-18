@@ -31,7 +31,9 @@ pkgs.stdenv.mkDerivation {
         texcount
         pdflscape
         diagbox
-        pict2e;
+        pict2e
+        xltabular
+        ltablex;
     })
 
     (python3.withPackages (ps: with ps; [
