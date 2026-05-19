@@ -33,7 +33,29 @@ Emuliatorius sukompiliuotas Sandy Bridge procesorių architektūrai norint užti
 nix run github:samariezas/remu/qpu
 \end{lstlisting}
 
-Paleistoje sistemoje pateiktos dvi pavyzdinės programos, kurias galima sukompiliuoti su \texttt{tcc}. Naujas programas galima rašyti naudojant \texttt{vi} programą. Programos kurios naudoja QPU turi būti susietos naudojant \texttt{-lqpu}:
+Vaizde įkeltos Groverio algoritmo implementacijos pavyzdinis naudojimas:
+\begin{lstlisting}
+/samples # ls /bin/grover
+/bin/grover
+/samples # grover
+Usage: grover [number] [[qubits]]
+
+/samples # grover 14
+Iterating 3 times
+
+Found 14 with a probability of 0.961319
+
+Time taken: 7120200
+/samples # grover 14 17
+Iterating 284 times
+
+Found 14 with a probability of 1.000000
+
+Time taken: 18353432700
+/samples #
+\end{lstlisting}
+
+Taip pat sistemoje pateiktos dvi nesurinktos pavyzdinės programos, kurias galima sukompiliuoti su \texttt{tcc}. Naujas programas galima rašyti naudojant \texttt{vi} programą. Programos kurios naudoja QPU turi būti susietos naudojant \texttt{-lqpu}:
 
 \begin{lstlisting}
 /samples # ls

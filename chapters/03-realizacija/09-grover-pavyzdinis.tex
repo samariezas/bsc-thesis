@@ -1,0 +1,8 @@
+\subsection{Groverio algoritmo implementacija}
+\label{chap:groverio-implementacija}
+
+Groverio algoritmo implementacijai naudosime \texttt{libquantum} bibliotekoje pateiktą pavyzdį \texttt{grover.c} faile. \ref{tab:qpu-realizacijos-rysys} lentelėje nurodytų instrukcijų pakanka norint adaptuotį šį pavyzdį QPU posistemei. Eksperimentams pridėtas kodo fragmentas skirtas vykdymo laikui matuoti.
+
+Adaptuota ir surinkta programa pasiekiama \texttt{/bin/grover}. Programa priima du argumentus: ieškomą skaičių $n$ ir neprivalomą argumentą -- kubitų skaičių. Nepateikus kubitų skaičiaus programa
+\linebreak
+naudos $ \lceil \log_2(n+1) \rceil $ kubitų. Sėkmingai radus ieškomą reikšmę, ji išvedama į standartinę išvestį kartu su apskaičiuota tikimybe. Nors realiame kvantiniame kompiuteryje tokia tiksli tikimybė nėra tiesiogiai prieinama, simuliacijoje ją galima nustatyti analizuojant kvantinės būsenos amplitudes. Taip pat atspausdinamas skaičiavimams sugaištas laikas nanosekundėmis. Groverio programos naudojimo pavyzdys pateiktas \ref{chap:priedas-paleidimas} priede.
