@@ -35,7 +35,12 @@ pkgs.stdenv.mkDerivation {
         xltabular
         ltablex
         multirow
-        makecell;
+        makecell
+        quantikz
+        xargs
+        xstring
+        environ
+        tikz-cd;
     })
 
     (python3.withPackages (ps: with ps; [

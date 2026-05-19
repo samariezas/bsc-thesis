@@ -55,8 +55,42 @@ q0=1, q1=0, q2=0
 /samples #
 \end{lstlisting}
 
-Pavyzdinė QPU programa \texttt{qpu-basic.c}:
+\begin{figure}[h]
+    \centering
+\begin{quantikz}[row sep=0.5cm, column sep=0.55cm]
+\lstick{$\ket{0}_{q_0}$}
+  & \gate{H}
+  & \ctrl{1}
+  & \ctrl{1}
+  & \qw
+  & \qw
+  & \gate{Z}
+  & \meter{} \cw \rstick{$r_0$}
+\\
+\lstick{$\ket{0}_{q_1}$}
+  & \qw
+  & \targ{}
+  & \ctrl{1}
+  & \qw
+  & \gate{Y}
+  & \qw
+  & \meter{} \cw \rstick{$r_1$}
+\\
+\lstick{$\ket{0}_{q_2}$}
+  & \qw
+  & \qw
+  & \targ{}
+  & \gate{X}
+  & \qw
+  & \qw
+  & \meter{} \cw \rstick{$r_2$}
+\end{quantikz}
+    \caption{Programos {\normalfont\ttfamily qpu-basic.c} kvantinės grandinės atvaizdavimas.}
+    \label{fig:qpu-basic-diagrama}
+\end{figure}
 
+
+Žemiau pateiktame kodo fragmente matoma pavyzdinė QPU programa \texttt{qpu-basic.c}, kurios kvantinės grandinės schema parodyta \ref{fig:qpu-basic-diagrama} paveiksliuke.
 \begin{lstlisting}[language=C]
 #include <stdio.h>
 #include <qpu.h>
