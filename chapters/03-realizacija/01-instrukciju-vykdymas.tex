@@ -21,11 +21,10 @@ Klaidos vykdymo metu perduodamos bendru išimčių keliu. Kiekviena klaida turi 
 
 \subsection{Instrukcijų talpykla}
 \label{chap:instrukciju-cache-realizacija}
-% TODO: galbut reiktu irodymo kad array buvo greitesnis uz hashmap (extra tyrimas)
 
 Instrukcijų dekodavimui pagreitinti naudojama vidinė instrukcijų talpykla (angl. \textit{cache}). Ji saugo jau dekoduotą instrukcijos vykdymo kelią ir pradinę instrukcijos reikšmę. Talpyklos raktas sudarytas iš programos skaitiklio ir privilegijų režimo, o įrašai invaliduojami po veiksmų, galinčių pakeisti instrukcijų matomumą arba adresų vertimą: \texttt{FENCE.I}, \texttt{SFENCE.VMA} ir \texttt{satp} rašymo.
 
-Buvo realizuotos dvi talpyklos versijos: standartinės bibliotekos maišos lentelė ir specializuota masyvu pagrįsta struktūra. Masyvu pagrįstoje realizacijoje indeksui gauti naudojama liekanos operacija: $\texttt{indeksas} = \texttt{pc} \bmod N$, čia $N$ yra talpyklos masyvo dydis. Talpyklos dydžiui pasirinktas pirminis skaičius, kad adresai tolygiau pasiskirstytų tarp masyvo elementų ir sumažėtų kolizijų tikimybė. Praktinių matavimų metu masyvu pagrįsta realizacija pasirodė šiek tiek spartesnė, todėl galutinėje emuliatoriaus versijoje pasirinktas būtent šis variantas.
+Buvo realizuotos dvi talpyklos versijos: standartinės bibliotekos maišos lentelė ir specializuota masyvu pagrįsta struktūra. Masyvu pagrįstoje realizacijoje indeksui gauti naudojama liekanos operacija: $\texttt{indeksas} = \texttt{pc} \bmod N$, čia $N$ yra talpyklos masyvo dydis. Talpyklos dydžiui pasirinktas pirminis skaičius, kad adresai tolygiau pasiskirstytų tarp masyvo elementų ir sumažėtų kolizijų tikimybė. Praktinių matavimų metu masyvu pagrįsta realizacija pasirodė spartesnė (žr. \ref{chap:cache-nasumas} skyrių), todėl galutinėje emuliatoriaus versijoje pasirinktas būtent šis variantas.
 
 Kiekvienas įrašas turi ne tik instrukcijos adresą ir vykdymo informaciją, bet ir kartos numerį (angl. \textit{generation}). Invaliduojant talpyklą nėra išvalomi visi įrašai -- vietoje to padidinamas globalus kartos numeris. Įrašas laikomas galiojančiu tik tada, jei jo kartos numeris sutampa su dabartine talpyklos karta. Toks metodas leidžia atlikti talpyklos invalidavimą pastoviu laiku, nepriklausomai nuo talpyklos dydžio. Ši realizacija taip pat nenaudoja pilno kolizijų sprendimo mechanizmo. Jei keli skirtingi adresai patenka į tą pačią talpyklos vietą, naujas įrašas tiesiog perrašo senąjį. Blogiausiu atveju įvyksta papildomas instrukcijos dekodavimas ir talpyklos įrašo perrašymas.
 

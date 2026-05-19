@@ -3,11 +3,11 @@
 
 Emuliatoriaus magistralė projektuota kaip adresų intervalų sąrašas. Kiekvienas įrenginys turi pradžios adresą, ilgį ir tipą. Prieigos prie atminties vykdomos ieškant pirmo įrenginio, kurio intervalui priklauso adresas. Jeigu toks įrenginys nerandamas, grąžinama prieigos klaida, kuri procesoriaus lygyje vėliau paverčiama atitinkama RISC-V išimtimi.
 
-Emuliavimui buvo pasirinkti penki įrenginiai: RAM, UART, CLINT, PLIC ir išjungimo valdiklis. Toks įrenginių rinkinys parinktas dėl praktinės priežasties: Linux branduoliui reikalinga konsolė, laikmačio pertrauktys, išorinių pertraukimų kelias ir tvarkingas išjungimas. Kitos įrenginių klasės, pavyzdžiui, blokiniai diskai, tinklo plokštės ar grafiniai įrenginiai, šiame darbe nebūtų naudojamos, todėl nebuvo modeliuojamos. Projektuojant įrenginius buvo siekiama pakankamo funkcionalumo, o ne pilno aparatinės įrangos tikslumo.
+Emuliavimui buvo pasirinkti penki įrenginiai: RAM, UART, CLINT, PLIC ir išjungimo valdiklis. Toks įrenginių rinkinys parinktas dėl praktinės priežasties: Linux branduoliui reikalinga konsolė, laikmačio pertrauktys, išorinių pertraukimų kelias ir tvarkingas išjungimas.
 
 \subsubsection{RAM sritys}
 
-RAM sritys šiame modelyje traktuojamos kaip paprasti baitų masyvai, susieti su konkrečiais fizinių adresų intervalais. Į jas paleidimo metu įkeliami OpenSBI, Linux branduolio, initramfs ir DTB vaizdai. Šis modelis sąmoningai nemodeliuoja cache koherentiškumo, DMA, atminties valdiklių vėlinimų ar kelių magistralės masterių, nes šie aspektai nėra būtini vieno harto Linux paleidimui ir QPU instrukcijų eksperimentams.
+RAM sritys šiame modelyje traktuojamos kaip paprasti baitų masyvai, susieti su konkrečiais fizinių adresų intervalais. Į jas paleidimo metu įkeliami OpenSBI, Linux branduolio, initramfs ir DTB vaizdai.
 
 \subsubsection{UART įrenginys}
 

@@ -2,8 +2,3 @@
 \label{subsec:emuliatoriu-paskirtis}
 
 Procesoriaus emuliatorius yra programinė sistema, kuri modeliuoja kitos architektūros instrukcijų vykdymą ir su tuo susijusią mašinos būseną. Paprasčiausiu atveju emuliatorius nuskaito instrukciją iš atminties, ją dekoduoja, pakeičia emuliuojamus registrus ir pereina prie kitos instrukcijos. Pilnos sistemos emuliatoriuje vien instrukcijų vykdymo nepakanka: reikia modeliuoti fizinę atmintį, įrenginių registrus, pertrauktis, išimtis ir programinės įrangos įkrovos kelią.
-
-% TODO: nelabai skamba
-% Šiame darbe emuliatorius naudojamas ne kaip bendros paskirties virtualizacijos priemonė, o kaip eksperimentinė platforma naujoms RISC-V instrukcijoms tirti. Toks pasirinkimas leidžia kontroliuoti instrukcijų dekodavimą, tiksliai stebėti procesoriaus būsenos pokyčius ir kurti papildomą derinimo infrastruktūrą. Tai svarbu tais atvejais, kai siūlomas plėtinys dar nėra palaikomas standartiniuose emuliatoriuose arba kai reikia keisti ne tik vartotojo programą, bet ir operacinės sistemos elgesį.
-%
-% Emuliatorius taip pat yra patogus testavimo objektas, nes jame galima palyginti kelis vykdymo lygius. Vienetiniai testai tikrina izoliuotas funkcijas, pavyzdžiui, instrukcijų dekodavimą arba adresų vertimą. Oficialūs architektūriniai testai leidžia palyginti bazinės ISA semantiką su specifikacija, o pilnos sistemos testai patikrina, ar emuliatorius geba vykdyti programinę įrangą nuo firmware iki vartotojo programų. Tokia testavimo hierarchija atitinka darbo tikslą: ne tik realizuoti atskiras instrukcijas, bet ir parodyti, kad jos gali būti naudojamos realistiškoje programinės įrangos aplinkoje.

@@ -60,6 +60,11 @@
 \include{chapters/06-greitaveika/chapter}
 
 \sectionnonum{Išvados}
+Darbo metu buvo sukurtas RISC-V architektūros emuliatorius, palaikantis Linux operacinės sistemos paleidimą, pagrindinius privilegijuoto režimo mechanizmus, pertrauktis, virtualius įrenginius bei derinimą naudojant GDB nuotolinio derinimo protokolą. Emuliatoriaus veikimas buvo tikrinamas naudojant \texttt{riscv-tests}, savarankiškai sukurtus ELF testus bei Linux sistemos paleidimą. Realizuotos papildomos diagnostinės instrukcijos skirtos emuliatoriaus būsenos palyginimui su Spike realizacija.
+
+Darbo metu taip pat išplėsta RISC-V instrukcijų architektūra pridedant QPU instrukcijas kvantinių skaičiavimų vykdymui. Sukurtas instrukcijų dekodavimo ir vykdymo mechanizmas leidžia svečio sistemoje naudoti \texttt{libquantum} biblioteką. Atlikti našumo matavimai parodė, kad vykdant skaičiavimus su didesniu kubitų skaičiumi emuliacijos suletėjimas tampa santykinai mažas, nes didžiąją vykdymo laiko dalį sudaro pačios kvantinės bibliotekos atliekami skaičiavimai.
+
+Instrukcijų talpyklos našumo tyrimas parodė, kad pasirinkta talpyklos realizacija turi didelę įtaką bendram emuliatoriaus našumui. Paprasta masyvu grįsta talpykla šiam emuliatoriui yra efektyvesnė už maišos lentele grįstą realizaciją. Gauti rezultatai parodo, kad net ir nesudėtingi instrukcijų spartinimo metodai gali reikšmingai sumažinti Linux sistemos užkrovimo laiką bei pagerinti bendrą emuliatoriaus veikimo efektyvumą.
 
 \printbibliography[heading=bibintoc]
 

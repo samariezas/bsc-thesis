@@ -5,13 +5,11 @@ QPU posistemė įgyvendina projektavimo dalyje aprašytą konteksto ir kvantini�
 
 Kiekvienas QPU kontekstas saugo kvantinių registrų sąrašą. Registrų būsena realizuojama naudojant \texttt{libquantum} biblioteką: naujas registras sukuriamas per bibliotekos registro sukūrimo operaciją, vartai deleguojami atitinkamoms bibliotekos funkcijoms, o kontekstą išlaisvinant sunaikinami visi jam priklausantys registrai. RISC-V QPU instrukcijų vykdymo kelias tik išskaito operandus iš bendrųjų registrų, patikrina aktyvų kontekstą ir perduoda operaciją QPU posistemei.
 
-Realizuotos QPU instrukcijos matomos \ref{tab:qpu-realizacijos-rysys} lentelėje. C sąsaja naudojami registrai ir \texttt{funct7} laukai išvardinti \ref{chap:priedas-qpu-instr}
+Realizuotos QPU instrukcijos matomos \ref{tab:qpu-realizacijos-rysys} lentelėje. C sąsaja naudojami registrai ir \texttt{funct7} laukai išvardinti \ref{chap:priedas-qpu-instr} priede.
 
-% TODO: aprasyt instrukciju argumentus
-QPU instrukcijų semantika susieta su šiomis operacijomis:
 \begin{table}[h]
     \centering
-    \begin{tabular}{|l|l|}
+    \begin{tabularx}{\textwidth}{|l|X|}
         \hline
         \textbf{Instrukcija} & \textbf{Realizuojama operacija} \\
         \hline
@@ -37,7 +35,7 @@ QPU instrukcijų semantika susieta su šiomis operacijomis:
         \hline
         \texttt{Q.GETREGNODE} & registro būsenos ir amplitudės nuskaitymas pagal indeksą \\
         \hline
-    \end{tabular}
+    \end{tabularx}
     \caption{QPU instrukcijų realizacijos ryšys su kvantinės simuliacijos operacijomis}
     \label{tab:qpu-realizacijos-rysys}
 \end{table}

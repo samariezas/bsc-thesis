@@ -17,8 +17,6 @@ Pertrauktis iš UART perduodama per PLIC. Praktikoje tai leidžia Linux naudoti 
 
 PLIC ir CLINT įrenginiai patys nevykdo svečio kodo, bet jų būsena kiekvieno procesoriaus žingsnio pradžioje paverčiama CSR pertraukimų bitais. CLINT generuoja laikmačio pertraukimo būseną pagal \texttt{mtime} ir \texttt{mtimecmp}. PLIC tikrina UART šaltinį, jo prioritetą, \textit{enable} bitus ir konteksto \textit{threshold} reikšmę. Jei sąlygos tenkinamos, procesoriui pateikiama išorinė pertrauktis M arba S režimui.
 
-Šis modelis nėra cikliškai tikslus. Laikmatis skaičiuojamas pagal šeimininko sistemos laiką, o terminalo įvykiai tikrinami periodiškai, ne po kiekvienos emuliuojamos instrukcijos. Toks sprendimas sumažina sisteminių kvietimų kiekį ir yra pakankamas Linux konsolės bei laikmačio darbui, tačiau nėra skirtas tiksliai aparatinės įrangos laiko analizei.
-
 \subsubsection{Sistemos išjungimas}
 
 Išjungimo įrenginys realizuotas kaip vieno rašymo signalas. Kai Linux \texttt{syscon-poweroff} tvarkyklė įrašo DTB nurodytą reikšmę į išjungimo įrenginio adresą, emuliatorius pažymi, kad vykdymas turi būti sustabdytas. Platesnė \texttt{syscon} registrų semantika nemodeliuojama, nes šiame darbe reikalingas tik tvarkingas emuliacijos pabaigos kelias.

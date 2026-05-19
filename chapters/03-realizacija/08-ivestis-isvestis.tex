@@ -1,4 +1,4 @@
 \subsection{Įvesties/išvesties ciklas}
 \label{sec:ivestis-isvestis}
 
-Įvesties/išvesties ciklas turi du skirtingus dažnius: pigesnis kelias periodiškai atnaujina \texttt{mtime}, o brangesnis kelias tikrina terminalo ir GDB deskriptorius. Toks sprendimas sumažina sisteminių kvietimų kiekį, nes šeimininko sistemos I/O nėra tikrinamas kiekvieną emuliuojamą instrukciją. Supaprastinimas yra tas, kad I/O laikas nėra cikliškai tikslus: jis pakankamas Linux konsolės ir laikmačio darbui, bet nėra skirtas tiksliam aparatinės įrangos laiko modeliavimui.
+Įvesties/išvesties ciklas turi du skirtingus dažnius: pigesnis kelias periodiškai atnaujina \texttt{mtime}, o brangesnis kelias tikrina terminalo ir GDB deskriptorius. Toks sprendimas sumažina sisteminių kvietimų kiekį, nes šeimininko sistemos I/O nėra tikrinamas kiekvieną emuliuojamą instrukciją.
