@@ -1,59 +1,60 @@
 \section{QPU instrukcijų sąrašas}
 \label{chap:priedas-qpu-instr}
 
-\noindent
-\ref{table:qpu_instructions} lentelėje pateikiamas QPU instrukcijų sąrašas. \texttt{Q.NEWCTX} ir \texttt{Q.FREECTX} neturi C sąsajos, kadangi jos skirtos S režimo, o ne vartotojo programoms. Kai kuriose instrukcijose \texttt{rd} laukas naudojamas kaip įvesties registras, o ne kaip rezultato registras. taip pat kai kurios instrukcijos papildomai naudoja registrus \texttt{x10}, \texttt{x11} ir \texttt{x12}.
-
 {\footnotesize
+\noindent
+\ref{table:qpu_instructions} lentelėje pateikiamas QPU instrukcijų sąrašas. \texttt{Q.NEWCTX} ir \texttt{Q.FREECTX} neturi C sąsajos, kadangi jos skirtos S režimo, o ne vartotojo programoms. Kai kuriose instrukcijose \texttt{rd} laukas naudojamas kaip įvesties registras, o ne kaip rezultato registras. Taip pat kai kurios instrukcijos papildomai naudoja registrus \texttt{x10}, \texttt{x11} ir \texttt{x12}.
+
+
 \begin{xltabular}{\textwidth}{|l|l|
   >{\hsize=0.76\hsize}X|
   >{\hsize=0.78\hsize}X|
   >{\hsize=1.46\hsize}X|}
 
 \hline
-\textbf{Instrukcija} & \textbf{funct7} & \textbf{Įvestys} & \textbf{Išvestys} & \textbf{C sąsaja} \\
+\textbf{Instrukcija} & \textbf{\texttt{funct7}} & \textbf{Įvestys} & \textbf{Išvestys} & \textbf{C sąsaja} \\
 \hline
-Q.NEWCTX & 0x01 & -- & rd = context\_handle & nėra \\
+\texttt{Q.NEWCTX} & \texttt{0x01} & -- & \texttt{rd = context\_handle} & nėra \\
 \hline
-Q.FREECTX & 0x02 & rs1 = context\_handle & -- & nėra \\
+\texttt{Q.FREECTX} & \texttt{0x02} & \texttt{rs1 = context\_handle} & -- & nėra \\
 \hline
-Q.NEWREG & 0x10 & rs1 = initval, rs2 = width & rd = qureg\_id &
+\texttt{Q.NEWREG} & \texttt{0x10} & \texttt{rs1 = initval, rs2 = width} & \texttt{rd = qureg\_id} &
 \texttt{uint64\_t qpu\_new\_qureg(uint64\_t initval, uint64\_t width)} \\
 \hline
-Q.CNOT & 0x11 & rd = qureg, rs1 = control, rs2 = target & -- &
+\texttt{Q.CNOT} & \texttt{0x11} & \texttt{rd = qureg, rs1 = control, rs2 = target} & -- &
 \texttt{void qpu\_cnot(uint64\_t control, uint64\_t target, uint64\_t qureg)} \\
 \hline
-Q.TOFFOLI & 0x12 & rd = qureg, rs1 = control1, x10 = control2, rs2 = target & -- &
+\texttt{Q.TOFFOLI} & \texttt{0x12} & \texttt{rd = qureg, rs1 = control1, x10 = control2, rs2 = target} & -- &
 \texttt{void qpu\_toffoli(uint64\_t control1, uint64\_t control2, uint64\_t target, uint64\_t qureg)} \\
 \hline
-Q.SIGMAX & 0x13 & rd = qureg, rs2 = target & -- &
+\texttt{Q.SIGMAX} & \texttt{0x13} & \texttt{rd = qureg, rs2 = target} & -- &
 \texttt{void qpu\_sigma\_x(uint64\_t target, uint64\_t qureg)} \\
 \hline
-Q.SIGMAY & 0x14 & rd = qureg, rs2 = target & -- &
+\texttt{Q.SIGMAY} & \texttt{0x14} & \texttt{rd = qureg, rs2 = target} & -- &
 \texttt{void qpu\_sigma\_y(uint64\_t target, uint64\_t qureg)} \\
 \hline
-Q.SIGMAZ & 0x15 & rd = qureg, rs2 = target & -- &
+\texttt{Q.SIGMAZ} & \texttt{0x15} & \texttt{rd = qureg, rs2 = target} & -- &
 \texttt{void qpu\_sigma\_z(uint64\_t target, uint64\_t qureg)} \\
 \hline
-Q.HADAMARD & 0x16 & rd = qureg, rs2 = target & -- &
+\texttt{Q.HADAMARD} & \texttt{0x16} & \texttt{rd = qureg, rs2 = target} & -- &
 \texttt{void qpu\_hadamard(uint64\_t target, uint64\_t qureg)} \\
 \hline
-Q.BMEASURE & 0x17 & rs1 = pos, rs2 = qureg & rd = measured\_bit &
+\texttt{Q.BMEASURE} & \texttt{0x17} & \texttt{rs1 = pos, rs2 = qureg} & \texttt{rd = measured\_bit} &
 \texttt{uint64\_t qpu\_bmeasure(uint64\_t pos, uint64\_t qureg)} \\
 \hline
-Q.GETWIDTH & 0x18 & rs1 = n & rd = width &
+\texttt{Q.GETWIDTH} & \texttt{0x18} & \texttt{rs1 = n} & \texttt{rd = width} &
 \texttt{uint64\_t qpu\_getwidth(uint64\_t n)} \\
 \hline
-Q.PROB & 0x19 & rs1 = real\_float\_bits, rs2 = imaginary\_float\_bits & rd = probability\_float\_bits &
+\texttt{Q.PROB} & \texttt{0x19} & \texttt{rs1 = real\_float, rs2 = imaginary\_float} & \texttt{rd = probability\_float} &
 \texttt{float qpu\_prob(float r, float i)} \\
 \hline
-Q.GREGWIDTH & 0x20 & rs1 = qureg & rd = width &
+\texttt{Q.GREGWIDTH} & \texttt{0x20} & \texttt{rs1 = qureg} & \texttt{rd = width} &
 \texttt{uint64\_t qpu\_getregwidth(uint64\_t qureg)} \\
 \hline
-Q.GETREGNODE & 0x22 & x11 = qureg, x12 = idx & rd = state, rs1 = amplitude\_r, rs2 = amplitude\_i &
+\texttt{Q.GETREGNODE} & \texttt{0x22} & \texttt{x11 = qureg, x12 = idx} & \texttt{rd = state, rs1 = amplitude\_r, rs2 = amplitude\_i} &
 \texttt{void qpu\_get\_reg\_node(uint64\_t qureg, uint64\_t idx, uint64\_t *state\_out, float *amplitude\_r\_out, float *amplitude\_i\_out)} \\
 \hline
-Q.GETREGSIZE & 0x23 & rs1 = qureg & rd = size &
+\texttt{Q.GETREGSIZE} & \texttt{0x23} & \texttt{rs1 = qureg} & \texttt{rd = size} &
 \texttt{uint64\_t qpu\_getregsize(uint64\_t qureg)} \\
 \hline
 

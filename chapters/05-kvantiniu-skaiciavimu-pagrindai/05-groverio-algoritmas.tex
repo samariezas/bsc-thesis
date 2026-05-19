@@ -1,7 +1,7 @@
 \subsection{Groverio algoritmo idėja}
 \label{sec:groverio-algoritmo-ideja}
 
-Groverio algoritmas sprendžia nestruktūrizuotos paieškos problemą: duotoje $N$ elementų erdvėje reikia rasti pažymėtą elementą. Klasikinėje paieškoje blogiausiu atveju reikia patikrinti $O(N)$ elementų, o Groverio algoritmas pažymėtą elementą randa naudojant apie $O(\sqrt{N})$ oracle užklausų \cite{grover-1996,nielsen-chuang-2010}.
+Groverio algoritmas sprendžia nestruktūrizuotos paieškos problemą: duotoje $N$ elementų erdvėje reikia rasti pažymėtą elementą. Klasikinėje paieškoje blogiausiu atveju reikia patikrinti $O(N)$ elementų, o Groverio algoritmas pažymėtą elementą randa naudojant apie $O(\sqrt{N})$ \textit{oracle} užklausų \cite{grover-1996,nielsen-chuang-2010}.
 
 Algoritmas prasideda nuo vienodos superpozicijos paruošimo. Jeigu paieškos registre yra $n$ kubitų, po Hadamard vartų visoms paieškos kubitų pozicijoms gaunama būsena:
 
@@ -13,11 +13,11 @@ Algoritmas prasideda nuo vienodos superpozicijos paruošimo. Jeigu paieškos reg
 Tada kartojami du pagrindiniai veiksmai:
 
 \begin{itemize}
-    \item \textbf{oracle} -- operacija, kuri pažymi ieškomą būseną. Dažnai tai aprašoma kaip pažymėtos būsenos fazės pakeitimas, t. y. ieškomos būsenos amplitudė dauginama iš $-1$;
+    \item \textbf{\textit{oracle}} -- operacija, kuri pažymi ieškomą būseną. Dažnai tai aprašoma kaip pažymėtos būsenos fazės pakeitimas, t. y. ieškomos būsenos amplitudė dauginama iš $-1$;
     \item \textbf{difuzijos operatorius} -- operacija, vadinama amplitudžių inversija apie vidurkį. Ji padidina pažymėtos būsenos amplitudę ir sumažina kitų būsenų amplitudes.
 \end{itemize}
 
-Vienas oracle ir difuzijos operatoriaus pritaikymas sudaro vieną Groverio iteraciją. Kai pažymėtas vienas elementas, apytikslis iteracijų skaičius yra:
+Vienas \textit{oracle} ir difuzijos operatoriaus pritaikymas sudaro vieną Groverio iteraciją. Kai pažymėtas vienas elementas, apytikslis iteracijų skaičius yra:
 
 \begin{equation}
     k \approx \frac{\pi}{4}\sqrt{N}.

@@ -15,7 +15,7 @@ Pertrauktis iš UART perduodama per PLIC. Praktikoje tai leidžia Linux naudoti 
 
 \subsubsection{PLIC ir CLINT sąveika su procesoriumi}
 
-PLIC ir CLINT įrenginiai patys nevykdo svečio kodo, bet jų būsena kiekvieno procesoriaus žingsnio pradžioje paverčiama CSR pertraukimų bitais. CLINT generuoja laikmačio pertraukimo būseną pagal \texttt{mtime} ir \texttt{mtimecmp}. PLIC tikrina UART šaltinį, jo prioritetą, \textit{enable} bitus ir konteksto \textit{threshold} reikšmę. Jei sąlygos tenkinamos, procesoriui pateikiama išorinė pertrauktis M arba S režimui.
+PLIC ir CLINT įrenginiai patys nevykdo svečio kodo, bet jų būsena kiekvieno procesoriaus žingsnio pradžioje paverčiama CSR pertraukimų bitais. CLINT generuoja laikmačio pertraukimo būseną pagal \texttt{mtime} ir \texttt{mtimecmp}. PLIC tikrina UART šaltinį, jo prioritetą, \texttt{enable} bitus ir konteksto \texttt{threshold} reikšmę. Jei sąlygos tenkinamos, procesoriui pateikiama išorinė pertrauktis M arba S režimui.
 
 \subsubsection{Sistemos išjungimas}
 

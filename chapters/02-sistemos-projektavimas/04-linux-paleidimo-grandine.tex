@@ -4,13 +4,13 @@
 Linux paleidimas RISC-V platformoje priklauso ne tik nuo procesoriaus instrukcijų, bet ir nuo programinės įrangos sluoksnių, kurie paruošia sistemą branduoliui. Šiame darbe naudojama grandinė gali būti apibendrinta taip:
 
 \begin{itemize}
-    \item \textbf{OpenSBI} -- žemo lygio programinė įranga, vykdoma \textit{Machine} privilegijų režime. Ji inicializuoja procesoriaus būseną, pateikia SBI (angl. \textit{Supervisor Binary Interface}) sąsają operacinei sistemai ir perduoda valdymą Linux branduoliui. OpenSBI veikia kaip tarpinis sluoksnis tarp aparatinės įrangos ir Linux branduolio.
+    \item \textbf{OpenSBI} -- žemo lygio programinė įranga, vykdoma Machine privilegijų režime. Ji inicializuoja procesoriaus būseną, pateikia SBI (angl. \textit{Supervisor Binary Interface}) sąsają operacinei sistemai ir perduoda valdymą Linux branduoliui. OpenSBI veikia kaip tarpinis sluoksnis tarp aparatinės įrangos ir Linux branduolio.
 
-    \item \textbf{Linux branduolys} -- pagrindinis operacinės sistemos komponentas, vykdomas \textit{Supervisor} režime. Branduolys atsakingas už procesų valdymą, virtualią atmintį, sisteminius kvietimus, įrenginių tvarkykles ir vartotojo erdvės programų vykdymą.
+    \item \textbf{Linux branduolys} -- pagrindinis operacinės sistemos komponentas, vykdomas Supervisor režime. Branduolys atsakingas už procesų valdymą, virtualią atmintį, sisteminius kvietimus, įrenginių tvarkykles ir vartotojo erdvės programų vykdymą.
 
     \item \textbf{DTB (\textit{Device Tree Blob})} -- dvejetainis aparatinės įrangos aprašymas. Jame apibrėžiami įrenginiai ir jų adresai, atminties regionai, branduolio ir kita sisteminė informacija, kurią naudoja OpenSBI ir Linux.
 
-    \item \textbf{Vartotojo erdvės programos} -- ELF formato vykdomieji failai, paleidžiami Linux aplinkoje ir vykdomi \textit{User} režime. Šios programos naudojamos emuliatoriaus funkcionalumui tikrinti, sisteminiams kvietimams validuoti bei eksperimentams atlikti.
+    \item \textbf{Vartotojo erdvės programos} -- ELF formato vykdomieji failai, paleidžiami Linux aplinkoje ir vykdomi User režime. Šios programos naudojamos emuliatoriaus funkcionalumui tikrinti, sisteminiams kvietimams validuoti bei eksperimentams atlikti.
 
     \item \textbf{Initramfs} -- vartotojo erdvės failų sistemos archyvas.
 

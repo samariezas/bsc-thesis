@@ -1,13 +1,13 @@
 \subsection{Procesoriaus modelis}
 \label{sec:procesoriaus-modelis}
 
-Procesoriaus modelis projektuotas taip, kad tą patį vykdymo branduolį būtų galima naudoti kelioms RISC-V konfigūracijoms. Kompiliavimo metu parenkamas žodžio dydis ir įjungiami reikalingi ISA plėtiniai: bazinis RV32 arba RV64 instrukcijų rinkinys, privilegijuotas vykdymas, M ir A plėtiniai bei eksperimentinis QPU plėtinys.
+Procesoriaus modelis projektuotas taip, kad tą patį vykdymo branduolį būtų galima naudoti kelioms RISC-V konfigūracijoms. Kompiliavimo metu parenkamas žodžio dydis ir įjungiami reikalingi ISA plėtiniai: bazinis RV32 arba RV64 instrukcijų rinkinys, privilegijuotas vykdymas, \texttt{M} ir \texttt{A} plėtiniai bei eksperimentinis QPU plėtinys.
 
 Projektuojant procesoriaus būseną buvo išskirtos kelios grupės:
 
 \begin{itemize}
     \item \textbf{registrai} -- 32 bendrosios paskirties registrai (nuo \texttt{x0} iki \texttt{x31}) ir programos skaitiklis \texttt{pc}. Registras \texttt{x0} visada išlaikomas lygus nuliui;
     \item \textbf{privilegijuota būsena} -- dabartinis privilegijų režimas, CSR būsena; 
-    \item \textbf{atominės operacijos} -- standartinio A plėtinio LR/SC rezervacija;
+    \item \textbf{atominės operacijos} -- standartinio \texttt{A} plėtinio \texttt{LR/SC} rezervacija;
     \item \textbf{QPU būsena} -- procesoriuje saugomas aktyvus QPU konteksto identifikatorius, o kvantinių registrų būsena laikoma atskiroje QPU posistemėje.
 \end{itemize}

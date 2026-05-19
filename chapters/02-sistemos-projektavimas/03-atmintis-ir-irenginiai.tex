@@ -11,7 +11,7 @@ RAM sritys šiame modelyje traktuojamos kaip paprasti baitų masyvai, susieti su
 
 \subsubsection{UART įrenginys}
 
-UART įrenginys imituoja tik Linux konsolės darbui reikalingus \texttt{ns16550} registrus: duomenų registrą, pertraukimų įjungimą, pertraukimų identifikavimą, linijos būseną, \texttt{DLAB} bitą ir scratch registrą. Registrų išdėstymas remiasi 16550 šeimos UART modeliu, kuriame tie patys poslinkiai naudojami priėmimo, perdavimo, pertraukimų ir daliklio registrams, o prieiga prie daliklio registrų valdoma \texttt{DLAB} bitu \cite[p.~18--20]{ti-pc16550d}. FIFO valdymo registras priimamas, bet realiai ignoruojamas; modemų signalai, klaidų būsenos ir tiksli baud rate semantika nemodeliuojami.
+UART įrenginys imituoja tik Linux konsolės darbui reikalingus \texttt{ns16550} registrus: duomenų registrą, pertraukimų įjungimą, pertraukimų identifikavimą, linijos būseną, \texttt{DLAB} bitą ir \textit{scratch} registrą. Registrų išdėstymas remiasi 16550 šeimos UART modeliu, kuriame tie patys poslinkiai naudojami priėmimo, perdavimo, pertraukimų ir daliklio registrams, o prieiga prie daliklio registrų valdoma \texttt{DLAB} bitu \cite[p.~18--20]{ti-pc16550d}. FIFO valdymo registras priimamas, bet realiai ignoruojamas; modemų signalai, klaidų būsenos ir tiksli \textit{baud rate} semantika nemodeliuojami.
 
 Siekiant išvengti perteklinių I/O operacijų, emuliuojamas UART įrenginys turi 4096 baitų buferius tiek įvesčiai, tiek išvesčiai. Toks buferizavimas neturi tikslaus aparatinio atitikmens, bet praktiniam Linux konsolės darbui yra pakankamas.
 
@@ -101,9 +101,9 @@ CLINT specifikacija apibrėžia dar vieną registrą -- \texttt{msip}, į kurį 
 
 PLIC (angl. \textit{Platform-Level Interrupt Controller}) -- RISC-V platformose naudojamas išorinių pertraukčių valdiklis. PLIC specifikacija apibrėžia prioritetų, laukiančių pertraukčių, įjungimo, slenksčio, \texttt{claim} ir \texttt{complete} registrų blokus \cite[p.~9]{riscv-plic-1.0.0}. CLINT modelis yra atsakingas už lokalias procesoriaus pertrauktis, tokias kaip laikmačio pertrauktis, o PLIC naudojamas įrenginių pertrauktims apdoroti. Šiame emuliatoriuje PLIC pirmiausia reikalingas tam, kad UART įrenginys galėtų pranešti operacinei sistemai apie išorinę pertrauktį.
 
-PLIC veikia kaip MMIO įrenginys \cite[p.~10--16]{riscv-plic-1.0.0}. Įrenginiai, kuriantys pertrauktis, nustato \textit{pending} bitus, tuomet PLIC tikrina, kurios pertrauktys yra įjungtos, kokį prioritetą jos turi ir ar jų prioritetas viršija nustatytą \textit{threshold} reikšmę. Jei pertrauktis gali būti aptarnaujama, PLIC tai praneša procesoriui. Procesorius praneša apie apdorojimą nuskaitant iš \texttt{claim} registro. Baigus pertraukties aptarnavimą, ta pati reikšmė įrašoma į \texttt{complete} registrą.
+PLIC veikia kaip MMIO įrenginys \cite[p.~10--16]{riscv-plic-1.0.0}. Įrenginiai, kuriantys pertrauktis, nustato \texttt{pending} bitus, tuomet PLIC tikrina, kurios pertrauktys yra įjungtos, kokį prioritetą jos turi ir ar jų prioritetas viršija nustatytą \texttt{threshold} reikšmę. Jei pertrauktis gali būti aptarnaujama, PLIC tai praneša procesoriui. Procesorius praneša apie apdorojimą nuskaitant iš \texttt{claim} registro. Baigus pertraukties aptarnavimą, ta pati reikšmė įrašoma į \texttt{complete} registrą.
 
-Šiame darbe realizuotas supaprastintas PLIC modelis, palaikantis 32 pertraukčių numerius (nuo 0 iki 31). Pertrauktis 0 pagal PLIC modelį laikoma rezervuota ir nenaudojama, todėl realūs įrenginių pertraukčių šaltiniai prasideda nuo 1. Emuliatoriuje naudojamas vienas realus pertraukimo šaltinis -- UART -- ir du kontekstai, atitinkantys M režimo ir S režimo išorines pertrauktis. Įgyvendinti prioritetai, \textit{pending} bitai, \textit{enable} bitai, \textit{threshold} registrai bei \texttt{claim}/\texttt{complete} kelias. Vis dėlto neįgyvendinta pilna daugiašaltinė ir daugiakontekstė PLIC konfigūracija, nes Linux paleidimui šiame emuliatoriaus modelyje pakanka vieno išorinio įrenginio pertraukčių šaltinio.
+Šiame darbe realizuotas supaprastintas PLIC modelis, palaikantis 32 pertraukčių numerius (nuo 0 iki 31). Pertrauktis 0 pagal PLIC modelį laikoma rezervuota ir nenaudojama, todėl realūs įrenginių pertraukčių šaltiniai prasideda nuo 1. Emuliatoriuje naudojamas vienas realus pertraukimo šaltinis -- UART -- ir du kontekstai, atitinkantys M režimo ir S režimo išorines pertrauktis. Įgyvendinti prioritetai, \texttt{pending} bitai, \texttt{enable} bitai, \texttt{threshold} registrai bei \texttt{claim}/\texttt{complete} kelias. Vis dėlto neįgyvendinta pilna daugiašaltinė ir daugiakontekstė PLIC konfigūracija, nes Linux paleidimui šiame emuliatoriaus modelyje pakanka vieno išorinio įrenginio pertraukčių šaltinio.
 
 \begin{table}[h]
     \centering
@@ -113,17 +113,17 @@ PLIC veikia kaip MMIO įrenginys \cite[p.~10--16]{riscv-plic-1.0.0}. Įrenginiai
         \hline
         \texttt{0x000000} & \texttt{0x80} & Prioritetų registrai pertrauktims \texttt{0-31} \\
         \hline
-        \texttt{0x001000} & \texttt{0x04} & \textit{Pending} bitai pertrauktims \texttt{0-31} \\
+        \texttt{0x001000} & \texttt{0x04} & \texttt{pending} bitai pertrauktims \texttt{0-31} \\
         \hline
-        \texttt{0x002000} & \texttt{0x04} & M režimo konteksto \textit{enable} bitai pertrauktims \texttt{0-31} \\
+        \texttt{0x002000} & \texttt{0x04} & M režimo konteksto \texttt{enable} bitai pertrauktims \texttt{0-31} \\
         \hline
-        \texttt{0x002080} & \texttt{0x04} & S režimo konteksto \textit{enable} bitai pertrauktims \texttt{0-31} \\
+        \texttt{0x002080} & \texttt{0x04} & S režimo konteksto \texttt{enable} bitai pertrauktims \texttt{0-31} \\
         \hline
-        \texttt{0x200000} & \texttt{0x04} & M režimo konteksto \textit{threshold} registras \\
+        \texttt{0x200000} & \texttt{0x04} & M režimo konteksto \texttt{threshold} registras \\
         \hline
         \texttt{0x200004} & \texttt{0x04} & M režimo konteksto \texttt{claim}/\texttt{complete} registras \\
         \hline
-        \texttt{0x201000} & \texttt{0x04} & S režimo konteksto \textit{threshold} registras \\
+        \texttt{0x201000} & \texttt{0x04} & S režimo konteksto \texttt{threshold} registras \\
         \hline
         \texttt{0x201004} & \texttt{0x04} & S režimo konteksto \texttt{claim}/\texttt{complete} registras \\
         \hline
@@ -132,7 +132,7 @@ PLIC veikia kaip MMIO įrenginys \cite[p.~10--16]{riscv-plic-1.0.0}. Įrenginiai
     \label{table:plic_registers}
 \end{table}
 
-Prioritetų registrų sritis yra \texttt{0x80} baitų ilgio, nes kiekvienai iš 32 pertraukčių skiriamas vienas 32 bitų registras. \textit{Pending} ir \textit{enable} sritys šiame modelyje yra po vieną 32 bitų registrą, kadangi palaikomas tik pertraukčių intervalas \texttt{0-31}. Kiekvienas šių registrų bitas atitinka to paties numerio pertrauktį.
+Prioritetų registrų sritis yra \texttt{0x80} baitų ilgio, nes kiekvienai iš 32 pertraukčių skiriamas vienas 32 bitų registras. \texttt{pending} ir \texttt{enable} sritys šiame modelyje yra po vieną 32 bitų registrą, kadangi palaikomas tik pertraukčių intervalas \texttt{0-31}. Kiekvienas šių registrų bitas atitinka to paties numerio pertrauktį.
 
 Reali PLIC specifikacija leidžia turėti daug pertraukčių šaltinių ir daug skirtingų kontekstų. Kiekvienam šaltiniui gali būti priskirtas atskiras prioritetas, o kiekvienas kontekstas gali turėti atskirą įjungtų pertraukčių rinkinį ir prioritetų slenkstį. Emuliatoriuje šis modelis sumažintas iki minimalaus rinkinio, būtino Linux vykdymui: 32 galimi pertraukčių numeriai, vienas UART pertraukimo šaltinis, du privilegijų režimus atitinkantys kontekstai ir pagrindinė \texttt{claim}/\texttt{complete} semantika. Toks supaprastinimas leidžia išlaikyti teisingą operacinės sistemos elgseną ir išvengti perteklinės logikos, kuri šiame darbe nebūtų naudojama.
 

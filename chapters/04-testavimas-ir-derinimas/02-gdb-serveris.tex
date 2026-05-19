@@ -8,5 +8,5 @@ Serveris palaiko tik darbo metu reikalingą Remote Serial Protocol komandų poai
 
 Registrų perdavimas vykdomas per \texttt{g} komandą: iš procesoriaus paimami 32 bendrieji registrai ir programos skaitiklis, o rezultatas siunčiamas kaip šešioliktainė baitų seka. Atminties skaitymas realizuotas per \texttt{m} komandą. Jeigu emuliatorius negali perskaityti viso prašomo intervalo dėl adresų vertimo ar magistralės klaidos, grąžinama tiek baitų, kiek pavyko nuskaityti.
 
-Papildomos monitor komandos realizuotos per \texttt{qRcmd}. \texttt{mempages} komanda skaito aktyvią puslapių lentelę arba nurodytą PPN, o \texttt{translate} leidžia patikrinti vieno virtualaus adreso vertimą. Šios komandos buvo ypač naudingos derinant Linux \texttt{satp} įjungimą, vartotojo erdvės puslapių lenteles ir page fault priežastis.
+Papildomos monitor komandos realizuotos per \texttt{qRcmd}. \texttt{mempages} komanda skaito aktyvią puslapių lentelę arba nurodytą PPN, o \texttt{translate} leidžia patikrinti vieno virtualaus adreso vertimą. Šios komandos buvo ypač naudingos derinant Linux \texttt{satp} įjungimą, vartotojo erdvės puslapių lenteles ir \textit{page fault} priežastis.
 

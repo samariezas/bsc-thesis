@@ -6,7 +6,7 @@ Be oficialių RISC-V testų, projekte yra savarankiškai sukurti ELF testai. Jie
 Testai apima šiuos atvejus:
 
 \begin{itemize}
-    \item \textbf{neleistiną instrukciją} -- vykdoma \texttt{.word 0xffffffff} instrukcija, kuri turi sukelti illegal instruction išimtį;
+    \item \textbf{neleistiną instrukciją} -- vykdoma \texttt{.word 0xffffffff} instrukcija, kuri turi sukelti \textit{illegal instruction} išimtį;
     \item \textbf{sisteminius kvietimus} -- \texttt{ecall} tikrinamas M, S ir U režimuose;
     \item \textbf{privilegijų keitimą} -- \texttt{mret} naudojamas perėjimui iš M režimo į S arba U režimą, o \texttt{sret} -- perėjimui iš S režimo į U režimą;
     \item \textbf{išimčių delegavimą} -- \texttt{medeleg} registre įjungiama dalies išimčių delegacija S režimui;

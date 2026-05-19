@@ -15,7 +15,7 @@ Vieno žingsnio seka yra tokia:
     \item surastas instrukcijos vykdymo kelias atlieka operaciją, o programos skaitiklis padidinamas keturiais baitais, jei instrukcija pati nepakeitė \texttt{pc}.
 \end{enumerate}
 
-Realizacijoje palaikomos RV64 bazinės instrukcijos, RV64 specifinės \texttt{W} operacijos, M plėtinio daugyba ir dalyba, A plėtinio atominės operacijos, privilegijuotos instrukcijos ir QPU instrukcijos. FPU plėtinys nebuvo įgyvendintas, tačiau slenkančio kablelio operacijos emuliatoriuje gali būti įvykdomos \textit{soft float} ABI pagalba.
+Realizacijoje palaikomos RV64 bazinės instrukcijos, RV64 specifinės \texttt{W} operacijos, \texttt{M} plėtinio daugyba ir dalyba, \texttt{A} plėtinio atominės operacijos, privilegijuotos instrukcijos ir QPU instrukcijos. FPU plėtinys nebuvo įgyvendintas, tačiau slenkančio kablelio operacijos emuliatoriuje gali būti įvykdomos \textit{soft float} ABI pagalba.
 
 Klaidos vykdymo metu perduodamos bendru išimčių keliu. Kiekviena klaida turi RISC-V priežasties kodą ir, kai reikia, papildomą reikšmę, įrašomą į \texttt{mtval} arba \texttt{stval}. Ta pati schema naudojama instrukcijos dekodavimo klaidoms, atminties prieigoms, adresų vertimui ir QPU operacijoms.
 

@@ -19,9 +19,9 @@ Realizuotos QPU instrukcijos matomos \ref{tab:qpu-realizacijos-rysys} lentelėje
         \hline
         \texttt{Q.NEWREG} & naujo \texttt{libquantum} registro sukūrimas \\
         \hline
-        \texttt{Q.CNOT} & \textit{CNOT} vartų taikymas \\
+        \texttt{Q.CNOT} & CNOT vartų taikymas \\
         \hline
-        \texttt{Q.TOFFOLI} & \textit{Toffoli} vartų taikymas \\
+        \texttt{Q.TOFFOLI} & Toffoli vartų taikymas \\
         \hline
         \texttt{Q.SIGMAX}, \texttt{Q.SIGMAY}, \texttt{Q.SIGMAZ} & Pauli vartų taikymas \\
         \hline
@@ -48,4 +48,4 @@ Klaidos QPU posistemėje paprastai paverčiamos \texttt{IllegalInstruction} iši
 
 \subsection{QPU kodo kompiliavimas su TCC}
 
-Vartotojo erdvėje pateikiamas \texttt{tcc} kompiliatorius ir \texttt{qpu.h} failas, sukuriantis patogią C sąsają su instrukcijomis. Nors \texttt{tcc} palaiko asemblerio sintaksę, šis kompiliatorius neleidžia kurti vartotojo instrukcijų \texttt{GCC} stiliumi, naudojant \texttt{.insn r} sintaksę instrukcijoms su pasirinktiniais \texttt{opcode}, \texttt{funct3} ir \texttt{funct7} laukais. Dėl to buvo sukurtas papildomas \texttt{libqpu} sluoksnis, kompiliuojamas \texttt{GCC} ir įkeliamas į initramfs. Tuomet \texttt{tcc} gali sėkmingai susieti vartotojo kodą ir naudoti QPU instrukcijas. Pavyzdinio kvantinio skaičiavimo kodas pateiktas \ref{chap:priedas-paleidimas} priede.
+Vartotojo erdvėje pateikiamas \texttt{tcc} kompiliatorius ir \texttt{qpu.h} failas, sukuriantis patogią C sąsają su instrukcijomis. Nors \texttt{tcc} palaiko asemblerio sintaksę, šis kompiliatorius neleidžia kurti vartotojo instrukcijų GCC stiliumi, naudojant \texttt{.insn r} sintaksę instrukcijoms su pasirinktiniais \texttt{opcode}, \texttt{funct3} ir \texttt{funct7} laukais. Dėl to buvo sukurtas papildomas \texttt{libqpu} sluoksnis, kompiliuojamas GCC ir įkeliamas į initramfs. Tuomet \texttt{tcc} gali sėkmingai susieti vartotojo kodą ir naudoti QPU instrukcijas. Pavyzdinio kvantinio skaičiavimo kodas pateiktas \ref{chap:priedas-paleidimas} priede.
