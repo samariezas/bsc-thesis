@@ -4,7 +4,7 @@
 \noindent
 \ref{table:qpu_instructions} lentelėje pateikiamas QPU instrukcijų sąrašas. \texttt{Q.NEWCTX} ir \texttt{Q.FREECTX} neturi C sąsajos, kadangi jos skirtos S režimo, o ne vartotojo programoms. Kai kuriose instrukcijose \texttt{rd} laukas naudojamas kaip įvesties registras, o ne kaip rezultato registras. taip pat kai kurios instrukcijos papildomai naudoja registrus \texttt{x10}, \texttt{x11} ir \texttt{x12}.
 
-\footnotesize
+{\footnotesize
 \begin{xltabular}{\textwidth}{|l|l|
   >{\hsize=0.76\hsize}X|
   >{\hsize=0.78\hsize}X|
@@ -59,4 +59,4 @@ Q.GETREGSIZE & 0x23 & rs1 = qureg & rd = size &
 
 \caption{QPU instrukcijų kodavimas, registrų naudojimas ir C sąsajos}
 \label{table:qpu_instructions}
-\end{xltabular}
+\end{xltabular}}

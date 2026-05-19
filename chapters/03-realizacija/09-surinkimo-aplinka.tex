@@ -1,7 +1,7 @@
 \subsection{Surinkimo ir paleidimo aplinka}
 \label{sec:surinkimo-aplinka}
 
-Visai programinės įrangos grandinei naudojama Nix flake aplinka. Joje aprašoma šeimininko sistema, RISC-V kryžminė \texttt{riscv64-unknown-linux-musl} aplinka, emuliatoriaus kūrimo priklausomybės, OpenSBI, Linux, initramfs ir testų paketai. Tai leidžia vienoje vietoje aprašyti komponentus, kurie kitu atveju būtų surenkami skirtingais įrankiais ir skirtingomis versijomis. Nix aplinka taip pat užfiksuoja priklausomybių versijas lock faile, todėl surinkimas tampa labiau atkuriamas \cite{nix-dev}.
+Naudotų įrankių versijos pateiktos \ref{chap:naudotu-irankiu-versijos} priede. Visai programinės įrangos grandinei naudojama Nix flake aplinka. Joje aprašoma šeimininko sistema, RISC-V kryžminė \texttt{riscv64-unknown-linux-musl} aplinka, emuliatoriaus kūrimo priklausomybės, OpenSBI, Linux, initramfs ir testų paketai. Tai leidžia vienoje vietoje aprašyti komponentus, kurie kitu atveju būtų surenkami skirtingais įrankiais ir skirtingomis versijomis. Nix aplinka taip pat užfiksuoja priklausomybių versijas lock faile, todėl surinkimas tampa labiau atkuriamas \cite{nix-dev}.
 
 Emuliatorius surenkamas naudojant Zig build sistemą. Surinkimo metu sugeneruojamas Zig sluoksnis C antraštėms, reikalingoms ELF apdorojimui ir kvantinės simuliacijos bibliotekai. Galutinis emuliatoriaus vykdomasis failas susiejamas su ELF biblioteka, \texttt{libquantum}, tarpiniu kvantinės bibliotekos sluoksniu, matematine biblioteka ir C biblioteka. Toks sprendimas leidžia didžiąją emuliatoriaus dalį rašyti Zig kalba, bet kartu naudoti egzistuojančias C bibliotekas.
 

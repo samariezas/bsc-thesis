@@ -13,7 +13,7 @@ Testai apima šiuos atvejus:
     \item \textbf{blogas atminties prieigas} -- atliekamas skaitymas ir rašymas į neteisingą adresą, kad būtų patikrinta magistralės klaidų ir RISC-V išimčių sąsaja.
 \end{itemize}
 
-Testo sėkmė ir nesėkmė perduodama per \texttt{tohost} mechanizmą, apibrėžtą oficialiuose RISC-V testuose. Papildomai testai rašo diagnostinę informaciją į UART, todėl galima matyti, kuriame žingsnyje įvyko klaida ir kokios CSR reikšmės buvo tuo metu.
+Testo sėkmė ir nesėkmė perduodama per \texttt{tohost} mechanizmą, apibrėžtą oficialiuose RISC-V testuose. Papildomai testai rašo diagnostinę informaciją į UART, kurią galima palyginti su Spike etaloninio emuliatoriaus rezultatu. Kadangi testai vykdomi \textit{bare-metal} aplinkoje, jiems nėra pateikiama standartinė C biblioteka, todėl negalima naudoti net įprasto \texttt{printf}. Dėl šios priežasties testuose naudojama \texttt{libprintf} biblioteka, kuri įgyvendina \texttt{printf} funkciją ir leidžia paprastai išvesti diagnostinę informaciją.
 
 Šie savarankiški testai buvo naudingi todėl, kad jie tikrina ne vien instrukcijų rezultatą, bet ir visą išimties apdorojimo kelią: privilegijos režimo pakeitimą, \texttt{mcause}/\texttt{scause} nustatymą, \texttt{mepc}/\texttt{sepc} grįžimo adresus ir išimties apdorojimo funkcijos pakartotinį įėjimą į C testų ciklą.
 

@@ -1,0 +1,62 @@
+\section{Naudotų įrankių versijos}
+\label{chap:naudotu-irankiu-versijos}
+
+Žemiau pateikiami du sąrašai darbe naudojamų įrankių. \ref{tbl:irankiai-nix} lentelėje pateikti įrankiai buvo gauti iš \texttt{nixpkgs} \textit{commit} \texttt{4b1164c3215f018c4442463a27689d973cffd750}, o \ref{tbl:irankiai-kompiliuoti} lentelės įrankiai kompiliuoti Nix pagalba iš išeities kodo.
+
+\newcolumntype{Y}[1]{>{\hsize=#1\hsize\linewidth=\hsize}X}
+\begin{table}[h]
+    \centering
+    \begin{tabularx}{0.6\textwidth}{|l|Y{0.6}|Y{1.4}|}
+    \hline
+    \textbf{Įrankis} & \textbf{Versija} & \textbf{Projekto svetainė} \\
+    \hline
+    Zig & 0.14.1 & \href{https://ziglang.org/}{ziglang.org} \\
+    \hline
+    gcc & 14.3.0 & \href{https://gcc.gnu.org/}{gcc.gnu.org} \\
+    \hline
+    binutils & 2.44 & \href{https://www.gnu.org/software/binutils/}{gnu.org/software/binutils/} \\
+    \hline
+    nix & 2.31.4 & \href{https://nixos.org/download/}{nixos.org} \\
+    \hline
+    \end{tabularx}
+    \caption{Įrankiai, naudoti iš Nix paketų tvarkyklės. Šie įrankiai nebuvo kompiliuojami, jų paketai buvo gauti iš nixpkgs binary cache.}
+    \label{tbl:irankiai-nix}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabularx}{0.85\textwidth}{|l|Y{0.6}|Y{1.4}|}
+    \hline
+    \textbf{Įrankis} & \textbf{Versija} & \textbf{Išeities kodas} \\
+    \hline
+    OpenSBI & 1.8.1 &
+        \href{https://github.com/riscv-software-src/opensbi/archive/refs/tags/v1.8.1.tar.gz}{github.com/riscv-software-src/opensbi} \\
+    \hline
+    Spike & \textit{commit} \texttt{3e58f5e} &
+        \href{https://github.com/riscv-software-src/riscv-isa-sim/archive/3e58f5ef626fa76dd6675f1f78c6cd8470e18727.zip}{github.com/riscv-software-src/riscv-isa-sim} \\
+    \hline
+    Linux & 6.18.5 &
+        \href{https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.5.tar.xz}{cdn.kernel.org} \\
+    \hline
+    musl & 1.2.5 &
+        \href{https://musl.libc.org/releases/musl-1.2.5.tar.gz}{musl.libc.org} \\
+    \hline
+    BusyBox & 1.36.1 &
+        \href{https://busybox.net/downloads/busybox-1.36.1.tar.bz2}{busybox.net} \\
+    \hline
+    lua & 5.5.0 &
+        \href{https://www.lua.org/ftp/lua-5.5.0.tar.gz}{lua.org} \\
+    \hline
+    tcc & \textit{commit} \texttt{601a088} &
+        \href{https://repo.or.cz/tinycc.git/snapshot/601a0882148f11575367c5f2e54261cad9b00141.tar.gz}{repo.or.cz/tinycc.git} \\
+    \hline
+    libquantum & 1.0.0 &
+        \href{http://www.libquantum.de/files/libquantum-1.0.0.tar.gz}{libquantum.de} \\
+    \hline
+    libprintf & 6.3.0 &
+        \href{https://github.com/eyalroz/printf/archive/refs/tags/v6.3.0.tar.gz}{github.com/eyalroz/printf} \\
+    \hline
+    \end{tabularx}
+    \caption{Įrankiai, sukompiliuoti iš išeities kodo. Šių įrankių gavimas ir kompiliavimas buvo valdomas naudojant Nix, tačiau jų paketai buvo aprašyti rankiniu būdu.}
+    \label{tbl:irankiai-kompiliuoti}
+\end{table}
