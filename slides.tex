@@ -1,14 +1,38 @@
 \documentclass[aspectratio=169]{beamer}
 
+
 \usetheme{Madrid}
 \usecolortheme{default}
 
 \RequirePackage{polyglossia}
 \setmainlanguage{lithuanian}
 \usepackage{lmodern}
+\usepackage{pgf}
 \usepackage{booktabs}
 \usepackage{makecell}
 \usepackage{amsmath}
+\setbeamertemplate{caption}{%
+  \raggedright
+  {%
+    \usebeamercolor[fg]{caption name}%
+    \usebeamerfont*{caption name}%
+    \insertcaptionnumber~\insertcaptionname
+    \usebeamertemplate{caption label separator}%
+  }%
+  \insertcaption\par
+}{}
+
+\renewcommand{\figurename}{}
+% \captionsetup*[table]{name=lentelė.,labelsep=space, labelfont=bf, font=it}
+% \captionsetup*[figure]{labelsep=space, labelfont=bf, font=it}
+
+%% Matplotlib used the following preamble
+\def\mathdefault#1{#1}
+\everymath=\expandafter{\the\everymath\displaystyle}
+
+\newcommand{\hhref}[2]{
+    \href{#1}{#1}
+}
 
 \title{RISCV emuliatoriaus kūrimas}
 \subtitle{Bakalauro baigiamasis darbas}
@@ -18,109 +42,111 @@
 
 \begin{document}
 
-% 1
 \begin{frame}
     \titlepage
 \end{frame}
 
-% 2
+\begin{frame}{Įvadas}
+
+\end{frame}
+
 \begin{frame}{Darbo tikslai}
     \begin{itemize}
-        \item Sukurti RISC-V emuliatorių, galintį paleisti Linux sistemą.
-        \item Realizuoti privilegijų lygius, CSR registrus, virtualią atmintį ir pertrauktis.
-        \item Pridėti pagrindinius MMIO įrenginius: \texttt{CLINT}, \texttt{PLIC}, \texttt{UART}.
-        \item Išplėsti instrukcijų rinkinį eksperimentinėmis QPU instrukcijomis.
-        \item Įvertinti korektiškumą ir našumą.
+        \item Išanalizuoti RISC-V architektūros, privilegijuoto vykdymo, atminties valdymo ir Linux paleidimo reikalavimus, reikalingus pilnai RV64 sistemos emuliacijai.
+        \item Suprojektuoti ir realizuoti RV64 emuliatorių, gebantį vykdyti Linux reikalingas RISC-V instrukcijas bei emuliuoti būtinus įrenginius.
+        \item Įgyvendinti eksperimentinį kvantinių skaičiavimų instrukcijų plėtinį ir paruošti programinės įrangos grandinę, leidžiančią šias instrukcijas naudoti vartotojo erdvės programose.
+        \item Patikrinti emuliatoriaus teisingumą naudojant testų rinkinius ir įvertinti našumą naudojant eksperimentinį instrukcijų rinkinį.
     \end{itemize}
 \end{frame}
 
-% 3
-\begin{frame}{Bendra emuliatoriaus struktūra}
-    \begin{block}{Vykdymo kelias}
-        \centering
-        \texttt{ELF / Linux vaizdas}
-        $\rightarrow$ \texttt{fetch}
-        $\rightarrow$ \texttt{decode}
-        $\rightarrow$ \texttt{execute}
-        $\rightarrow$ \texttt{CSR / MMU / MMIO}
-    \end{block}
-
-    \vspace{0.5em}
-
-    \begin{columns}[T]
-        \column{0.5\textwidth}
-        \textbf{Procesoriaus dalis}
-        \begin{itemize}
-            \item RV64 instrukcijų vykdymas
-            \item privilegijų lygiai
-            \item išimtys ir pertraukimai
-            \item Sv39 adresų vertimas
-        \end{itemize}
-
-        \column{0.5\textwidth}
-        \textbf{Sistemos dalis}
-        \begin{itemize}
-            \item \texttt{CLINT} laikmatis
-            \item \texttt{PLIC} išorinės pertrauktys
-            \item \texttt{ns16550} tipo UART
-            \item GDB nuotolinis derinimas
-        \end{itemize}
-    \end{columns}
-\end{frame}
-
-% 4
-\begin{frame}{Linux paleidimas}
+\begin{frame}{Įrankių ekosistema}
     \begin{itemize}
-        \item Emuliatorius paleidžia OpenSBI, Linux branduolį ir vartotojo erdvės programas.
-        \item Tam reikėjo suderinti privilegijuoto režimo mechanizmus su Linux lūkesčiais.
-        \item Svarbiausios dalys: CSR registrai, \texttt{ecall}/\texttt{sret}/\texttt{mret}, puslapių lentelės, MMIO įrenginiai.
-        \item UART naudojamas konsolės įvesčiai ir išvesčiai.
+        \item \textbf{Zig} -- sisteminė programavimo kalba, naudota emuliatoriaus implementacijai.
+        \begin{itemize}
+            \item \textit{comptime} -- kodo vykdymas kompiliavimo metu;
+            \item geras kompromisas tarp saugumo ir programuotojo patogumo -- suteikiama daugiau automatinio validavimo vykdymo metu negu C ar C++, bet mažiau griežta negu Rust;
+            \item atminties alokavimo valdymas.
+        \end{itemize}
+        \pause
+        \item \textbf{Nix} -- deklaratyvi paketų valdymo sistema.
+        \begin{itemize}
+            \item naudojamas surinkti šeimininko sistemoje naudojamas bibliotekas ir vartotojo programinę įrangą;
+            \item atkartojamumas -- išvengiamos problemos su Zig nestabilumu, lengvas programavimo aplinkos perkėlimas į kitus kompiuterius;
+            \item labiau patikima negu Docker ir valdo šeimininko sistemos paketus, ne kaip Buildroot;
+            \item lengva pritaikyti pataisas.
+        \end{itemize}
     \end{itemize}
-
-    \vspace{0.8em}
-    \begin{block}{Praktinis rezultatas}
-        Linux sistema emuliatoriuje gali įsikrauti iki vartotojo erdvės ir vykdyti paruoštas testavimo programas.
-    \end{block}
 \end{frame}
 
-% 5
+\begin{frame}{Bendra emuliatoriaus struktūra}
+    \textbf{Neprivilegijuota:}
+    \begin{itemize}
+        \item 32 bendros paskirties registrai, programos skaitiklis;
+        \item RV64IMA instrukcijų vykdymas. Visos instrukcijos 32 bitų.
+    \end{itemize}
+    \pause
+    \textbf{Privilegijuota:}
+    \begin{itemize}
+        \item privilegijų lygiai;
+        \item išimtys ir pertraukimai;
+        \item Sv39 adresų vertimas.
+    \end{itemize}
+    \pause
+    \textbf{Emuliuojama aparatinė įranga:} \texttt{CLINT} laikmatis, UART, \texttt{PLIC} išorinėms pertrauktims, išjungimo įrenginys.
+\end{frame}
+
+% TODO: references
 \begin{frame}{Testavimas ir derinimas}
     \begin{itemize}
         \item Korektiškumas tikrintas naudojant \texttt{riscv-tests}, savarankiškai sukurtus ELF testus ir Linux paleidimą.
-        \item Elgsena lyginta su Spike emuliatoriumi.
         \item Pridėtos diagnostinės instrukcijos:
         \begin{itemize}
             \item \texttt{GETPRIV} -- grąžina dabartinį privilegijų lygį;
-            \item \texttt{CSRR\_DEBUG} -- leidžia testuose patikrinti CSR reikšmes.
+            \item \texttt{CSRR\_DEBUG} -- CSR reikšmių nuskaitymas neatsižvelgiant į privilegijų lygį.
         \end{itemize}
-        \item GDB protokolo palaikymas leidžia stabdyti programą, skaityti registrus ir vykdyti žingsniniu režimu.
+        \item Elgsena lyginta su Spike emuliatoriumi.
+        \item GDB remote protokolo palaikymas.
     \end{itemize}
 \end{frame}
 
-% 6
 \begin{frame}{QPU instrukcijų plėtinys}
-    \begin{block}{Idėja}
-        QPU instrukcijos leidžia svečio sistemai kvantinių skaičiavimų operacijas iškviesti kaip instrukcijų rinkinio dalį.
-    \end{block}
-
     \begin{itemize}
-        \item Plėtinys integruotas į įprastą instrukcijų dekodavimo ir vykdymo kelią.
-        \item QPU būsena saugoma kartu su proceso būsena.
-        \item Eksperimentams naudota Groverio algoritmo realizacija.
+        \item Simuliacijai naudojama \texttt{libquantum} biblioteka.
+        \item Instrukcijų plėtinys integruotas į įprastą instrukcijų dekodavimo ir vykdymo kelią.
+        \item QPU būsena saugoma kartu su Linux proceso būsena.
+        \item Vartotojo patogumui sukuriamas C sluoksnis, kuriame instrukcijos pateikiamos kaip funkcijos. Galima naudoti tiek šeimininko, tiek svečio aplinkoje.
+        \item Eksperimentui naudojamas modifikuotas \texttt{libquantum} bibliotekos Groverio algoritmo implementacijos pavyzdys.
     \end{itemize}
-
-    \vspace{0.5em}
-    \centering
-    \texttt{svečio programa} $\rightarrow$ \texttt{QPU instrukcija} $\rightarrow$ \texttt{emuliatoriaus QPU būsena}
 \end{frame}
 
-% 7
-\begin{frame}{Našumo įvertinimas}
+\begin{frame}{Linux aplinka}
+    \begin{itemize}
+        \item Programinė grandinė: DTB, OpenSBI, Linux ir vartotojo erdvės programos (initramfs).
+        \item Vartotojo erdvėje pateikiama BusyBox, Lua, TCC su musl C biblioteka.
+        \item Visi failai įkraunami į emuliatorių šeimininko programinio kodo pagalba.
+        \item QPU būsenos valdymui reikalinga Linux pataisa, sukurta remiantis FPU ir vektorinių operacijų standartiniais plėtiniais.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Instrukcijų talpykla}
+    \begin{itemize}
+        \item Kiekvienai instrukcijai reikia nuskaityti instrukcijos žodį: pereiti puslapių lenteles, dekoduoti. 
+        \item Paspartinimui naudojama instrukcijų talpykla. Raktas: adresas ir privilegijų lygis.
+    \end{itemize}
+    \pause
+
+
     \begin{columns}[T]
         \column{0.5\textwidth}
-        \textbf{Instrukcijų talpykla}
+        \begin{figure}[h]
+            \centering
+            \input{tyrimas-icache/array-smaller.pgf}
+            \caption{Linux sistemos užkrovimo laiko priklausomybė nuo talpyklos dydžio.}
+        \end{figure}
+        \column{0.5\textwidth}
         \begin{table}
             \small
+            \centering
             \begin{tabular}{lr}
                 \toprule
                 Strategija & Laikas, s \\
@@ -130,19 +156,48 @@
                 Masyvas & 13.192 \\
                 \bottomrule
             \end{tabular}
+            \caption{Linux sistemo užkrovimo laiko priklausomybė nuo instrukcijų talpyklos strategijos.}
         \end{table}
-
-        \column{0.5\textwidth}
-        \textbf{QPU vykdymas}
-        \begin{itemize}
-            \item Mažoms užduotims emuliacijos kaina matoma labiau.
-            \item Didėjant kubitų skaičiui daugiau laiko praleidžiama pačiuose skaičiavimuose.
-            \item Santykinis sulėtėjimas mažėja didėjant užduočiai.
-        \end{itemize}
     \end{columns}
 \end{frame}
 
-% 8
+\begin{frame}{Groverio algoritmo sparta}
+
+    \begin{itemize}
+        \item Ta pati programa su identiškais argumentais paleidžiama tiek šeimininko, tiek svečio sistemose.
+        \item Ieškomas tas pats skaičius -- 128 -- su skirtingais kubitų skaičiais.
+    \end{itemize}
+    
+\begin{table}
+\centering
+\begin{tabular}{|l|r|r|r|}
+
+\hline
+    \textbf{Kubitų skaičius} &
+    \textbf{\makecell{Vid. vykdymo laikas\\ šeimininko sistemoje}} &
+    \textbf{\makecell{Vid. vykdymo laikas\\ svečio sistemoje}} &
+    \textbf{\makecell{Vid. vykdymo \\ laiko santykis}} \\
+\hline
+        12 &   0.0731 &   0.0863 &   1.1803 \\
+        \hline
+        13 &   0.1988 &   0.2250 &   1.1316 \\
+        \hline
+        14 &   0.6016 &   0.6580 &   1.0938 \\
+        \hline
+        15 &   1.8653 &   2.0101 &   1.0777 \\
+        \hline
+        16 &   5.1895 &   5.4681 &   1.0537 \\
+        \hline
+        17 &  16.1554 &  16.6300 &   1.0294 \\
+        \hline
+
+\end{tabular}
+    \caption{Vidutinis Groverio algoritmo vykdymo laikas šeimininko ir svečio sistemose.}
+    \label{tbl:qpu-performance-ivertinimas}
+\end{table}
+
+\end{frame}
+
 \begin{frame}{Išvados ir pritaikymas mokymui}
     \begin{itemize}
         \item Sukurtas veikiantis RISC-V emuliatorius, palaikantis Linux paleidimą ir pagrindinius sistemos mechanizmus.

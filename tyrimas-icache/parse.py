@@ -70,13 +70,28 @@ if __name__ == '__main__':
     y = array_plot[:, 1]
     # p5 = array_plot[:, 2]
     # p95 = array_plot[:, 3]
-    plt.plot(x, y)
-    plt.xlabel('Talpyklos dydis')
-    plt.ylabel('Vidutinis vykdymo laikas, s')
-    plt.axis()
-    # plt.fill_between(x, p5, p95, alpha=0.3, label='5th-95th percentile')
-    plt.xscale('log')
-    plt.savefig('./array.pgf')
+    fig, ax = plt.subplots()
+    ax.plot(x, y)
+    ax.set_xlabel('Talpyklos dydis')
+    ax.set_ylabel('Vidutinis vykdymo laikas, s')
+    ax.axis()
+    # fig.fill_between(x, p5, p95, alpha=0.3, label='5th-95th percentile')
+    ax.set_xscale('log')
+    fig.savefig('./array.pgf')
+
+    with matplotlib.rc_context({
+        "font.size": 14,
+        "axes.labelsize": 14,
+        "xtick.labelsize": 8,
+        "ytick.labelsize": 8,
+    }):
+        ax.plot(x, y, marker='x', color='blue', linewidth=0.8)
+        ax.set_xlabel('Talpyklos dydis', fontsize=6)
+        ax.set_ylabel('Vidutinis vykdymo laikas, s', fontsize=6)
+        fig.set_size_inches(2.8, 2)
+        fig.tight_layout()
+        ax.set_title("", pad=0)
+        fig.savefig('./array-smaller.pgf', bbox_inches='tight', pad_inches=0)
 
     # std_none = np.std(results['none'])
     # std_hashmap = np.std(results['hashmap'])
