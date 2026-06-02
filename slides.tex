@@ -47,7 +47,18 @@
 \end{frame}
 
 \begin{frame}{Įvadas}
-
+\begin{itemize}
+    \item Baigiamojo darbo tema: RISC-V emuliatoriaus su eksperimentiniu QPU plėtiniu kūrimas.
+    \item Procesorių architektūros apibrėžia sąveiką tarp programinės ir aparatinės įrangos.
+    \item Žemo lygio architektūros svarbios:
+    \begin{itemize}
+        \item operacinėms sistemoms,
+        \item kompiliatoriams,
+        \item įterptinėms sistemoms.
+    \end{itemize}
+    \item RISC-V – atvira ir modulinė ISA (Instruction Set Architecture), leidžianti lengvai kurti ir tirti nestandartinius plėtinius.
+    \item Emuliatoriai leidžia tirti architektūrą be fizinės įrangos.
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Darbo tikslai}
@@ -167,7 +178,7 @@
         \item Ta pati programa su identiškais argumentais paleidžiama tiek šeimininko, tiek svečio sistemose.
         \item Ieškomas tas pats skaičius -- 128 -- su skirtingais kubitų skaičiais.
     \end{itemize}
-    
+
 \begin{table}
 \centering
 \begin{tabular}{|l|r|r|r|}
@@ -198,17 +209,25 @@
 
 \end{frame}
 
-\begin{frame}{Išvados ir pritaikymas mokymui}
+\begin{frame}{Išvados}
+\begin{itemize}
+    \item Sukurtas pilnos sistemos RISC-V emuliatorius.
+    \item Nebūtina emuliuoti visos mikroarchitektūros, realizuoti esminiai komponentai:
     \begin{itemize}
-        \item Sukurtas veikiantis RISC-V emuliatorius, palaikantis Linux paleidimą ir pagrindinius sistemos mechanizmus.
-        \item QPU plėtinys parodė, kad emuliatorius gali būti naudojamas eksperimentuoti su nestandartinėmis instrukcijomis.
-        \item Kadangi emuliatorius mažesnis ir paprastesnis už universalias alternatyvas, jis gali būti naudingas mokantis kompiuterių architektūros ir operacinių sistemų.
+        \item privilegijos ir CSR,
+        \item virtuali atmintis,
+        \item pertraukimai ir išimtys,
+        \item MMIO įrenginiai.
     \end{itemize}
-
-    \vspace{0.6em}
-    \begin{block}{Galimos praktinės užduotys studentams}
-        Pridėti naują instrukciją, realizuoti CSR registrą, sukurti MMIO įrenginį, parašyti ELF testą arba palyginti instrukcijų talpyklos strategijas.
-    \end{block}
+    \item Emuliatorius geba paleisti Linux aplinką.
+    \item Emuliatorius tinkamas edukacijai, galimos užduotys studentams:
+    \begin{itemize}
+        \item naujų instrukcijų implementacija (panašiai kaip QPU),
+        \item MMU analizė, MMIO įrenginių kūrimas,
+        \item ELF testų rašymas (programavimas \textit{bare-metal} aplinkoje),
+        \item Linux boot analizė.
+    \end{itemize}
+\end{itemize}
 \end{frame}
 
 \end{document}
