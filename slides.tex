@@ -1,0 +1,159 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+
+\RequirePackage{polyglossia}
+\setmainlanguage{lithuanian}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{amsmath}
+
+\title{RISCV emuliatoriaus kūrimas}
+\subtitle{Bakalauro baigiamasis darbas}
+\author{Joris Pevcevičius}
+\institute{Bakalauro baigiamasis darbas}
+\date{2026}
+
+\begin{document}
+
+% 1
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% 2
+\begin{frame}{Darbo tikslai}
+    \begin{itemize}
+        \item Sukurti RISC-V emuliatorių, galintį paleisti Linux sistemą.
+        \item Realizuoti privilegijų lygius, CSR registrus, virtualią atmintį ir pertrauktis.
+        \item Pridėti pagrindinius MMIO įrenginius: \texttt{CLINT}, \texttt{PLIC}, \texttt{UART}.
+        \item Išplėsti instrukcijų rinkinį eksperimentinėmis QPU instrukcijomis.
+        \item Įvertinti korektiškumą ir našumą.
+    \end{itemize}
+\end{frame}
+
+% 3
+\begin{frame}{Bendra emuliatoriaus struktūra}
+    \begin{block}{Vykdymo kelias}
+        \centering
+        \texttt{ELF / Linux vaizdas}
+        $\rightarrow$ \texttt{fetch}
+        $\rightarrow$ \texttt{decode}
+        $\rightarrow$ \texttt{execute}
+        $\rightarrow$ \texttt{CSR / MMU / MMIO}
+    \end{block}
+
+    \vspace{0.5em}
+
+    \begin{columns}[T]
+        \column{0.5\textwidth}
+        \textbf{Procesoriaus dalis}
+        \begin{itemize}
+            \item RV64 instrukcijų vykdymas
+            \item privilegijų lygiai
+            \item išimtys ir pertraukimai
+            \item Sv39 adresų vertimas
+        \end{itemize}
+
+        \column{0.5\textwidth}
+        \textbf{Sistemos dalis}
+        \begin{itemize}
+            \item \texttt{CLINT} laikmatis
+            \item \texttt{PLIC} išorinės pertrauktys
+            \item \texttt{ns16550} tipo UART
+            \item GDB nuotolinis derinimas
+        \end{itemize}
+    \end{columns}
+\end{frame}
+
+% 4
+\begin{frame}{Linux paleidimas}
+    \begin{itemize}
+        \item Emuliatorius paleidžia OpenSBI, Linux branduolį ir vartotojo erdvės programas.
+        \item Tam reikėjo suderinti privilegijuoto režimo mechanizmus su Linux lūkesčiais.
+        \item Svarbiausios dalys: CSR registrai, \texttt{ecall}/\texttt{sret}/\texttt{mret}, puslapių lentelės, MMIO įrenginiai.
+        \item UART naudojamas konsolės įvesčiai ir išvesčiai.
+    \end{itemize}
+
+    \vspace{0.8em}
+    \begin{block}{Praktinis rezultatas}
+        Linux sistema emuliatoriuje gali įsikrauti iki vartotojo erdvės ir vykdyti paruoštas testavimo programas.
+    \end{block}
+\end{frame}
+
+% 5
+\begin{frame}{Testavimas ir derinimas}
+    \begin{itemize}
+        \item Korektiškumas tikrintas naudojant \texttt{riscv-tests}, savarankiškai sukurtus ELF testus ir Linux paleidimą.
+        \item Elgsena lyginta su Spike emuliatoriumi.
+        \item Pridėtos diagnostinės instrukcijos:
+        \begin{itemize}
+            \item \texttt{GETPRIV} -- grąžina dabartinį privilegijų lygį;
+            \item \texttt{CSRR\_DEBUG} -- leidžia testuose patikrinti CSR reikšmes.
+        \end{itemize}
+        \item GDB protokolo palaikymas leidžia stabdyti programą, skaityti registrus ir vykdyti žingsniniu režimu.
+    \end{itemize}
+\end{frame}
+
+% 6
+\begin{frame}{QPU instrukcijų plėtinys}
+    \begin{block}{Idėja}
+        QPU instrukcijos leidžia svečio sistemai kvantinių skaičiavimų operacijas iškviesti kaip instrukcijų rinkinio dalį.
+    \end{block}
+
+    \begin{itemize}
+        \item Plėtinys integruotas į įprastą instrukcijų dekodavimo ir vykdymo kelią.
+        \item QPU būsena saugoma kartu su proceso būsena.
+        \item Eksperimentams naudota Groverio algoritmo realizacija.
+    \end{itemize}
+
+    \vspace{0.5em}
+    \centering
+    \texttt{svečio programa} $\rightarrow$ \texttt{QPU instrukcija} $\rightarrow$ \texttt{emuliatoriaus QPU būsena}
+\end{frame}
+
+% 7
+\begin{frame}{Našumo įvertinimas}
+    \begin{columns}[T]
+        \column{0.5\textwidth}
+        \textbf{Instrukcijų talpykla}
+        \begin{table}
+            \small
+            \begin{tabular}{lr}
+                \toprule
+                Strategija & Laikas, s \\
+                \midrule
+                Be talpyklos & 21.655 \\
+                Maišos lentelė & 26.390 \\
+                Masyvas & 13.192 \\
+                \bottomrule
+            \end{tabular}
+        \end{table}
+
+        \column{0.5\textwidth}
+        \textbf{QPU vykdymas}
+        \begin{itemize}
+            \item Mažoms užduotims emuliacijos kaina matoma labiau.
+            \item Didėjant kubitų skaičiui daugiau laiko praleidžiama pačiuose skaičiavimuose.
+            \item Santykinis sulėtėjimas mažėja didėjant užduočiai.
+        \end{itemize}
+    \end{columns}
+\end{frame}
+
+% 8
+\begin{frame}{Išvados ir pritaikymas mokymui}
+    \begin{itemize}
+        \item Sukurtas veikiantis RISC-V emuliatorius, palaikantis Linux paleidimą ir pagrindinius sistemos mechanizmus.
+        \item QPU plėtinys parodė, kad emuliatorius gali būti naudojamas eksperimentuoti su nestandartinėmis instrukcijomis.
+        \item Kadangi emuliatorius mažesnis ir paprastesnis už universalias alternatyvas, jis gali būti naudingas mokantis kompiuterių architektūros ir operacinių sistemų.
+    \end{itemize}
+
+    \vspace{0.6em}
+    \begin{block}{Galimos praktinės užduotys studentams}
+        Pridėti naują instrukciją, realizuoti CSR registrą, sukurti MMIO įrenginį, parašyti ELF testą arba palyginti instrukcijų talpyklos strategijas.
+    \end{block}
+\end{frame}
+
+\end{document}

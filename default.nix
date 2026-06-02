@@ -40,7 +40,9 @@ pkgs.stdenv.mkDerivation {
         xargs
         xstring
         environ
-        tikz-cd;
+        tikz-cd
+        beamer
+        booktabs;
     })
 
     (python3.withPackages (ps: with ps; [

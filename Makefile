@@ -8,6 +8,16 @@ LATEXMK_BASE_FLAGS:=-lualatex -file-line-error -interaction=nonstopmode -emulate
 pdf: reset-part dirs
 	latexmk $(LATEXMK_BASE_FLAGS) $(TEX_NAME)
 
+.PHONY: slides
+slides: slides.pdf
+
+.PHONY: watch-slides
+watch-slides:
+	latexmk $(LATEXMK_BASE_FLAGS) -pvc -view=none slides.tex
+
+slides.pdf: slides.tex
+	latexmk $(LATEXMK_BASE_FLAGS) $<
+
 .PHONY: strict
 strict: reset-part dirs
 	latexmk $(LATEXMK_BASE_FLAGS) -Werror $(TEX_NAME)
