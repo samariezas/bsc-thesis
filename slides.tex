@@ -72,14 +72,14 @@
 
 \begin{frame}{Įrankių ekosistema}
     \begin{itemize}
-        \item \textbf{Zig} -- sisteminė programavimo kalba, naudota emuliatoriaus implementacijai.
+        \item \textbf{Zig} -- sisteminė programavimo kalba, naudota emuliatoriaus implementacijai. Pagrindiniai privalumai:
         \begin{itemize}
-            \item \textit{comptime} -- kodo vykdymas kompiliavimo metu;
+            \item \textit{comptime} -- kodo vykdymas kompiliavimo metu ir \textit{generic} tipų implementacija;
             \item geras kompromisas tarp saugumo ir programuotojo patogumo -- suteikiama daugiau automatinio validavimo vykdymo metu negu C ar C++, bet mažiau griežta negu Rust;
             \item atminties alokavimo valdymas.
         \end{itemize}
         \pause
-        \item \textbf{Nix} -- deklaratyvi paketų valdymo sistema.
+        \item \textbf{Nix} -- deklaratyvi paketų valdymo sistema. Pagrindiniai privalumai:
         \begin{itemize}
             \item naudojamas surinkti šeimininko sistemoje naudojamas bibliotekas ir vartotojo programinę įrangą;
             \item atkartojamumas -- išvengiamos problemos su Zig nestabilumu, lengvas programavimo aplinkos perkėlimas į kitus kompiuterius;
@@ -133,7 +133,7 @@
 \begin{frame}{Linux aplinka}
     \begin{itemize}
         \item Programinė grandinė: DTB, OpenSBI, Linux ir vartotojo erdvės programos (initramfs).
-        \item Vartotojo erdvėje pateikiama BusyBox, Lua, TCC su musl C biblioteka.
+        \item Vartotojo erdvėje pateikiama BusyBox, Lua, TCC su musl standartine C biblioteka.
         \item Visi failai įkraunami į emuliatorių šeimininko programinio kodo pagalba.
         \item QPU būsenos valdymui reikalinga Linux pataisa, sukurta remiantis FPU ir vektorinių operacijų standartiniais plėtiniais.
     \end{itemize}
@@ -176,7 +176,7 @@
 
     \begin{itemize}
         \item Ta pati programa su identiškais argumentais paleidžiama tiek šeimininko, tiek svečio sistemose.
-        \item Ieškomas tas pats skaičius -- 128 -- su skirtingais kubitų skaičiais.
+        \item Ieškomas tas pats skaičius - 128 - su skirtingais kubitų skaičiais.
     \end{itemize}
 
 \begin{table}
